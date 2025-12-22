@@ -1932,27 +1932,33 @@
         "registros": [
           {
             "INDICE": "YA8",
-            "CHAVE": "YA8_FILIAL+YA8_TIPO+YA8_CODIGO"
+            "CHAVE": "YA8_FILIAL+YA8_TIPO+YA8_CODIGO",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YA9",
-            "CHAVE": "YA9_FILIAL+YA9_TIPOCS+YA9_CESSAO+YA9_TIPO+YA9_DOC"
+            "CHAVE": "YA9_FILIAL+YA9_TIPOCS+YA9_CESSAO+YA9_TIPO+YA9_DOC",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YA9",
-            "CHAVE": "YA9_FILIAL+YA9_TIPOCS+YA9_CESSAO+YA9_PAGREC+YA9_TIPO+YA9_DOC"
+            "CHAVE": "YA9_FILIAL+YA9_TIPOCS+YA9_CESSAO+YA9_PAGREC+YA9_TIPO+YA9_DOC",
+            "ORDEM": "2"
           },
           {
             "INDICE": "YA9",
-            "CHAVE": "YA9_PAGREC+YA9_FILORG+YA9_TIPO+YA9_DOC"
+            "CHAVE": "YA9_PAGREC+YA9_FILORG+YA9_TIPO+YA9_DOC",
+            "ORDEM": "3"
           },
           {
             "INDICE": "YAA",
-            "CHAVE": "YAA_FILIAL+YAA_TIPOCS+YAA_CESSAO+YAA_PAGREC+YAA_DOC"
+            "CHAVE": "YAA_FILIAL+YAA_TIPOCS+YAA_CESSAO+YAA_PAGREC+YAA_DOC",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YAA",
-            "CHAVE": "YAA_PAGREC+STR(YAA_RECFIN)"
+            "CHAVE": "YAA_PAGREC+STR(YAA_RECFIN)",
+            "ORDEM": "2"
           }
         ],
         "total": 6
@@ -2321,19 +2327,23 @@
         "registros": [
           {
             "INDICE": "YAJ",
-            "CHAVE": "YAJ_FILIAL+YAJ_CODCTR+YAJ_SEQ"
+            "CHAVE": "YAJ_FILIAL+YAJ_CODCTR+YAJ_SEQ",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YAK",
-            "CHAVE": "YAK_FILIAL+YAK_CODCTR"
+            "CHAVE": "YAK_FILIAL+YAK_CODCTR",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YAL",
-            "CHAVE": "YAL_FILIAL+YAL_SAFRA+YAL_CODCTR"
+            "CHAVE": "YAL_FILIAL+YAL_SAFRA+YAL_CODCTR",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YAL",
-            "CHAVE": "YAL_FILIAL+YAL_CODIGO"
+            "CHAVE": "YAL_FILIAL+YAL_CODIGO",
+            "ORDEM": "2"
           }
         ],
         "total": 4
@@ -2656,39 +2666,48 @@
         "registros": [
           {
             "INDICE": "YA3",
-            "CHAVE": "YA3_FILIAL+YA3_ID"
+            "CHAVE": "YA3_FILIAL+YA3_ID",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YA3",
-            "CHAVE": "YA3_FILIAL+YA3_ID+YA3_COD"
+            "CHAVE": "YA3_FILIAL+YA3_ID+YA3_COD",
+            "ORDEM": "2"
           },
           {
             "INDICE": "YA4",
-            "CHAVE": "YA4_FILIAL+YA4_ID"
+            "CHAVE": "YA4_FILIAL+YA4_ID",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YA4",
-            "CHAVE": "YA4_FILIAL+YA4_ID+YA4_CODPAR"
+            "CHAVE": "YA4_FILIAL+YA4_ID+YA4_CODPAR",
+            "ORDEM": "2"
           },
           {
             "INDICE": "YA5",
-            "CHAVE": "YA5_FILIAL+YA5_TRCNUM+YA5_REV"
+            "CHAVE": "YA5_FILIAL+YA5_TRCNUM+YA5_REV",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YA5",
-            "CHAVE": "YA5_FILIAL+YA5_CODCTR"
+            "CHAVE": "YA5_FILIAL+YA5_CODCTR",
+            "ORDEM": "2"
           },
           {
             "INDICE": "YA5",
-            "CHAVE": "YA5_FILIAL+YA5_NUMPED"
+            "CHAVE": "YA5_FILIAL+YA5_NUMPED",
+            "ORDEM": "3"
           },
           {
             "INDICE": "YA6",
-            "CHAVE": "YA6_FILIAL+YA6_TRCNUM+YA6_REV+YA6_ITEM"
+            "CHAVE": "YA6_FILIAL+YA6_TRCNUM+YA6_REV+YA6_ITEM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YA7",
-            "CHAVE": "YA7_FILIAL+YA7_CHAVE+DTOS(YA7_DATA)+YA7_HORA"
+            "CHAVE": "YA7_FILIAL+YA7_CHAVE+DTOS(YA7_DATA)+YA7_HORA",
+            "ORDEM": "1"
           }
         ],
         "total": 9
@@ -3447,83 +3466,103 @@
         "registros": [
           {
             "INDICE": "DXD",
-            "CHAVE": "DXD_FILIAL+DXD_SAFRA+DXD_CODIGO"
+            "CHAVE": "DXD_FILIAL+DXD_SAFRA+DXD_CODIGO",
+            "ORDEM": "1"
           },
           {
             "INDICE": "DXD",
-            "CHAVE": "DXD_FILIAL+DXD_CODUNI"
+            "CHAVE": "DXD_FILIAL+DXD_CODUNI",
+            "ORDEM": "2"
           },
           {
             "INDICE": "DXD",
-            "CHAVE": "DXD_FILIAL+DXD_SAFRA+DXD_PRDTOR+DXD_LJPRO+DXD_FAZ"
+            "CHAVE": "DXD_FILIAL+DXD_SAFRA+DXD_PRDTOR+DXD_LJPRO+DXD_FAZ",
+            "ORDEM": "3"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_SAFRA+DXI_ETIQ"
+            "CHAVE": "DXI_FILIAL+DXI_SAFRA+DXI_ETIQ",
+            "ORDEM": "1"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_FARDAO"
+            "CHAVE": "DXI_FILIAL+DXI_FARDAO",
+            "ORDEM": "2"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_CODCNJ"
+            "CHAVE": "DXI_FILIAL+DXI_CODCNJ",
+            "ORDEM": "3"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_SAFRA+DXI_BLOCO"
+            "CHAVE": "DXI_FILIAL+DXI_SAFRA+DXI_BLOCO",
+            "ORDEM": "4"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_CODRES+DXI_ITERES"
+            "CHAVE": "DXI_FILIAL+DXI_CODRES+DXI_ITERES",
+            "ORDEM": "5"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_ROMSAI+DXI_ITROMS"
+            "CHAVE": "DXI_FILIAL+DXI_ROMSAI+DXI_ITROMS",
+            "ORDEM": "6"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_SAFRA+DXI_CODIGO"
+            "CHAVE": "DXI_FILIAL+DXI_SAFRA+DXI_CODIGO",
+            "ORDEM": "7"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_CODINE+DXI_ITEINE"
+            "CHAVE": "DXI_FILIAL+DXI_CODINE+DXI_ITEINE",
+            "ORDEM": "8"
           },
           {
             "INDICE": "DXI",
-            "CHAVE": "DXI_FILIAL+DXI_ROMFLO+DXI_ITROMS"
+            "CHAVE": "DXI_FILIAL+DXI_ROMFLO+DXI_ITROMS",
+            "ORDEM": "9"
           },
           {
             "INDICE": "DXP",
-            "CHAVE": "DXP_FILIAL+DXP_CODIGO"
+            "CHAVE": "DXP_FILIAL+DXP_CODIGO",
+            "ORDEM": "1"
           },
           {
             "INDICE": "DXP",
-            "CHAVE": "DXP_FILIAL+DXP_CLIENT+DXP_LJCLI"
+            "CHAVE": "DXP_FILIAL+DXP_CLIENT+DXP_LJCLI",
+            "ORDEM": "2"
           },
           {
             "INDICE": "DXP",
-            "CHAVE": "DXP_FILIAL+DXP_CODCTP+DXP_ITECAD+DXP_CODIGO"
+            "CHAVE": "DXP_FILIAL+DXP_CODCTP+DXP_ITECAD+DXP_CODIGO",
+            "ORDEM": "3"
           },
           {
             "INDICE": "Y0S",
-            "CHAVE": "Y0S_FILIAL+Y0S_CODIGO"
+            "CHAVE": "Y0S_FILIAL+Y0S_CODIGO",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0T",
-            "CHAVE": "Y0T_FILIAL+Y0T_CODDXA+Y0T_SUBCAT"
+            "CHAVE": "Y0T_FILIAL+Y0T_CODDXA+Y0T_SUBCAT",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0U",
-            "CHAVE": "Y0U_FILIAL+Y0U_CODREG"
+            "CHAVE": "Y0U_FILIAL+Y0U_CODREG",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0V",
-            "CHAVE": "Y0V_FILIAL+Y0V_CODREG+Y0V_SEQ"
+            "CHAVE": "Y0V_FILIAL+Y0V_CODREG+Y0V_SEQ",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0X",
-            "CHAVE": "Y0X_FILIAL+Y0X_COD"
+            "CHAVE": "Y0X_FILIAL+Y0X_COD",
+            "ORDEM": "1"
           }
         ],
         "total": 20
@@ -4239,95 +4278,118 @@
         "registros": [
           {
             "INDICE": "Y08",
-            "CHAVE": "Y08_FILIAL+Y08_CODCTR+Y08_CODENT+Y08_LOJENT"
+            "CHAVE": "Y08_FILIAL+Y08_CODCTR+Y08_CODENT+Y08_LOJENT",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y09",
-            "CHAVE": "Y09_FILIAL+Y09_IDREGR"
+            "CHAVE": "Y09_FILIAL+Y09_IDREGR",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0A",
-            "CHAVE": "Y0A_FILIAL + Y0A_IDREGR+Y0A_SEQBON"
+            "CHAVE": "Y0A_FILIAL + Y0A_IDREGR+Y0A_SEQBON",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0A",
-            "CHAVE": "Y0A_FILIAL+Y0A_IDREGR+Y0A_ORDEM"
+            "CHAVE": "Y0A_FILIAL+Y0A_IDREGR+Y0A_ORDEM",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y0B",
-            "CHAVE": "Y0B_FILIAL + Y0B_IDREGR +  Y0B_SEQBON + Y0B_SEQREG"
+            "CHAVE": "Y0B_FILIAL + Y0B_IDREGR +  Y0B_SEQBON + Y0B_SEQREG",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0C",
-            "CHAVE": "Y0C_FILIAL+Y0C_FILORI+Y0C_ROMORI"
+            "CHAVE": "Y0C_FILIAL+Y0C_FILORI+Y0C_ROMORI",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0C",
-            "CHAVE": "Y0C_FILIAL+Y0C_FILDES+Y0C_ROMDES"
+            "CHAVE": "Y0C_FILIAL+Y0C_FILDES+Y0C_ROMDES",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y0D",
-            "CHAVE": "Y0D_FILIAL+Y0D_ROMANE+Y0D_ITEROM+Y0D_IDREGR+Y0D_SEQBON"
+            "CHAVE": "Y0D_FILIAL+Y0D_ROMANE+Y0D_ITEROM+Y0D_IDREGR+Y0D_SEQBON",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0E",
-            "CHAVE": "Y0E_FILIAL+Y0E_PLANEJ+Y0E_PROD+Y0E_SAFRA+Y0E_LOTE+Y0E_PRDINS+Y0E_LOCINS+Y0E_LOTINS+Y0E_ENDINS+Y0E_SUBINS+Y0E_NUMEOP"
+            "CHAVE": "Y0E_FILIAL+Y0E_PLANEJ+Y0E_PROD+Y0E_SAFRA+Y0E_LOTE+Y0E_PRDINS+Y0E_LOCINS+Y0E_LOTINS+Y0E_ENDINS+Y0E_SUBINS+Y0E_NUMEOP",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0F",
-            "CHAVE": "Y0F_FILIAL+Y0F_FECHAM+Y0F_NUMFEC+Y0F_SAFRA+Y0F_TIPFEC"
+            "CHAVE": "Y0F_FILIAL+Y0F_FECHAM+Y0F_NUMFEC+Y0F_SAFRA+Y0F_TIPFEC",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0F",
-            "CHAVE": "Y0F_FILIAL+Y0F_NUMFEC+Y0F_SAFRA"
+            "CHAVE": "Y0F_FILIAL+Y0F_NUMFEC+Y0F_SAFRA",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0G",
-            "CHAVE": "Y0G_FILIAL+Y0G_FECHAM+Y0G_CODENT+Y0G_LOJENT"
+            "CHAVE": "Y0G_FILIAL+Y0G_FECHAM+Y0G_CODENT+Y0G_LOJENT",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0G",
-            "CHAVE": "Y0G_FILIAL+Y0G_CODENT+Y0G_LOJENT+Y0G_FECHAM"
+            "CHAVE": "Y0G_FILIAL+Y0G_CODENT+Y0G_LOJENT+Y0G_FECHAM",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y0H",
-            "CHAVE": "Y0H_FILIAL+Y0H_FECHAM+Y0H_FILCTG+Y0H_CODCTG"
+            "CHAVE": "Y0H_FILIAL+Y0H_FECHAM+Y0H_FILCTG+Y0H_CODCTG",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0I",
-            "CHAVE": "Y0I_FILIAL+Y0I_FECHAM+Y0I_FILROM+Y0I_CODCTR+Y0I_CODROM+Y0I_ITEROM"
+            "CHAVE": "Y0I_FILIAL+Y0I_FECHAM+Y0I_FILROM+Y0I_CODCTR+Y0I_CODROM+Y0I_ITEROM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0J",
-            "CHAVE": "Y0J_FILIAL+Y0J_FECHAM+Y0J_FILROM+Y0J_CODCTR+Y0J_CODROM+Y0J_ITEROM+Y0J_IDREGR+Y0J_SEQBON"
+            "CHAVE": "Y0J_FILIAL+Y0J_FECHAM+Y0J_FILROM+Y0J_CODCTR+Y0J_CODROM+Y0J_ITEROM+Y0J_IDREGR+Y0J_SEQBON",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0K",
-            "CHAVE": "Y0K_FILIAL+Y0K_FECHAM+Y0K_SEQUEN+Y0K_TIPACE+Y0K_ITEM"
+            "CHAVE": "Y0K_FILIAL+Y0K_FECHAM+Y0K_SEQUEN+Y0K_TIPACE+Y0K_ITEM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0M",
-            "CHAVE": "Y0M_FILIAL+Y0M_FECHAM+Y0M_SEQUEN+Y0M_FILROM+Y0M_CODCTR+Y0M_CODROM+Y0M_ITEROM"
+            "CHAVE": "Y0M_FILIAL+Y0M_FECHAM+Y0M_SEQUEN+Y0M_FILROM+Y0M_CODCTR+Y0M_CODROM+Y0M_ITEROM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0Z",
-            "CHAVE": "Y0Z_FILIAL+Y0Z_FECHAM+Y0Z_NUMFEC+Y0Z_FILCTR+Y0Z_CODCTR+Y0Z_ITEM+Y0Z_PREFIX+Y0Z_NUMERO+Y0Z_PARCEL+Y0Z_TIPOTT+Y0Z_CLIFOR+Y0Z_LOJA+Y0Z_PAGREC"
+            "CHAVE": "Y0Z_FILIAL+Y0Z_FECHAM+Y0Z_NUMFEC+Y0Z_FILCTR+Y0Z_CODCTR+Y0Z_ITEM+Y0Z_PREFIX+Y0Z_NUMERO+Y0Z_PARCEL+Y0Z_TIPOTT+Y0Z_CLIFOR+Y0Z_LOJA+Y0Z_PAGREC",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0Z",
-            "CHAVE": "Y0Z_FILIAL+Y0Z_FILCTR+Y0Z_CODCTR+Y0Z_PREFIX+Y0Z_NUMERO+Y0Z_PARCEL+Y0Z_TIPOTT+Y0Z_CLIFOR+Y0Z_LOJA+Y0Z_PAGREC"
+            "CHAVE": "Y0Z_FILIAL+Y0Z_FILCTR+Y0Z_CODCTR+Y0Z_PREFIX+Y0Z_NUMERO+Y0Z_PARCEL+Y0Z_TIPOTT+Y0Z_CLIFOR+Y0Z_LOJA+Y0Z_PAGREC",
+            "ORDEM": "2"
           },
           {
             "INDICE": "YAB",
-            "CHAVE": "YAB_FILIAL+YAB_FECHAM+YAB_NUMFEC+YAB_FILCTR+YAB_CODCTR+YAB_ITEM+YAB_DOC+YAB_SERIE+YAB_CLIFOR+YAB_LOJA+YAB_ENTSAI"
+            "CHAVE": "YAB_FILIAL+YAB_FECHAM+YAB_NUMFEC+YAB_FILCTR+YAB_CODCTR+YAB_ITEM+YAB_DOC+YAB_SERIE+YAB_CLIFOR+YAB_LOJA+YAB_ENTSAI",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YAB",
-            "CHAVE": "YAB_FILIAL+YAB_FILCTR+YAB_CODCTR+YAB_ITEM+YAB_DOC+YAB_SERIE+YAB_CLIFOR+YAB_LOJA+YAB_ENTSAI"
+            "CHAVE": "YAB_FILIAL+YAB_FILCTR+YAB_CODCTR+YAB_ITEM+YAB_DOC+YAB_SERIE+YAB_CLIFOR+YAB_LOJA+YAB_ENTSAI",
+            "ORDEM": "2"
           },
           {
             "INDICE": "YAC",
-            "CHAVE": "YAC_FILIAL+YAC_FECHAM+YAC_NUMFEC+YAC_FILCTR+YAC_CODCTR+YAC_ITEM+YAC_DOC+YAC_SERIE+YAC_CLIFOR+YAC_LOJA"
+            "CHAVE": "YAC_FILIAL+YAC_FECHAM+YAC_NUMFEC+YAC_FILCTR+YAC_CODCTR+YAC_ITEM+YAC_DOC+YAC_SERIE+YAC_CLIFOR+YAC_LOJA",
+            "ORDEM": "1"
           }
         ],
         "total": 23
@@ -5185,203 +5247,253 @@
         "registros": [
           {
             "INDICE": "Y00",
-            "CHAVE": "Y00_FILIAL+Y00_SEQ+Y00_TIPO"
+            "CHAVE": "Y00_FILIAL+Y00_SEQ+Y00_TIPO",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y00",
-            "CHAVE": "Y00_FILIAL+Y00_CODSAF+Y00_SEQ"
+            "CHAVE": "Y00_FILIAL+Y00_CODSAF+Y00_SEQ",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y00",
-            "CHAVE": "Y00_FILIAL+Y00_CODSAF+Y00_CODENT+Y00_LOJENT"
+            "CHAVE": "Y00_FILIAL+Y00_CODSAF+Y00_CODENT+Y00_LOJENT",
+            "ORDEM": "3"
           },
           {
             "INDICE": "Y00",
-            "CHAVE": "Y00_FILIAL+Y00_TIPO+Y00_CODSAF+Y00_SEQ"
+            "CHAVE": "Y00_FILIAL+Y00_TIPO+Y00_CODSAF+Y00_SEQ",
+            "ORDEM": "4"
           },
           {
             "INDICE": "Y00",
-            "CHAVE": "Y00_FILIAL+Y00_CODSAF+Y00_CODPRO+Y00_INTEGR"
+            "CHAVE": "Y00_FILIAL+Y00_CODSAF+Y00_CODPRO+Y00_INTEGR",
+            "ORDEM": "5"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_CODSAF+Y01_PROD+Y01_LOTE+Y01_PLANEJ"
+            "CHAVE": "Y01_FILIAL+Y01_CODSAF+Y01_PROD+Y01_LOTE+Y01_PLANEJ",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_ID+Y01_CODSAF+Y01_PROD+Y01_LOTE"
+            "CHAVE": "Y01_FILIAL+Y01_ID+Y01_CODSAF+Y01_PROD+Y01_LOTE",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_PROD+Y01_LOTE+Y01_CODSAF"
+            "CHAVE": "Y01_FILIAL+Y01_PROD+Y01_LOTE+Y01_CODSAF",
+            "ORDEM": "3"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_LOTE+Y01_CODSAF+Y01_PROD"
+            "CHAVE": "Y01_FILIAL+Y01_LOTE+Y01_CODSAF+Y01_PROD",
+            "ORDEM": "4"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_PROD+Y01_CODSAF+Y01_LOTE"
+            "CHAVE": "Y01_FILIAL+Y01_PROD+Y01_CODSAF+Y01_LOTE",
+            "ORDEM": "5"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_PROD+Y01_LOCAL+Y01_LOTE"
+            "CHAVE": "Y01_FILIAL+Y01_PROD+Y01_LOCAL+Y01_LOTE",
+            "ORDEM": "6"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_LOTE+Y01_CODSAF+Y01_PROD+Y01_TRATDO"
+            "CHAVE": "Y01_FILIAL+Y01_LOTE+Y01_CODSAF+Y01_PROD+Y01_TRATDO",
+            "ORDEM": "7"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_PLANEJ"
+            "CHAVE": "Y01_FILIAL+Y01_PLANEJ",
+            "ORDEM": "8"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_NUMTSI"
+            "CHAVE": "Y01_FILIAL+Y01_NUMTSI",
+            "ORDEM": "9"
           },
           {
             "INDICE": "Y01",
-            "CHAVE": "Y01_FILIAL+Y01_IDCVTR"
+            "CHAVE": "Y01_FILIAL+Y01_IDCVTR",
+            "ORDEM": "A"
           },
           {
             "INDICE": "Y02",
-            "CHAVE": "Y02_FILIAL+Y02_SAFRA+Y02_LOTE+Y02_SEQ+Y02_COD"
+            "CHAVE": "Y02_FILIAL+Y02_SAFRA+Y02_LOTE+Y02_SEQ+Y02_COD",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y02",
-            "CHAVE": "Y02_FILIAL+Y02_QRCODE"
+            "CHAVE": "Y02_FILIAL+Y02_QRCODE",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y02",
-            "CHAVE": "Y02_FILIAL+Y02_IDPLBE"
+            "CHAVE": "Y02_FILIAL+Y02_IDPLBE",
+            "ORDEM": "3"
           },
           {
             "INDICE": "Y03",
-            "CHAVE": "Y03_FILIAL+Y03_NUM"
+            "CHAVE": "Y03_FILIAL+Y03_NUM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y04",
-            "CHAVE": "Y04_FILIAL+Y04_PLANEJ+Y04_PROD+Y04_SAFRA+Y04_LOTE+Y04_PRDINS+Y04_LOCINS+Y04_LOTINS+Y04_ENDINS+Y04_SUBINS+Y04_OPITSQ"
+            "CHAVE": "Y04_FILIAL+Y04_PLANEJ+Y04_PROD+Y04_SAFRA+Y04_LOTE+Y04_PRDINS+Y04_LOCINS+Y04_LOTINS+Y04_ENDINS+Y04_SUBINS+Y04_OPITSQ",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y04",
-            "CHAVE": "Y04_FILIAL+Y04_PROD+Y04_SAFRA+Y04_LOTE"
+            "CHAVE": "Y04_FILIAL+Y04_PROD+Y04_SAFRA+Y04_LOTE",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y04",
-            "CHAVE": "Y04_FILIAL+Y04_SAFRA+Y04_LOTE+Y04_PROD"
+            "CHAVE": "Y04_FILIAL+Y04_SAFRA+Y04_LOTE+Y04_PROD",
+            "ORDEM": "3"
           },
           {
             "INDICE": "Y04",
-            "CHAVE": "Y04_FILIAL+Y04_PLNTSI+Y04_PLANEJ+Y04_PROD+Y04_SAFRA+Y04_LOTE+Y04_PRDINS"
+            "CHAVE": "Y04_FILIAL+Y04_PLNTSI+Y04_PLANEJ+Y04_PROD+Y04_SAFRA+Y04_LOTE+Y04_PRDINS",
+            "ORDEM": "4"
           },
           {
             "INDICE": "Y05",
-            "CHAVE": "Y05_FILIAL + Y05_COD + Y05_MOEGA"
+            "CHAVE": "Y05_FILIAL + Y05_COD + Y05_MOEGA",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y06",
-            "CHAVE": "Y06_FILIAL+Y06_COD"
+            "CHAVE": "Y06_FILIAL+Y06_COD",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y07",
-            "CHAVE": "Y07_FILIAL+Y07_COD"
+            "CHAVE": "Y07_FILIAL+Y07_COD",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y07",
-            "CHAVE": "Y07_FILIAL+Y07_UBS+Y07_DTINIC"
+            "CHAVE": "Y07_FILIAL+Y07_UBS+Y07_DTINIC",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y08",
-            "CHAVE": "Y08_FILIAL+Y08_CODCTR+Y08_CODENT+Y08_LOJENT"
+            "CHAVE": "Y08_FILIAL+Y08_CODCTR+Y08_CODENT+Y08_LOJENT",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y09",
-            "CHAVE": "Y09_FILIAL+Y09_IDREGR"
+            "CHAVE": "Y09_FILIAL+Y09_IDREGR",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0A",
-            "CHAVE": "Y0A_FILIAL + Y0A_IDREGR+Y0A_SEQBON"
+            "CHAVE": "Y0A_FILIAL + Y0A_IDREGR+Y0A_SEQBON",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0A",
-            "CHAVE": "Y0A_FILIAL+Y0A_IDREGR+Y0A_ORDEM"
+            "CHAVE": "Y0A_FILIAL+Y0A_IDREGR+Y0A_ORDEM",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y0B",
-            "CHAVE": "Y0B_FILIAL + Y0B_IDREGR +  Y0B_SEQBON + Y0B_SEQREG"
+            "CHAVE": "Y0B_FILIAL + Y0B_IDREGR +  Y0B_SEQBON + Y0B_SEQREG",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0C",
-            "CHAVE": "Y0C_FILIAL+Y0C_FILORI+Y0C_ROMORI"
+            "CHAVE": "Y0C_FILIAL+Y0C_FILORI+Y0C_ROMORI",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0C",
-            "CHAVE": "Y0C_FILIAL+Y0C_FILDES+Y0C_ROMDES"
+            "CHAVE": "Y0C_FILIAL+Y0C_FILDES+Y0C_ROMDES",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y0D",
-            "CHAVE": "Y0D_FILIAL+Y0D_ROMANE+Y0D_IDREGR+Y0D_SEQBON"
+            "CHAVE": "Y0D_FILIAL+Y0D_ROMANE+Y0D_IDREGR+Y0D_SEQBON",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0E",
-            "CHAVE": "Y0E_FILIAL+Y0E_PLANEJ+Y0E_PROD+Y0E_SAFRA+Y0E_LOTE+Y0E_PRDINS+Y0E_LOCINS+Y0E_LOTINS+Y0E_ENDINS+Y0E_SUBINS+Y0E_NUMEOP"
+            "CHAVE": "Y0E_FILIAL+Y0E_PLANEJ+Y0E_PROD+Y0E_SAFRA+Y0E_LOTE+Y0E_PRDINS+Y0E_LOCINS+Y0E_LOTINS+Y0E_ENDINS+Y0E_SUBINS+Y0E_NUMEOP",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0F",
-            "CHAVE": "Y0F_FILIAL+Y0F_FECHAM+Y0F_NUMFEC+Y0F_SAFRA+Y0F_TIPFEC"
+            "CHAVE": "Y0F_FILIAL+Y0F_FECHAM+Y0F_NUMFEC+Y0F_SAFRA+Y0F_TIPFEC",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0F",
-            "CHAVE": "Y0F_FILIAL+Y0F_NUMFEC+Y0F_SAFRA"
+            "CHAVE": "Y0F_FILIAL+Y0F_NUMFEC+Y0F_SAFRA",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0G",
-            "CHAVE": "Y0G_FILIAL+Y0G_FECHAM+Y0G_CODENT+Y0G_LOJENT"
+            "CHAVE": "Y0G_FILIAL+Y0G_FECHAM+Y0G_CODENT+Y0G_LOJENT",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0G",
-            "CHAVE": "Y0G_FILIAL+Y0G_CODENT+Y0G_LOJENT+Y0G_FECHAM"
+            "CHAVE": "Y0G_FILIAL+Y0G_CODENT+Y0G_LOJENT+Y0G_FECHAM",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y0H",
-            "CHAVE": "Y0H_FILIAL+Y0H_FECHAM+Y0H_FILCTG+Y0H_CODCTG"
+            "CHAVE": "Y0H_FILIAL+Y0H_FECHAM+Y0H_FILCTG+Y0H_CODCTG",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0I",
-            "CHAVE": "Y0I_FILIAL+Y0I_FECHAM+Y0I_FILROM+Y0I_CODCTR+Y0I_CODROM+Y0I_ITEROM"
+            "CHAVE": "Y0I_FILIAL+Y0I_FECHAM+Y0I_FILROM+Y0I_CODCTR+Y0I_CODROM+Y0I_ITEROM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0J",
-            "CHAVE": "Y0J_FILIAL+Y0J_FECHAM+Y0J_FILROM+Y0J_CODCTR+Y0J_CODROM+Y0J_ITEROM+Y0J_IDREGR+Y0J_SEQBON"
+            "CHAVE": "Y0J_FILIAL+Y0J_FECHAM+Y0J_FILROM+Y0J_CODCTR+Y0J_CODROM+Y0J_ITEROM+Y0J_IDREGR+Y0J_SEQBON",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0K",
-            "CHAVE": "Y0K_FILIAL+Y0K_FECHAM+Y0K_SEQUEN+Y0K_TIPACE+Y0K_ITEM"
+            "CHAVE": "Y0K_FILIAL+Y0K_FECHAM+Y0K_SEQUEN+Y0K_TIPACE+Y0K_ITEM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0L",
-            "CHAVE": "Y0L_FILIAL+Y0L_ID"
+            "CHAVE": "Y0L_FILIAL+Y0L_ID",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0L",
-            "CHAVE": "Y0L_FILIAL+Y0L_IDMAPA"
+            "CHAVE": "Y0L_FILIAL+Y0L_IDMAPA",
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y0M",
-            "CHAVE": "Y0M_FILIAL+Y0M_FECHAM+Y0M_SEQUEN+Y0M_FILROM+Y0M_CODCTR+Y0M_CODROM+Y0M_ITEROM"
+            "CHAVE": "Y0M_FILIAL+Y0M_FECHAM+Y0M_SEQUEN+Y0M_FILROM+Y0M_CODCTR+Y0M_CODROM+Y0M_ITEROM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0N",
-            "CHAVE": "Y0N_FILIAL+Y0N_PLANEJ+Y0N_PROD+Y0N_SAFRA+Y0N_LOTE+Y0N_PRDINS+Y0N_LOCINS+Y0N_LOTINS+Y0N_ENDINS+Y0N_SUBINS+Y0N_OPITSQ"
+            "CHAVE": "Y0N_FILIAL+Y0N_PLANEJ+Y0N_PROD+Y0N_SAFRA+Y0N_LOTE+Y0N_PRDINS+Y0N_LOCINS+Y0N_LOTINS+Y0N_ENDINS+Y0N_SUBINS+Y0N_OPITSQ",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0N",
-            "CHAVE": "Y0N_FILIAL+Y0N_PLANEJ+Y0N_PROD+Y0N_SAFRA+Y0N_LOTE"
+            "CHAVE": "Y0N_FILIAL+Y0N_PLANEJ+Y0N_PROD+Y0N_SAFRA+Y0N_LOTE",
+            "ORDEM": "2"
           },
           {
             "INDICE": "YAO",
-            "CHAVE": "YAO_FILIAL+YAO_ID"
+            "CHAVE": "YAO_FILIAL+YAO_ID",
+            "ORDEM": "1"
           }
         ],
         "total": 50
@@ -5995,19 +6107,23 @@
         "registros": [
           {
             "INDICE": "YAD",
-            "CHAVE": "YAD_FILIAL+YAD_LAYOUT"
+            "CHAVE": "YAD_FILIAL+YAD_LAYOUT",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YAE",
-            "CHAVE": "YAE_FILIAL+YAE_LAYOUT+YAE_ENSAIO"
+            "CHAVE": "YAE_FILIAL+YAE_LAYOUT+YAE_ENSAIO",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YAF",
-            "CHAVE": "YAF_FILIAL+YAF_LAYOUT+YAF_PRODUT"
+            "CHAVE": "YAF_FILIAL+YAF_LAYOUT+YAF_PRODUT",
+            "ORDEM": "1"
           },
           {
             "INDICE": "YAG",
-            "CHAVE": "YAG_FILIAL+YAG_CODRES+YAG_LAYOUT+YAG_LOTE+YAG_PRODUT+YAG_ENSAIO"
+            "CHAVE": "YAG_FILIAL+YAG_CODRES+YAG_LAYOUT+YAG_LOTE+YAG_PRODUT+YAG_ENSAIO",
+            "ORDEM": "1"
           }
         ],
         "total": 4
@@ -6190,7 +6306,8 @@
         "registros": [
           {
             "INDICE": "Y10",
-            "CHAVE": "Y10_FILIAL+Y10_ID"
+            "CHAVE": "Y10_FILIAL+Y10_ID",
+            "ORDEM": "1"
           }
         ],
         "total": 1
@@ -6219,11 +6336,13 @@
         "registros": [
           {
             "INDICE": "Y0C",
-            "CHAVE": "Y0C_FILIAL+Y0C_FILORI+Y0C_ROMORI"
+            "CHAVE": "Y0C_FILIAL+Y0C_FILORI+Y0C_ROMORI",
+            "ORDEM": "1"
           },
           {
             "INDICE": "Y0C",
-            "CHAVE": "Y0C_FILIAL+Y0C_FILDES+Y0C_ROMDES"
+            "CHAVE": "Y0C_FILIAL+Y0C_FILDES+Y0C_ROMDES",
+            "ORDEM": "2"
           }
         ],
         "total": 2
@@ -6384,115 +6503,143 @@
         "registros": [
           {
             "INDICE": "NJJ",
-            "CHAVE": "NJJ_FILIAL+NJJ_CODROM"
+            "CHAVE": "NJJ_FILIAL+NJJ_CODROM",
+            "ORDEM": "1"
           },
           {
             "INDICE": "NJJ",
-            "CHAVE": "NJJ_FILIAL+NJJ_PLACA+NJJ_CODMOT"
+            "CHAVE": "NJJ_FILIAL+NJJ_PLACA+NJJ_CODMOT",
+            "ORDEM": "2"
           },
           {
             "INDICE": "NJJ",
-            "CHAVE": "NJJ_FILIAL+NJJ_QPAREC"
+            "CHAVE": "NJJ_FILIAL+NJJ_QPAREC",
+            "ORDEM": "3"
           },
           {
             "INDICE": "NJJ",
-            "CHAVE": "NJJ_FILIAL+NJJ_NRAGEN"
+            "CHAVE": "NJJ_FILIAL+NJJ_NRAGEN",
+            "ORDEM": "6"
           },
           {
             "INDICE": "NP4",
-            "CHAVE": "NP4_FILIAL+NP4_CODIGO"
+            "CHAVE": "NP4_FILIAL+NP4_CODIGO",
+            "ORDEM": "1"
           },
           {
             "INDICE": "NP8",
-            "CHAVE": "NP8_FILIAL+NP8_CODIGO"
+            "CHAVE": "NP8_FILIAL+NP8_CODIGO",
+            "ORDEM": "1"
           },
           {
             "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_CODSAF+NP9_PROD+NP9_LOTE"
+            "CHAVE": "NP9_FILIAL+NP9_CODSAF+NP9_PROD+NP9_LOTE",
+            "ORDEM": "1"
           },
           {
             "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_PROD+NP9_LOCAL+NP9_CULTRA+NP9_CTVAR+NP9_CATEG+NP9_PENE"
+            "CHAVE": "NP9_FILIAL+NP9_PROD+NP9_LOCAL+NP9_CULTRA+NP9_CTVAR+NP9_CATEG+NP9_PENE",
+            "ORDEM": "2"
           },
           {
             "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_CODSAF+NP9_LOTE"
+            "CHAVE": "NP9_FILIAL+NP9_CODSAF+NP9_LOTE",
+            "ORDEM": "3"
           },
           {
             "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_LOTE+NP9_CODSAF+NP9_TRATO"
+            "CHAVE": "NP9_FILIAL+NP9_LOTE+NP9_CODSAF+NP9_TRATO",
+            "ORDEM": "4"
           },
           {
             "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_DOC+NP9_SERIE+NP9_FORNEC+NP9_LOJA+NP9_PROD"
+            "CHAVE": "NP9_FILIAL+NP9_DOC+NP9_SERIE+NP9_FORNEC+NP9_LOJA+NP9_PROD",
+            "ORDEM": "5"
           },
           {
             "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_TRATO+NP9_PROD"
+            "CHAVE": "NP9_FILIAL+NP9_TRATO+NP9_PROD",
+            "ORDEM": "6"
           },
           {
             "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_LOTE+NP9_CODSAF+NP9_PROD+NP9_TRATO"
+            "CHAVE": "NP9_FILIAL+NP9_LOTE+NP9_CODSAF+NP9_PROD+NP9_TRATO",
+            "ORDEM": "7"
           },
           {
             "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_PROD+NP9_LOCAL+NP9_LOTE"
+            "CHAVE": "NP9_FILIAL+NP9_PROD+NP9_LOCAL+NP9_LOTE",
+            "ORDEM": "8"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_COD+D4_OP+D4_TRT+D4_LOTECTL+D4_NUMLOTE"
+            "CHAVE": "D4_FILIAL+D4_COD+D4_OP+D4_TRT+D4_LOTECTL+D4_NUMLOTE",
+            "ORDEM": "1"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_OP+D4_COD+D4_LOCAL"
+            "CHAVE": "D4_FILIAL+D4_OP+D4_COD+D4_LOCAL",
+            "ORDEM": "2"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_COD+D4_LOCAL+DTOS(D4_DATA)"
+            "CHAVE": "D4_FILIAL+D4_COD+D4_LOCAL+DTOS(D4_DATA)",
+            "ORDEM": "3"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_OPORIG+D4_LOTECTL+D4_NUMLOTE"
+            "CHAVE": "D4_FILIAL+D4_OPORIG+D4_LOTECTL+D4_NUMLOTE",
+            "ORDEM": "4"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_ORDEM+D4_COD"
+            "CHAVE": "D4_FILIAL+D4_ORDEM+D4_COD",
+            "ORDEM": "5"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_NUMPVBN+D4_ITEPVBN"
+            "CHAVE": "D4_FILIAL+D4_NUMPVBN+D4_ITEPVBN",
+            "ORDEM": "6"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_PRODUTO+D4_ROTEIRO+D4_OPERAC+D4_COD+D4_TRT"
+            "CHAVE": "D4_FILIAL+D4_PRODUTO+D4_ROTEIRO+D4_OPERAC+D4_COD+D4_TRT",
+            "ORDEM": "7"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_OP+D4_OPORIG"
+            "CHAVE": "D4_FILIAL+D4_OP+D4_OPORIG",
+            "ORDEM": "8"
           },
           {
             "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_PRDORG"
+            "CHAVE": "D4_FILIAL+D4_PRDORG",
+            "ORDEM": "9"
           },
           {
             "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_COD+G1_COMP+G1_TRT"
+            "CHAVE": "G1_FILIAL+G1_COD+G1_COMP+G1_TRT",
+            "ORDEM": "1"
           },
           {
             "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_COMP+G1_COD"
+            "CHAVE": "G1_FILIAL+G1_COMP+G1_COD",
+            "ORDEM": "2"
           },
           {
             "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_COD+G1_GROPC+G1_OPC"
+            "CHAVE": "G1_FILIAL+G1_COD+G1_GROPC+G1_OPC",
+            "ORDEM": "3"
           },
           {
             "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_TIPVEC+G1_VECTOR"
+            "CHAVE": "G1_FILIAL+G1_TIPVEC+G1_VECTOR",
+            "ORDEM": "4"
           },
           {
             "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_COD+DTOS(G1_FIM)+G1_TRT"
+            "CHAVE": "G1_FILIAL+G1_COD+DTOS(G1_FIM)+G1_TRT",
+            "ORDEM": "5"
           }
         ],
         "total": 28
