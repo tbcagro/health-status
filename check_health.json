@@ -1163,10 +1163,6 @@
     "UBA_CLASSIFICACAO": {
       "fontes": [
         {
-          "nome": "ESP67A01.prw",
-          "data": "22/12/2025"
-        },
-        {
           "nome": "ESP67A02.prw",
           "data": "22/12/2025"
         },
@@ -1185,7 +1181,7 @@
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 5,
+        "fontes": 4,
         "pontos_entrada": 0
       }
     },
