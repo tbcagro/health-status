@@ -1,30 +1,140 @@
 {
   "rpo": {
+    "COM_CONDICAO_PAGAMENTO_TIPO_9": {
+      "fontes": [
+        {
+          "nome": "CondicaoTipo9PreNota.TLPP",
+          "data": "27/11/2025"
+        },
+        {
+          "nome": "DefineVencimentosDocEntrada.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "GravaParcelasClassificacaoDocEntrada.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "GravaParcelasDocEntrada.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "GravaParcelasPreNota.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "ImportacaoPedidoPreNotaDocEntrada.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "IncluiBotaoTelaPedidoNota.TLPP",
+          "data": "27/11/2025"
+        },
+        {
+          "nome": "TelaParcelas.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "ValidaExclusaoDocEntrada.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "ValidaImportacaoItemDocEntrada.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "ValidaInclusaoPedidoCompra.TLPP",
+          "data": "28/11/2025"
+        },
+        {
+          "nome": "ValidacaoExclusaoPreNota.TLPP",
+          "data": "28/11/2025"
+        }
+      ],
+      "ponto_de_entrada": [
+        {
+          "funcao": "A103VCTO",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "A140COND",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "A140EXC",
+          "data": "11/12/2025"
+        },
+        {
+          "funcao": "MA103BUT",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MA120BUT",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MA140BUT",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MT100CLA",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MT100TOK",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MT103EXC",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MT103SEL",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MT103VPC",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MT120OK",
+          "data": "27/11/2025"
+        },
+        {
+          "funcao": "MT140TOK",
+          "data": "27/11/2025"
+        }
+      ],
+      "totais": {
+        "fontes": 12,
+        "pontos_entrada": 13
+      }
+    },
     "EST_LAUDOS_DE_LOTES": {
       "fontes": [
         {
           "nome": "IAG04A02.prw",
-          "data": "22/12/2025"
+          "data": "28/11/2025"
         },
         {
           "nome": "IAG04A03.prw",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "IAG04C01.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "IAG04R01.TLPP",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "IAG04V01.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "IAG04V02.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         }
       ],
       "ponto_de_entrada": [],
@@ -37,161 +147,161 @@
       "fontes": [
         {
           "nome": "IAG67B06.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "IAG67B07.tlpp",
-          "data": "22/12/2025"
+          "data": "28/11/2025"
         },
         {
           "nome": "TAG06A01.prw",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A02.prw",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A03.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A04.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A05.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A06.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A07.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A08.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A09.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A10.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A11.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A12.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A13.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A14.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A15.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06A16.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06E01.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06E02.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06E03.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06E04.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06R01.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "TAG06R02.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "F070BTOK",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "F070BXLT",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "F300VALID",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "F340VALOK",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "FA070CA3",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "FA080TIT",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "FA080VEST",
-          "data": "22/12/2025"
+          "data": "22/09/2025"
         },
         {
           "funcao": "FA460FIL",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "FA565FIL",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "FI330ALT",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "FINA460A",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "FINM010",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "FINM020",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "MT100GE2",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "SF2460I",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         }
       ],
       "totais": {
@@ -203,97 +313,97 @@
       "fontes": [
         {
           "nome": "IAG67B01.PRW",
-          "data": "22/12/2025"
+          "data": "28/11/2025"
         },
         {
           "nome": "IAG67B02.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67B03.PRW",
-          "data": "22/12/2025"
+          "data": "09/04/2025"
         },
         {
           "nome": "IAG67B04.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67B05.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67B08.prw",
-          "data": "22/12/2025"
+          "data": "24/10/2025"
         },
         {
           "nome": "IAG67B09.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67B10.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67B11.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67B12.tlpp",
-          "data": "22/12/2025"
+          "data": "09/04/2025"
         },
         {
           "nome": "IAG67B13.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67B14.tlpp",
-          "data": "22/12/2025"
+          "data": "28/10/2025"
         },
         {
           "nome": "IAG67B15.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67B16.tlpp",
-          "data": "22/12/2025"
+          "data": "28/10/2025"
         },
         {
           "nome": "IAG67B17.tlpp",
-          "data": "22/12/2025"
+          "data": "28/10/2025"
         },
         {
           "nome": "IAG67B18.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "M410ALOK",
-          "data": "22/12/2025"
+          "data": "20/05/2025"
         },
         {
           "funcao": "MA440VLD",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "MT410ACE",
-          "data": "22/12/2025"
+          "data": "14/05/2025"
         },
         {
           "funcao": "MTA500FIL",
-          "data": "22/12/2025"
+          "data": "14/05/2025"
         },
         {
           "funcao": "OG250NFVD",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "OGA250",
-          "data": "22/12/2025"
+          "data": "12/12/2025"
         },
         {
           "funcao": "OGA280",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         }
       ],
       "totais": {
@@ -305,15 +415,15 @@
       "fontes": [
         {
           "nome": "IAG67A19.prw",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M08.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M17.PRW",
-          "data": "22/12/2025"
+          "data": "23/10/2025"
         }
       ],
       "ponto_de_entrada": [],
@@ -326,25 +436,25 @@
       "fontes": [
         {
           "nome": "IAG67A44.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2025"
         },
         {
           "nome": "IAG67A45.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2025"
         },
         {
           "nome": "IAG67A46.PRW",
-          "data": "22/12/2025"
+          "data": "08/12/2025"
         },
         {
           "nome": "tbcagro.agroindustria.classificacao_amostra.tlpp",
-          "data": "22/12/2025"
+          "data": "12/12/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "OGA250",
-          "data": "22/12/2025"
+          "data": "12/12/2025"
         }
       ],
       "totais": {
@@ -356,85 +466,85 @@
       "fontes": [
         {
           "nome": "IAG67A10.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A11.PRW",
-          "data": "22/12/2025"
+          "data": "23/09/2025"
         },
         {
           "nome": "IAG67A12.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A13.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A14.PRW",
-          "data": "22/12/2025"
+          "data": "24/09/2025"
         },
         {
           "nome": "IAG67A15.PRW",
-          "data": "22/12/2025"
+          "data": "28/10/2025"
         },
         {
           "nome": "IAG67A16.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A17.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A18.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M25.tlpp",
-          "data": "22/12/2025"
+          "data": "04/12/2025"
         },
         {
           "nome": "tbcagro.agroindustria.contratos.consulta_entidade.tlpp",
-          "data": "22/12/2025"
+          "data": "24/09/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "OG008SLNF",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "OG250ATUC",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "OG280MNU",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "OG290MNU",
-          "data": "22/12/2025"
+          "data": "11/12/2025"
         },
         {
           "funcao": "OGA260",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "OGA270",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "OGA430C1",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "OGA430D1",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "OGA430G1",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         }
       ],
       "totais": {
@@ -446,61 +556,61 @@
       "fontes": [
         {
           "nome": "IAG67A42.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A43.tlpp",
-          "data": "22/12/2025"
+          "data": "25/09/2025"
         },
         {
           "nome": "IAG67M12.prw",
-          "data": "22/12/2025"
+          "data": "17/10/2025"
         },
         {
           "nome": "IAG67R09.TLPP",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67R12.TLPP",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "A140EXC",
-          "data": "22/12/2025"
+          "data": "11/12/2025"
         },
         {
           "funcao": "F040BLQ",
-          "data": "22/12/2025"
+          "data": "20/05/2025"
         },
         {
           "funcao": "FA040B01",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "FA050DEL",
-          "data": "22/12/2025"
+          "data": "20/05/2025"
         },
         {
           "funcao": "FA050UPD",
-          "data": "22/12/2025"
+          "data": "20/05/2025"
         },
         {
           "funcao": "M410ALOK",
-          "data": "22/12/2025"
+          "data": "20/05/2025"
         },
         {
           "funcao": "M410VRES",
-          "data": "22/12/2025"
+          "data": "20/05/2025"
         },
         {
           "funcao": "MS520VLD",
-          "data": "22/12/2025"
+          "data": "20/05/2025"
         },
         {
           "funcao": "OGA430F",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         }
       ],
       "totais": {
@@ -512,41 +622,41 @@
       "fontes": [
         {
           "nome": "IAG67A31.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M03.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M04.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M05.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M11.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M27.prw",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67R11.PRW",
-          "data": "22/12/2025"
+          "data": "20/10/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "OG250MNU",
-          "data": "22/12/2025"
+          "data": "03/07/2025"
         },
         {
           "funcao": "OG251MNU",
-          "data": "22/12/2025"
+          "data": "17/09/2025"
         }
       ],
       "totais": {
@@ -558,17 +668,17 @@
       "fontes": [
         {
           "nome": "tbcagro.agroindustria.romaneio.classificacao_reduzida.tlpp",
-          "data": "22/12/2025"
+          "data": "04/07/2025"
         },
         {
           "nome": "tbcagro.agroindustria.romaneio.pe.tlpp",
-          "data": "22/12/2025"
+          "data": "04/07/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "OG250MNU",
-          "data": "22/12/2025"
+          "data": "03/07/2025"
         }
       ],
       "totais": {
@@ -580,167 +690,167 @@
       "fontes": [
         {
           "nome": "DAMDFE.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "DanfeEtiqueta.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "M410LIOK.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "M410PVNF.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "M460FIM.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MA410MNU.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MA461ROT.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MDFESEFAZ.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MS520VLD.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MT410CPY.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MT410TOK.PRW",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MTA410.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADAUX.prw",
-          "data": "22/12/2025"
+          "data": "28/11/2025"
         },
         {
           "nome": "RECADZB0.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB1.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB2.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB4.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB5.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB6.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB7.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB8.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB9.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECAPOIO1.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECAPOIO2.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECAPOIO3.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECCONSU.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECEIWEB.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECFATUR.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECFICHA.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECFUNCA.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECGRAVA.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECIMPRIM.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECMANUN.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECPAINE.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECPNL01.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECPNL02.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "SPDNFDANF.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "TRANSNFE.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "danfeii.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "danfeiii.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "nfesefaz.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         }
       ],
       "ponto_de_entrada": [],
@@ -749,135 +859,240 @@
         "pontos_entrada": 0
       }
     },
+    "RECEITUARIO_CANASSA": {
+      "fontes": [
+        {
+          "nome": "RECADAUX.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB0.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB1.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB2.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB4.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB5.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB6.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB7.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB8.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECADZB9.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECAPOIO1.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECAPOIO2.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECAPOIO3.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECCONSU.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECEIWEB.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECFATUR.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECFICHA.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECFUNCA.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECGRAVA.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECIMPRIM.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECMANUN.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECPAINE.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECPNL01.prw",
+          "data": "20/11/2025"
+        },
+        {
+          "nome": "RECPNL02.prw",
+          "data": "20/11/2025"
+        }
+      ],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 24,
+        "pontos_entrada": 0
+      }
+    },
     "RECEITUARIO_COACRIS_BASE": {
       "fontes": [
         {
           "nome": "LJ140EXC.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "LJ7001.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "LJ7002.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "LJ70101.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "LJ7030.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "LJ7033.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "LJ7046.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "LJ7053.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "M410LIOK.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "M410PVNF.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "M460FIM.prw",
-          "data": "22/12/2025"
+          "data": "03/10/2025"
         },
         {
           "nome": "MTA410.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZ0.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZ1.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZB0.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZB1.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZB2.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZB4.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZB5.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZB6.prw",
-          "data": "22/12/2025"
+          "data": "08/01/2025"
         },
         {
           "nome": "RECADZB7.prw",
-          "data": "22/12/2025"
+          "data": "08/01/2025"
         },
         {
           "nome": "RECDADOS.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECEIWEB.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECFCHEM.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECFICHA.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECFUNCA.prw",
-          "data": "22/12/2025"
+          "data": "05/10/2025"
         },
         {
           "nome": "RECIMPRIM.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECMANUN.prw",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         },
         {
           "nome": "RECPAINE.prw",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         },
         {
           "nome": "RECPNL01.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECPNL02.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "recagric.prw",
-          "data": "22/12/2025"
+          "data": "12/12/2024"
         }
       ],
       "ponto_de_entrada": [],
@@ -890,95 +1105,95 @@
       "fontes": [
         {
           "nome": "RECADZ00.prw",
-          "data": "22/12/2025"
+          "data": "14/05/2025"
         },
         {
           "nome": "RECADZ01.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECADZ02.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECADZ04.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECADZ05.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECADZ06.prw",
-          "data": "22/12/2025"
+          "data": "08/01/2025"
         },
         {
           "nome": "RECADZ07.prw",
-          "data": "22/12/2025"
+          "data": "08/01/2025"
         },
         {
           "nome": "RECADZ1.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECADZ2.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECADZ3.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECADZ4.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECAGRIQ.prw",
-          "data": "22/12/2025"
+          "data": "04/02/2025"
         },
         {
           "nome": "RECATCAD.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECDADOS.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECEIWEB.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECFICHA.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECFUNCA.prw",
-          "data": "22/12/2025"
+          "data": "06/10/2025"
         },
         {
           "nome": "RECIMPRIM.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECMANUN.prw",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         },
         {
           "nome": "RECPAINE.prw",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         },
         {
           "nome": "RECPNL01.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECPNL02.prw",
-          "data": "22/12/2025"
+          "data": "06/11/2024"
         },
         {
           "nome": "REPRODUT.prw",
-          "data": "22/12/2025"
+          "data": "08/01/2025"
         }
       ],
       "ponto_de_entrada": [],
@@ -991,167 +1206,167 @@
       "fontes": [
         {
           "nome": "DAMDFE.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "DanfeEtiqueta.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "M410LIOK.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "M410PVNF.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "M460FIM.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MA410MNU.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MA461ROT.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MDFESEFAZ.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MS520VLD.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MT410CPY.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MT410TOK.PRW",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "MTA410.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADAUX.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB0.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB1.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB2.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB4.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB5.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB6.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB7.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB8.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECADZB9.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECAPOIO1.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECAPOIO2.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECAPOIO3.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECCONSU.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECEIWEB.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECFATUR.prw",
-          "data": "22/12/2025"
+          "data": "04/09/2025"
         },
         {
           "nome": "RECFICHA.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECFUNCA.prw",
-          "data": "22/12/2025"
+          "data": "20/11/2025"
         },
         {
           "nome": "RECGRAVA.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECIMPRIM.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECMANUN.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECPAINE.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECPNL01.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "RECPNL02.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "SPDNFDANF.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "TRANSNFE.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "danfeii.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "danfeiii.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         },
         {
           "nome": "nfesefaz.prw",
-          "data": "22/12/2025"
+          "data": "25/08/2025"
         }
       ],
       "ponto_de_entrada": [],
@@ -1163,25 +1378,29 @@
     "UBA_CLASSIFICACAO": {
       "fontes": [
         {
+          "nome": "ESP67A01.prw",
+          "data": "28/11/2025"
+        },
+        {
           "nome": "ESP67A02.prw",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67A24.prw",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M20.prw",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M21.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         }
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 4,
+        "fontes": 5,
         "pontos_entrada": 0
       }
     },
@@ -1189,25 +1408,25 @@
       "fontes": [
         {
           "nome": "IAG67A25.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A26.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M19.prw",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67M28.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "AGRA720",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         }
       ],
       "totais": {
@@ -1219,21 +1438,21 @@
       "fontes": [
         {
           "nome": "IAG67A36.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A37.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67A38.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "AG600MNU",
-          "data": "22/12/2025"
+          "data": "09/06/2025"
         }
       ],
       "totais": {
@@ -1245,65 +1464,65 @@
       "fontes": [
         {
           "nome": "IAG67M29.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "UBA67A16.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "UBA67A17.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "UBA67A19.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "UBA67A20.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "UBA67A21.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "UBA67A39.TLPP",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "UBA67A40.TLPP",
-          "data": "22/12/2025"
+          "data": "04/07/2025"
         },
         {
           "nome": "UBA67A41.TLPP",
-          "data": "22/12/2025"
+          "data": "04/07/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "AGR750PV",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "AGRA720",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "FT400BAR",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "FT400MNU",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "FT400TOK",
-          "data": "22/12/2025"
+          "data": "05/06/2025"
         },
         {
           "funcao": "MTXMOEDA",
-          "data": "22/12/2025"
+          "data": "22/09/2025"
         }
       ],
       "totais": {
@@ -1315,41 +1534,41 @@
       "fontes": [
         {
           "nome": "IAG67A01.PRW",
-          "data": "22/12/2025"
+          "data": "28/11/2025"
         },
         {
           "nome": "IAG67A07.PRW",
-          "data": "22/12/2025"
+          "data": "04/07/2025"
         },
         {
           "nome": "IAG67C01.PRW",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67I01.PRW",
-          "data": "22/12/2025"
+          "data": "09/01/2025"
         },
         {
           "nome": "IAG67I01.TLPP",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67I02.TLPP",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG67I05.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "simpleAgro.tlpp",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "OGA250",
-          "data": "22/12/2025"
+          "data": "12/12/2025"
         }
       ],
       "totais": {
@@ -1361,11 +1580,11 @@
       "fontes": [
         {
           "nome": "IAG67M22.prw",
-          "data": "22/12/2025"
+          "data": "20/10/2025"
         },
         {
           "nome": "IAG67M23.prw",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         }
       ],
       "ponto_de_entrada": [],
@@ -1378,7 +1597,7 @@
       "fontes": [
         {
           "nome": "IAG067I09.tlpp",
-          "data": "22/12/2025"
+          "data": "09/01/2025"
         },
         {
           "nome": "IAG67A02.PRW",
@@ -1386,39 +1605,39 @@
         },
         {
           "nome": "IAG67A03.PRW",
-          "data": "22/12/2025"
+          "data": "23/06/2025"
         },
         {
           "nome": "IAG67A06.PRW",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67A08.PRW",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67A09.PRW",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67A20.PRW",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67A21.PRW",
-          "data": "22/12/2025"
+          "data": "23/06/2025"
         },
         {
           "nome": "IAG67A22.PRW",
-          "data": "22/12/2025"
+          "data": "23/06/2025"
         },
         {
           "nome": "IAG67A23.PRW",
-          "data": "22/12/2025"
+          "data": "23/06/2025"
         },
         {
           "nome": "IAG67A27.tlpp",
-          "data": "22/12/2025"
+          "data": "23/06/2025"
         },
         {
           "nome": "IAG67A32.prw",
@@ -1426,43 +1645,47 @@
         },
         {
           "nome": "IAG67A33.tlpp",
-          "data": "22/12/2025"
+          "data": "23/06/2025"
         },
         {
           "nome": "IAG67A34.tlpp",
-          "data": "22/12/2025"
+          "data": "01/09/2025"
         },
         {
           "nome": "IAG67A39.prw",
-          "data": "22/12/2025"
+          "data": "15/12/2025"
         },
         {
           "nome": "IAG67C03.tlpp",
+          "data": "29/07/2025"
+        },
+        {
+          "nome": "IAG67C04.tlpp",
           "data": "22/12/2025"
         },
         {
           "nome": "IAG67I03.TLPP",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67I04.TLPP",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67I06.TLPP",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67I07.TLPP",
-          "data": "22/12/2025"
+          "data": "28/11/2024"
         },
         {
           "nome": "IAG67I08.tlpp",
-          "data": "22/12/2025"
+          "data": "24/04/2025"
         },
         {
           "nome": "IAG67M01.prw",
-          "data": "22/12/2025"
+          "data": "23/06/2025"
         },
         {
           "nome": "IAG67M02.prw",
@@ -1470,23 +1693,23 @@
         },
         {
           "nome": "IAG67M06.prw",
-          "data": "22/12/2025"
+          "data": "26/11/2025"
         },
         {
           "nome": "IAG67M07.PRW",
-          "data": "22/12/2025"
+          "data": "04/07/2025"
         },
         {
           "nome": "IAG67M09.prw",
-          "data": "22/12/2025"
+          "data": "25/07/2025"
         },
         {
           "nome": "IAG67M10.PRW",
-          "data": "22/12/2025"
+          "data": "25/07/2025"
         },
         {
           "nome": "IAG67M13.PRW",
-          "data": "22/12/2025"
+          "data": "29/09/2025"
         },
         {
           "nome": "IAG67M14.TLPP",
@@ -1494,11 +1717,11 @@
         },
         {
           "nome": "IAG67M15.TLPP",
-          "data": "22/12/2025"
+          "data": "23/06/2025"
         },
         {
           "nome": "IAG67M16.TLPP",
-          "data": "22/12/2025"
+          "data": "25/07/2025"
         },
         {
           "nome": "IAG67M18.TLPP",
@@ -1506,27 +1729,27 @@
         },
         {
           "nome": "IAG67M24.prw",
-          "data": "22/12/2025"
+          "data": "15/12/2025"
         },
         {
           "nome": "IAG67M26.tlpp",
-          "data": "22/12/2025"
+          "data": "25/07/2025"
         },
         {
           "nome": "IAG67R06.prw",
-          "data": "22/12/2025"
+          "data": "15/09/2025"
         },
         {
           "nome": "IAG67R07.PRW",
-          "data": "22/12/2025"
+          "data": "20/10/2025"
         },
         {
           "nome": "IAG67V01.tlpp",
-          "data": "22/12/2025"
+          "data": "09/01/2025"
         },
         {
           "nome": "IAG67V02.tlpp",
-          "data": "22/12/2025"
+          "data": "09/01/2025"
         },
         {
           "nome": "IAG67V03.tlpp",
@@ -1536,39 +1759,39 @@
       "ponto_de_entrada": [
         {
           "funcao": "AGR840P3",
-          "data": "22/12/2025"
+          "data": "14/05/2025"
         },
         {
           "funcao": "AGRA840",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "BVIEWSB2",
-          "data": "22/12/2025"
+          "data": "29/07/2025"
         },
         {
           "funcao": "M265VEST",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "M380FIL",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "MA265TDOK",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "MT381FIL",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "MTGRVEMP",
-          "data": "22/12/2025"
+          "data": "14/05/2025"
         }
       ],
       "totais": {
-        "fontes": 39,
+        "fontes": 40,
         "pontos_entrada": 8
       }
     },
@@ -1576,27 +1799,27 @@
       "fontes": [
         {
           "nome": "IAG67A04.PRW",
-          "data": "22/12/2025"
+          "data": "20/06/2025"
         },
         {
           "nome": "IAG67A05.PRW",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         },
         {
           "nome": "IAG67R02.PRW",
-          "data": "22/12/2025"
+          "data": "20/10/2025"
         },
         {
           "nome": "IAG67R03.PRW",
-          "data": "22/12/2025"
+          "data": "06/03/2025"
         },
         {
           "nome": "IAG67R04.PRW",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         },
         {
           "nome": "IAG67R05.PRW",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         }
       ],
       "ponto_de_entrada": [],
@@ -1609,19 +1832,19 @@
       "fontes": [
         {
           "nome": "IAG67R08.PRW",
-          "data": "22/12/2025"
+          "data": "20/10/2025"
         },
         {
           "nome": "IAG67R10.PRW",
-          "data": "22/12/2025"
+          "data": "20/10/2025"
         },
         {
           "nome": "IAG67R13.PRW",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         },
         {
           "nome": "IAG67R14.prw",
-          "data": "22/12/2025"
+          "data": "21/10/2025"
         }
       ],
       "ponto_de_entrada": [],
@@ -1634,37 +1857,37 @@
       "fontes": [
         {
           "nome": "IAG04A01.prw",
-          "data": "22/12/2025"
+          "data": "18/06/2025"
         },
         {
           "nome": "IAG39A01.tlpp",
-          "data": "22/12/2025"
+          "data": "28/10/2025"
         },
         {
           "nome": "IAG67A29.TLPP",
-          "data": "22/12/2025"
+          "data": "18/09/2025"
         },
         {
           "nome": "IAG67A30.TLPP",
-          "data": "22/12/2025"
+          "data": "04/09/2025"
         },
         {
           "nome": "IAG67A35.tlpp",
-          "data": "22/12/2025"
+          "data": "23/10/2025"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "M440SC9I",
-          "data": "22/12/2025"
+          "data": "12/06/2025"
         },
         {
           "funcao": "MTA440L",
-          "data": "22/12/2025"
+          "data": "13/05/2025"
         },
         {
           "funcao": "OMSNEDAK",
-          "data": "22/12/2025"
+          "data": "12/06/2025"
         }
       ],
       "totais": {
@@ -1678,7 +1901,7 @@
       "fontes": [
         {
           "nome": "Dic_cessao.prw",
-          "data": "22/12/2025"
+          "data": "12/05/2025"
         }
       ],
       "SX2": {
@@ -2038,7 +2261,7 @@
       "fontes": [
         {
           "nome": "ubacom.prw",
-          "data": "22/12/2025"
+          "data": "12/05/2025"
         }
       ],
       "SX2": {
@@ -2634,7 +2857,7 @@
       "fontes": [
         {
           "nome": "updbarte.prw",
-          "data": "22/12/2025"
+          "data": "14/05/2025"
         }
       ],
       "SX2": {
@@ -3222,7 +3445,7 @@
       "fontes": [
         {
           "nome": "updemb.prw",
-          "data": "22/12/2025"
+          "data": "08/10/2025"
         }
       ],
       "SX2": {
@@ -4198,7 +4421,7 @@
       "fontes": [
         {
           "nome": "updfecha.prw",
-          "data": "22/12/2025"
+          "data": "16/10/2025"
         }
       ],
       "SX2": {
@@ -6079,7 +6302,7 @@
       "fontes": [
         {
           "nome": "updlaudo.prw",
-          "data": "22/12/2025"
+          "data": "12/05/2025"
         }
       ],
       "SX2": {
@@ -6290,7 +6513,7 @@
       "fontes": [
         {
           "nome": "updpimsa.prw",
-          "data": "22/12/2025"
+          "data": "09/06/2025"
         }
       ],
       "SX2": {
@@ -6329,7 +6552,7 @@
       "fontes": [
         {
           "nome": "updrepro.prw",
-          "data": "22/12/2025"
+          "data": "12/05/2025"
         }
       ],
       "SIX": {
@@ -6377,7 +6600,7 @@
       "fontes": [
         {
           "nome": "updtmp.prw",
-          "data": "22/12/2025"
+          "data": "12/05/2025"
         }
       ],
       "SX2": {
