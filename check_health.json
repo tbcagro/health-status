@@ -309,6 +309,80 @@
         "pontos_entrada": 15
       }
     },
+    "FIN_DERIVATIVOS": {
+      "fontes": [
+        {
+          "nome": "tbcagro.financeiro.derivativos.cadastro_ndf.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.calculo_variacao.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.cancela_ndf.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.consulta_contratos.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.consulta_variacao.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.contabiliza_variacao.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.exclui_variacao.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.liquidar_ndf.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.titulos.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.validacao_modelo.tlpp",
+          "data": "30/12/2025"
+        },
+        {
+          "nome": "tbcagro.financeiro.derivativos.validacao_pe.tlpp",
+          "data": "30/12/2025"
+        }
+      ],
+      "ponto_de_entrada": [
+        {
+          "funcao": "ANCTB102GR",
+          "data": "30/12/2025"
+        },
+        {
+          "funcao": "FA040B01",
+          "data": "30/12/2025"
+        },
+        {
+          "funcao": "FA050DEL",
+          "data": "30/12/2025"
+        },
+        {
+          "funcao": "M410ALOK",
+          "data": "30/12/2025"
+        },
+        {
+          "funcao": "PE_OGA290",
+          "data": "30/12/2025"
+        }
+      ],
+      "totais": {
+        "fontes": 11,
+        "pontos_entrada": 5
+      }
+    },
     "OG_BARTER": {
       "fontes": [
         {
@@ -379,7 +453,7 @@
       "ponto_de_entrada": [
         {
           "funcao": "M410ALOK",
-          "data": "20/05/2025"
+          "data": "30/12/2025"
         },
         {
           "funcao": "MA440VLD",
@@ -586,11 +660,11 @@
         },
         {
           "funcao": "FA040B01",
-          "data": "05/06/2025"
+          "data": "30/12/2025"
         },
         {
           "funcao": "FA050DEL",
-          "data": "20/05/2025"
+          "data": "30/12/2025"
         },
         {
           "funcao": "FA050UPD",
@@ -598,7 +672,7 @@
         },
         {
           "funcao": "M410ALOK",
-          "data": "20/05/2025"
+          "data": "30/12/2025"
         },
         {
           "funcao": "M410VRES",
@@ -3439,6 +3513,143 @@
           }
         ],
         "total": 10
+      }
+    },
+    "UPDDERIV": {
+      "fontes": [
+        {
+          "nome": "updderiv.prw",
+          "data": "30/12/2025"
+        }
+      ],
+      "SX2": {
+        "registros": [
+          {
+            "X2_CHAVE": "YAM",
+            "X2_NOME": "Registro de NDF"
+          },
+          {
+            "X2_CHAVE": "YAN",
+            "X2_NOME": "NDF x Contratos"
+          },
+          {
+            "X2_CHAVE": "YAP",
+            "X2_NOME": "Variação da taxa NDF"
+          }
+        ],
+        "total": 3
+      },
+      "SIX": {
+        "registros": [
+          {
+            "INDICE": "YAM",
+            "CHAVE": "YAM_FILIAL+YAM_ID",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "YAN",
+            "CHAVE": "YAN_FILIAL+YAN_ID+YAN_CONTRA +YAN_TABELA",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "YAP",
+            "CHAVE": "YAP_FILIAL+YAP_ID+YAP_DATA",
+            "ORDEM": "1"
+          }
+        ],
+        "total": 3
+      },
+      "SX7": {
+        "registros": [
+          {
+            "X7_CAMPO": "YAM_CORRET",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "SA2->A2_NOME",
+            "X7_CDOMIN": "YAM_NCORRE"
+          },
+          {
+            "X7_CAMPO": "YAM_LOJACO",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "SA2->A2_NOME",
+            "X7_CDOMIN": "YAM_NCORRE"
+          },
+          {
+            "X7_CAMPO": "YAM_PRODUT",
+            "X7_SEQUENC": "001",
+            "X7_REGRA": "SB1->B1_DESC",
+            "X7_CDOMIN": "YAM_DESPRO"
+          }
+        ],
+        "total": 3
+      },
+      "SXA": {
+        "registros": [
+          {
+            "XA_ALIAS": "YAM",
+            "XA_ORDEM": "1",
+            "XA_DESCRIC": "Informações"
+          },
+          {
+            "XA_ALIAS": "YAM",
+            "XA_ORDEM": "2",
+            "XA_DESCRIC": "Financeiro"
+          }
+        ],
+        "total": 2
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_GOG6C01",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Informar o grupo de produto que será vendido",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_GPV6C01",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Informar o grupo de produto que será vendido",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_LCTVNDF",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Lote de contabilização da varaição",
+            "X6_CONTEUD": "999999"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_LPCVNDF",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "LP usada na contabilização da variação",
+            "X6_CONTEUD": "001"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_NTPRNDF",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Define a natureza do Titulo de Provisorio NDF",
+            "X6_CONTEUD": "101006"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_NTVRNDF",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Define a natureza do Titulo de Variação NDF",
+            "X6_CONTEUD": "101006"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_USACORR",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Verifica se usa corretora",
+            "X6_CONTEUD": ".F."
+          }
+        ],
+        "total": 7
       }
     },
     "UPDEMB": {
