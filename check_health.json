@@ -473,7 +473,7 @@
         },
         {
           "funcao": "OGA250",
-          "data": "12/12/2025"
+          "data": "21/01/2026"
         },
         {
           "funcao": "OGA280",
@@ -528,7 +528,7 @@
       "ponto_de_entrada": [
         {
           "funcao": "OGA250",
-          "data": "12/12/2025"
+          "data": "21/01/2026"
         }
       ],
       "totais": {
@@ -590,7 +590,7 @@
         },
         {
           "funcao": "OG250ATUC",
-          "data": "05/06/2025"
+          "data": "21/01/2026"
         },
         {
           "funcao": "OG280MNU",
@@ -623,6 +623,80 @@
       ],
       "totais": {
         "fontes": 11,
+        "pontos_entrada": 9
+      }
+    },
+    "OG_EXPORTACAO_DIRETA": {
+      "fontes": [
+        {
+          "nome": "tbcagro.agroindustria.exportacao_direta.consulta.devolucoes.tlpp",
+          "data": "21/01/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.exportacao_direta.consulta.lotes.tlpp",
+          "data": "21/01/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.exportacao_direta.consulta.remessas.tlpp",
+          "data": "21/01/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.exportacao_direta.ordem.mvc.tlpp",
+          "data": "21/01/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.exportacao_direta.pe.tlpp",
+          "data": "21/01/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.exportacao_direta.selecao_devolucao.mvc.tlpp",
+          "data": "21/01/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.exportacao_direta.selecao_lote.mvc.tlpp",
+          "data": "21/01/2026"
+        }
+      ],
+      "ponto_de_entrada": [
+        {
+          "funcao": "M460FIM",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "OG009PTL",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "OG250ATUC",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "OG250MNU",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "OG251MNU",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "OGA250",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "OGX008PV",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "SF2520E",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "VLDLTNJM",
+          "data": "21/01/2026"
+        }
+      ],
+      "totais": {
+        "fontes": 7,
         "pontos_entrada": 9
       }
     },
@@ -726,11 +800,11 @@
       "ponto_de_entrada": [
         {
           "funcao": "OG250MNU",
-          "data": "03/07/2025"
+          "data": "21/01/2026"
         },
         {
           "funcao": "OG251MNU",
-          "data": "17/09/2025"
+          "data": "21/01/2026"
         }
       ],
       "totais": {
@@ -749,15 +823,10 @@
           "data": "04/07/2025"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "OG250MNU",
-          "data": "03/07/2025"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 2,
-        "pontos_entrada": 1
+        "pontos_entrada": 0
       }
     },
     "RECEITUARIO_BASE": {
@@ -1642,7 +1711,7 @@
       "ponto_de_entrada": [
         {
           "funcao": "OGA250",
-          "data": "12/12/2025"
+          "data": "21/01/2026"
         }
       ],
       "totais": {
@@ -4626,6 +4695,97 @@
           }
         ],
         "total": 21
+      }
+    },
+    "UPDEXPDI": {
+      "fontes": [
+        {
+          "nome": "updexpdi.prw",
+          "data": "21/01/2026"
+        }
+      ],
+      "SX2": {
+        "registros": [
+          {
+            "X2_CHAVE": "Y15",
+            "X2_NOME": "NfsxRoms Devolução Form Lte.OG"
+          },
+          {
+            "X2_CHAVE": "Y16",
+            "X2_NOME": "Itens Direcionados Romaneio"
+          },
+          {
+            "X2_CHAVE": "Y17",
+            "X2_NOME": "Ordem de Exportação"
+          },
+          {
+            "X2_CHAVE": "Y18",
+            "X2_NOME": "Itens Ord.Exportacao"
+          }
+        ],
+        "total": 4
+      },
+      "SIX": {
+        "registros": [
+          {
+            "INDICE": "Y15",
+            "CHAVE": "Y15_FILIAL+Y15_CODROM+Y15_IDSEQ",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "Y15",
+            "CHAVE": "Y15_FILIAL+Y15_CODROM+Y15_NFORI+Y15_SERORI+Y15_ITEMNF",
+            "ORDEM": "2"
+          },
+          {
+            "INDICE": "Y16",
+            "CHAVE": "Y16_FILIAL+Y16_CODROM+Y16_SEQ",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "Y16",
+            "CHAVE": "Y16_FILIAL+Y16_CODROM+Y16_CODPRO+Y16_SEQ",
+            "ORDEM": "2"
+          },
+          {
+            "INDICE": "Y17",
+            "CHAVE": "Y17_FILIAL+Y17_CODIGO",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "Y17",
+            "CHAVE": "Y17_FILIAL+Y17_SERNFE+Y17_NUMNFE",
+            "ORDEM": "2"
+          },
+          {
+            "INDICE": "Y18",
+            "CHAVE": "Y18_FILIAL+Y18_CODIGO+Y18_ITEM",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "Y18",
+            "CHAVE": "Y18_FILIAL+Y18_SERREM+Y18_NFREM+Y18_ITEREM",
+            "ORDEM": "2"
+          }
+        ],
+        "total": 8
+      },
+      "SX7": {
+        "registros": [
+          {
+            "X7_CAMPO": "NJR_XENTDX",
+            "X7_SEQUENC": "001",
+            "X7_REGRA": "NJ0->NJ0_NOME",
+            "X7_CDOMIN": "NJR_XNENEX"
+          },
+          {
+            "X7_CAMPO": "NJR_XLJENX",
+            "X7_SEQUENC": "001",
+            "X7_REGRA": "NJ0->NJ0_NOME",
+            "X7_CDOMIN": "NJR_XNENEX"
+          }
+        ],
+        "total": 2
       }
     },
     "UPDFECHA": {
