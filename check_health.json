@@ -4701,7 +4701,7 @@
       "fontes": [
         {
           "nome": "updexpdi.prw",
-          "data": "21/01/2026"
+          "data": "23/01/2026"
         }
       ],
       "SX2": {
@@ -4786,6 +4786,18 @@
           }
         ],
         "total": 2
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_UMQTDSL",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "1=Informa o qt na 1a um 2=Informa a qt na 2aum",
+            "X6_CONTEUD": "1"
+          }
+        ],
+        "total": 1
       }
     },
     "UPDFECHA": {
