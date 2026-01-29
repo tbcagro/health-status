@@ -649,6 +649,10 @@
           "data": "21/01/2026"
         },
         {
+          "nome": "tbcagro.agroindustria.exportacao_direta.relatorio.controleDeMovimentos.tlpp",
+          "data": "28/01/2026"
+        },
+        {
           "nome": "tbcagro.agroindustria.exportacao_direta.selecao_devolucao.mvc.tlpp",
           "data": "21/01/2026"
         },
@@ -696,7 +700,7 @@
         }
       ],
       "totais": {
-        "fontes": 7,
+        "fontes": 8,
         "pontos_entrada": 9
       }
     },
