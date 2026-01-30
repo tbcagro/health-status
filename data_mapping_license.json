@@ -37,6 +37,11 @@
 			"dicionario":""
 		},
 		{
+			"nome":"OG_CLASSIFICACAO_DE_CARGA",
+			"diretorio":"OG_CLASSIFICACAO_DE_CARGA",
+			"dicionario":""
+		},
+		{
 			"nome":"RECEITUARIO_RECEITUARIO",
 			"diretorio":"RECEITUARIO_BASE",
 			"dicionario":""
@@ -93,4 +98,5 @@
 		}
 		
 	]
+
 }
