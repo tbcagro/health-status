@@ -630,7 +630,7 @@
       "fontes": [
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.consulta.devolucoes.tlpp",
-          "data": "21/01/2026"
+          "data": "30/01/2026"
         },
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.consulta.lotes.tlpp",
@@ -953,7 +953,7 @@
         },
         {
           "nome": "RECFUNCA.prw",
-          "data": "25/08/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "RECGRAVA.prw",
@@ -1078,7 +1078,7 @@
         },
         {
           "nome": "RECFUNCA.prw",
-          "data": "20/11/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "RECGRAVA.prw",
@@ -1469,7 +1469,7 @@
         },
         {
           "nome": "RECFUNCA.prw",
-          "data": "20/11/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "RECGRAVA.prw",
@@ -1542,7 +1542,7 @@
         },
         {
           "nome": "IAG67M21.PRW",
-          "data": "18/06/2025"
+          "data": "30/01/2026"
         }
       ],
       "ponto_de_entrada": [],
@@ -1559,7 +1559,7 @@
         },
         {
           "nome": "IAG67A26.PRW",
-          "data": "18/06/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "IAG67M19.prw",
@@ -1852,7 +1852,7 @@
         },
         {
           "nome": "IAG67M10.PRW",
-          "data": "25/07/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "IAG67M13.PRW",
@@ -1860,11 +1860,11 @@
         },
         {
           "nome": "IAG67M14.TLPP",
-          "data": "22/12/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "IAG67M15.TLPP",
-          "data": "23/06/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "IAG67M16.TLPP",
@@ -1884,7 +1884,7 @@
         },
         {
           "nome": "IAG67R06.prw",
-          "data": "15/09/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "IAG67R07.PRW",
@@ -1991,7 +1991,7 @@
         },
         {
           "nome": "IAG67R14.prw",
-          "data": "21/10/2025"
+          "data": "30/01/2026"
         }
       ],
       "ponto_de_entrada": [],
@@ -2016,7 +2016,7 @@
         },
         {
           "nome": "IAG67A30.TLPP",
-          "data": "04/09/2025"
+          "data": "30/01/2026"
         },
         {
           "nome": "IAG67A35.tlpp",
