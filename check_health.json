@@ -663,10 +663,6 @@
       ],
       "ponto_de_entrada": [
         {
-          "funcao": "M460FIM",
-          "data": "21/01/2026"
-        },
-        {
           "funcao": "OG009PTL",
           "data": "21/01/2026"
         },
@@ -701,7 +697,7 @@
       ],
       "totais": {
         "fontes": 8,
-        "pontos_entrada": 9
+        "pontos_entrada": 8
       }
     },
     "OG_FECHAMENTO_FINANCEIRO": {
@@ -1242,10 +1238,15 @@
           "data": "12/12/2024"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "M460FIM",
+          "data": "21/01/2026"
+        }
+      ],
       "totais": {
         "fontes": 32,
-        "pontos_entrada": 0
+        "pontos_entrada": 1
       }
     },
     "RECEITUARIO_CONCEITO": {
@@ -1840,7 +1841,7 @@
         },
         {
           "nome": "IAG67M06.prw",
-          "data": "27/01/2026"
+          "data": "12/02/2026"
         },
         {
           "nome": "IAG67M07.PRW",
