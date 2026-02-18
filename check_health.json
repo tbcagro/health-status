@@ -349,7 +349,7 @@
         },
         {
           "nome": "updexpdi.prw",
-          "data": "03/02/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "updfecha.prw",
@@ -372,13 +372,17 @@
           "data": "30/12/2025"
         },
         {
+          "nome": "updselro.prw",
+          "data": "18/02/2026"
+        },
+        {
           "nome": "updtmp.prw",
           "data": "12/05/2025"
         }
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 12,
+        "fontes": 13,
         "pontos_entrada": 0
       },
       "downloads": []
@@ -523,7 +527,7 @@
         },
         {
           "nome": "tbcagro.financeiro.derivativos.validacao_pe.tlpp",
-          "data": "03/02/2026"
+          "data": "18/02/2026"
         }
       ],
       "ponto_de_entrada": [],
@@ -1050,36 +1054,20 @@
           "data": "24/09/2025"
         },
         {
-          "nome": "tbcagro.agroindustria.exportacao_direta.consulta.devolucoes.tlpp",
-          "data": "30/01/2026"
-        },
-        {
-          "nome": "tbcagro.agroindustria.exportacao_direta.consulta.lotes.tlpp",
-          "data": "21/01/2026"
-        },
-        {
           "nome": "tbcagro.agroindustria.exportacao_direta.consulta.remessas.tlpp",
-          "data": "21/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.ordem.mvc.tlpp",
-          "data": "22/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.pe.tlpp",
-          "data": "21/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.relatorio.controleDeMovimentos.tlpp",
           "data": "02/02/2026"
-        },
-        {
-          "nome": "tbcagro.agroindustria.exportacao_direta.selecao_devolucao.mvc.tlpp",
-          "data": "21/01/2026"
-        },
-        {
-          "nome": "tbcagro.agroindustria.exportacao_direta.selecao_lote.mvc.tlpp",
-          "data": "21/01/2026"
         },
         {
           "nome": "tbcagro.agroindustria.romaneio.classificacao_reduzida.tlpp",
@@ -1088,11 +1076,31 @@
         {
           "nome": "tbcagro.agroindustria.romaneio.pe.tlpp",
           "data": "04/07/2025"
+        },
+        {
+          "nome": "tbcagro.agroindustria.romaneio.selecao_lotes.consulta.devolucoes.tlpp",
+          "data": "18/02/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.romaneio.selecao_lotes.consulta.remessas.tlpp",
+          "data": "18/02/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.romaneio.selecao_lotes.devolucao.mvc.tlpp",
+          "data": "18/02/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.romaneio.selecao_lotes.pe.tlpp",
+          "data": "18/02/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.romaneio.selecao_lotes.remessa.mvc.tlpp",
+          "data": "18/02/2026"
         }
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 56,
+        "fontes": 57,
         "pontos_entrada": 0
       },
       "downloads": []
@@ -1317,19 +1325,23 @@
         },
         {
           "nome": "OG009PTL.prw",
-          "data": "21/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "OG250MNU.PRW",
-          "data": "21/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "OG250NFVD.prw",
           "data": "05/06/2025"
         },
         {
+          "nome": "OG250RDEL.prw",
+          "data": "18/02/2026"
+        },
+        {
           "nome": "OG251MNU.PRW",
-          "data": "21/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "OGA251R1.PRW",
@@ -1344,8 +1356,12 @@
           "data": "05/06/2025"
         },
         {
+          "nome": "OGX008PG.prw",
+          "data": "18/02/2026"
+        },
+        {
           "nome": "OGX008PV.prw",
-          "data": "21/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "OMSNEDAK.prw",
@@ -1377,7 +1393,7 @@
         },
         {
           "nome": "PE_OG250ATUC.PRW",
-          "data": "21/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "PE_OG280MNU.PRW",
@@ -1389,7 +1405,7 @@
         },
         {
           "nome": "PE_OGA250.prw",
-          "data": "28/01/2026"
+          "data": "18/02/2026"
         },
         {
           "nome": "PE_OGA260.PRW",
@@ -1429,12 +1445,12 @@
         },
         {
           "nome": "VLDLTNJM.prw",
-          "data": "21/01/2026"
+          "data": "18/02/2026"
         }
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 83,
+        "fontes": 85,
         "pontos_entrada": 0
       },
       "downloads": []
