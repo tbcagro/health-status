@@ -655,6 +655,10 @@
       ],
       "ponto_de_entrada": [
         {
+          "funcao": "M460FIM",
+          "data": "21/01/2026"
+        },
+        {
           "funcao": "OG250RDEL",
           "data": "18/02/2026"
         },
@@ -669,7 +673,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 3
+        "pontos_entrada": 4
       },
       "downloads": []
     },
@@ -1275,15 +1279,10 @@
           "data": "12/12/2024"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "M460FIM",
-          "data": "21/01/2026"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 32,
-        "pontos_entrada": 1
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -2032,7 +2031,7 @@
         },
         {
           "nome": "IAG67R10.PRW",
-          "data": "20/10/2025"
+          "data": "20/02/2026"
         },
         {
           "nome": "IAG67R13.PRW",
