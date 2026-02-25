@@ -2098,7 +2098,7 @@
       "fontes": [
         {
           "nome": "Dic_cessao.prw",
-          "data": "12/05/2025"
+          "data": "25/02/2026"
         }
       ],
       "SX2": {
@@ -2276,6 +2276,11 @@
             "X3_TITULO": "Vlr Liquidado"
           },
           {
+            "X3_ARQUIVO": "YA9",
+            "X3_CAMPO": "YA9_VLRIMP",
+            "X3_TITULO": "Impostos"
+          },
+          {
             "X3_ARQUIVO": "YAA",
             "X3_CAMPO": "YAA_CESSAO",
             "X3_TITULO": "Cessão"
@@ -2346,7 +2351,7 @@
             "X3_TITULO": "Valor"
           }
         ],
-        "total": 45
+        "total": 46
       },
       "SIX": {
         "registros": [
