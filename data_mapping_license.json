@@ -2,7 +2,7 @@
 	"license":[
 
 		{
-			"nome":"FINANCEIRO_CESSAO_CREDITO",
+			"nome":"FIN_CESSAO_CREDITO",
 			"diretorio":"FIN_CESSAO_DE_CREDITO",
 			"dicionario":"DIC_CESSAO"
 		},
@@ -100,3 +100,4 @@
 	]
 
 }
+
