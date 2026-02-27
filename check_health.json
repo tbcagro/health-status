@@ -655,10 +655,6 @@
       ],
       "ponto_de_entrada": [
         {
-          "funcao": "M460FIM",
-          "data": "21/01/2026"
-        },
-        {
           "funcao": "OG250RDEL",
           "data": "18/02/2026"
         },
@@ -673,7 +669,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 4
+        "pontos_entrada": 3
       },
       "downloads": []
     },
@@ -1279,10 +1275,15 @@
           "data": "12/12/2024"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "M460FIM",
+          "data": "21/01/2026"
+        }
+      ],
       "totais": {
         "fontes": 32,
-        "pontos_entrada": 0
+        "pontos_entrada": 1
       },
       "downloads": []
     },
