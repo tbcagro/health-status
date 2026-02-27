@@ -2099,7 +2099,7 @@
       "fontes": [
         {
           "nome": "Dic_cessao.prw",
-          "data": "25/02/2026"
+          "data": "27/02/2026"
         }
       ],
       "SX2": {
@@ -2350,9 +2350,14 @@
             "X3_ARQUIVO": "YAA",
             "X3_CAMPO": "YAA_VALOR",
             "X3_TITULO": "Valor"
+          },
+          {
+            "X3_ARQUIVO": "YAA",
+            "X3_CAMPO": "YAA_VLRIMP",
+            "X3_TITULO": "Impostos"
           }
         ],
-        "total": 46
+        "total": 47
       },
       "SIX": {
         "registros": [
@@ -2388,17 +2393,6 @@
           }
         ],
         "total": 6
-      },
-      "SX7": {
-        "registros": [
-          {
-            "X7_CAMPO": "C5_DATA1",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "U_CAG05G02()",
-            "X7_CDOMIN": "C5_DATA1"
-          }
-        ],
-        "total": 1
       },
       "SXA": {
         "registros": [
