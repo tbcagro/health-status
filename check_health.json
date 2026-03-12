@@ -586,8 +586,12 @@
           "data": "04/12/2025"
         },
         {
+          "nome": "tbcagro.agroindustria.consuta.impostos.tlpp",
+          "data": "12/03/2026"
+        },
+        {
           "nome": "tbcagro.agroindustria.contratos.consulta_entidade.tlpp",
-          "data": "24/09/2025"
+          "data": "12/03/2026"
         }
       ],
       "ponto_de_entrada": [
@@ -629,7 +633,7 @@
         }
       ],
       "totais": {
-        "fontes": 11,
+        "fontes": 12,
         "pontos_entrada": 9
       },
       "downloads": []
