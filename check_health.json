@@ -375,19 +375,11 @@
         {
           "funcao": "M410ALOK",
           "data": "30/12/2025"
-        },
-        {
-          "funcao": "OGA280",
-          "data": "13/03/2026"
-        },
-        {
-          "funcao": "PE_OGA290",
-          "data": "13/03/2026"
         }
       ],
       "totais": {
         "fontes": 11,
-        "pontos_entrada": 6
+        "pontos_entrada": 4
       },
       "downloads": []
     },
@@ -638,11 +630,15 @@
         {
           "funcao": "OGA430G1",
           "data": "05/06/2025"
+        },
+        {
+          "funcao": "PE_OGA290",
+          "data": "13/03/2026"
         }
       ],
       "totais": {
         "fontes": 12,
-        "pontos_entrada": 10
+        "pontos_entrada": 11
       },
       "downloads": []
     },
@@ -650,15 +646,15 @@
       "fontes": [
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.consulta.remessas.tlpp",
-          "data": "23/02/2026"
+          "data": "25/03/2026"
         },
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.ordem.mvc.tlpp",
-          "data": "23/02/2026"
+          "data": "25/03/2026"
         },
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.pe.tlpp",
-          "data": "23/02/2026"
+          "data": "25/03/2026"
         },
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.relatorio.controleDeMovimentos.tlpp",
@@ -666,6 +662,14 @@
         }
       ],
       "ponto_de_entrada": [
+        {
+          "funcao": "M460FIM",
+          "data": "21/01/2026"
+        },
+        {
+          "funcao": "MTXMOEDA",
+          "data": "25/03/2026"
+        },
         {
           "funcao": "OG250RDEL",
           "data": "18/02/2026"
@@ -681,7 +685,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 3
+        "pontos_entrada": 5
       },
       "downloads": []
     },
@@ -819,7 +823,7 @@
         },
         {
           "nome": "tbcagro.agroindustria.romaneio.selecao_lotes.pe.tlpp",
-          "data": "03/03/2026"
+          "data": "25/03/2026"
         },
         {
           "nome": "tbcagro.agroindustria.romaneio.selecao_lotes.remessa.mvc.tlpp",
@@ -1291,15 +1295,10 @@
           "data": "05/03/2026"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "M460FIM",
-          "data": "21/01/2026"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 32,
-        "pontos_entrada": 1
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -1699,7 +1698,7 @@
         },
         {
           "nome": "UBA67A40.TLPP",
-          "data": "04/07/2025"
+          "data": "25/03/2026"
         },
         {
           "nome": "UBA67A41.TLPP",
@@ -1729,7 +1728,7 @@
         },
         {
           "funcao": "MTXMOEDA",
-          "data": "22/09/2025"
+          "data": "25/03/2026"
         }
       ],
       "totais": {
@@ -4779,7 +4778,7 @@
       "fontes": [
         {
           "nome": "updexpdi.prw",
-          "data": "18/02/2026"
+          "data": "25/03/2026"
         }
       ],
       "SX2": {
@@ -4949,6 +4948,11 @@
           },
           {
             "X3_ARQUIVO": "Y18",
+            "X3_CAMPO": "Y18_CHVREM",
+            "X3_TITULO": "Chave NF Rem"
+          },
+          {
+            "X3_ARQUIVO": "Y18",
             "X3_CAMPO": "Y18_CODIGO",
             "X3_TITULO": "Nr. Ord. Exp"
           },
@@ -5018,7 +5022,7 @@
             "X3_TITULO": "Unid. Medida"
           }
         ],
-        "total": 44
+        "total": 45
       },
       "SIX": {
         "registros": [
@@ -5049,6 +5053,18 @@
           }
         ],
         "total": 5
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_EXDICPL",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Exportação Direta Info. Comple.",
+            "X6_CONTEUD": ""
+          }
+        ],
+        "total": 1
       }
     },
     "UPDFECHA": {
