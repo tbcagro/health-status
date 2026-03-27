@@ -375,19 +375,11 @@
         {
           "funcao": "M410ALOK",
           "data": "30/12/2025"
-        },
-        {
-          "funcao": "OGA280",
-          "data": "13/03/2026"
-        },
-        {
-          "funcao": "PE_OGA290",
-          "data": "13/03/2026"
         }
       ],
       "totais": {
         "fontes": 11,
-        "pontos_entrada": 6
+        "pontos_entrada": 4
       },
       "downloads": []
     },
@@ -399,7 +391,7 @@
         },
         {
           "nome": "IAG67B02.PRW",
-          "data": "05/03/2026"
+          "data": "27/03/2026"
         },
         {
           "nome": "IAG67B03.PRW",
@@ -435,7 +427,7 @@
         },
         {
           "nome": "IAG67B13.tlpp",
-          "data": "10/03/2026"
+          "data": "27/03/2026"
         },
         {
           "nome": "IAG67B14.tlpp",
@@ -638,11 +630,15 @@
         {
           "funcao": "OGA430G1",
           "data": "05/06/2025"
+        },
+        {
+          "funcao": "PE_OGA290",
+          "data": "13/03/2026"
         }
       ],
       "totais": {
         "fontes": 12,
-        "pontos_entrada": 10
+        "pontos_entrada": 11
       },
       "downloads": []
     },
@@ -667,6 +663,10 @@
       ],
       "ponto_de_entrada": [
         {
+          "funcao": "M460FIM",
+          "data": "21/01/2026"
+        },
+        {
           "funcao": "MTXMOEDA",
           "data": "25/03/2026"
         },
@@ -685,7 +685,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 4
+        "pontos_entrada": 5
       },
       "downloads": []
     },
@@ -1295,15 +1295,10 @@
           "data": "05/03/2026"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "M460FIM",
-          "data": "21/01/2026"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 32,
-        "pontos_entrada": 1
+        "pontos_entrada": 0
       },
       "downloads": []
     },
