@@ -794,7 +794,7 @@
       "ponto_de_entrada": [
         {
           "funcao": "OG250MNU",
-          "data": "18/02/2026"
+          "data": "31/03/2026"
         },
         {
           "funcao": "OG251MNU",
@@ -841,7 +841,7 @@
         },
         {
           "funcao": "OG250MNU",
-          "data": "18/02/2026"
+          "data": "31/03/2026"
         },
         {
           "funcao": "OG251MNU",
@@ -2118,6 +2118,38 @@
     }
   },
   "dicionario": {
+    "ADVPL_CONTEXT_REFERENCE": {
+      "fontes": [
+        {
+          "nome": "ADVPL_CONTEXT_REFERENCE.md",
+          "data": "31/03/2026"
+        }
+      ]
+    },
+    "ADVPL_CONTEXT_REFERENCE_CLASSES": {
+      "fontes": [
+        {
+          "nome": "ADVPL_CONTEXT_REFERENCE_CLASSES.md",
+          "data": "31/03/2026"
+        }
+      ]
+    },
+    "ADVPL_CONTEXT_REFERENCE_FUNCTIONS": {
+      "fontes": [
+        {
+          "nome": "ADVPL_CONTEXT_REFERENCE_FUNCTIONS.md",
+          "data": "31/03/2026"
+        }
+      ]
+    },
+    "CONVERTER_ADVPL_TO_MD": {
+      "fontes": [
+        {
+          "nome": "converter_advpl_to_md.py",
+          "data": "31/03/2026"
+        }
+      ]
+    },
     "DIC_CESSAO": {
       "fontes": [
         {
@@ -2476,6 +2508,14 @@
         ],
         "total": 2
       }
+    },
+    "PROTHEUS": {
+      "fontes": [
+        {
+          "nome": "protheus.md",
+          "data": "31/03/2026"
+        }
+      ]
     },
     "UBACOM": {
       "fontes": [
@@ -6954,6 +6994,14 @@
         ],
         "total": 12
       }
+    },
+    "UPDIAG_CONFIG": {
+      "fontes": [
+        {
+          "nome": "updiag_config.json",
+          "data": "31/03/2026"
+        }
+      ]
     },
     "UPDLAUDO": {
       "fontes": [
