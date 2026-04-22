@@ -375,11 +375,19 @@
         {
           "funcao": "M410ALOK",
           "data": "30/12/2025"
+        },
+        {
+          "funcao": "OGA280",
+          "data": "13/03/2026"
+        },
+        {
+          "funcao": "PE_OGA290",
+          "data": "13/03/2026"
         }
       ],
       "totais": {
         "fontes": 11,
-        "pontos_entrada": 4
+        "pontos_entrada": 6
       },
       "downloads": []
     },
@@ -630,15 +638,11 @@
         {
           "funcao": "OGA430G1",
           "data": "05/06/2025"
-        },
-        {
-          "funcao": "PE_OGA290",
-          "data": "13/03/2026"
         }
       ],
       "totais": {
         "fontes": 12,
-        "pontos_entrada": 11
+        "pontos_entrada": 10
       },
       "downloads": []
     },
@@ -663,10 +667,6 @@
       ],
       "ponto_de_entrada": [
         {
-          "funcao": "M460FIM",
-          "data": "21/01/2026"
-        },
-        {
           "funcao": "MTXMOEDA",
           "data": "25/03/2026"
         },
@@ -685,7 +685,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 5
+        "pontos_entrada": 4
       },
       "downloads": []
     },
@@ -840,6 +840,10 @@
           "data": "18/02/2026"
         },
         {
+          "funcao": "OG250MNU",
+          "data": "31/03/2026"
+        },
+        {
           "funcao": "OG251MNU",
           "data": "18/02/2026"
         },
@@ -858,7 +862,7 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 6
+        "pontos_entrada": 7
       },
       "downloads": []
     },
@@ -873,15 +877,10 @@
           "data": "04/07/2025"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "OG250MNU",
-          "data": "31/03/2026"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 2,
-        "pontos_entrada": 1
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -1296,10 +1295,15 @@
           "data": "05/03/2026"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "M460FIM",
+          "data": "21/01/2026"
+        }
+      ],
       "totais": {
         "fontes": 32,
-        "pontos_entrada": 0
+        "pontos_entrada": 1
       },
       "downloads": []
     },
