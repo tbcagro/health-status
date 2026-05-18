@@ -375,19 +375,11 @@
         {
           "funcao": "M410ALOK",
           "data": "30/12/2025"
-        },
-        {
-          "funcao": "OGA280",
-          "data": "13/03/2026"
-        },
-        {
-          "funcao": "PE_OGA290",
-          "data": "13/03/2026"
         }
       ],
       "totais": {
         "fontes": 11,
-        "pontos_entrada": 6
+        "pontos_entrada": 4
       },
       "downloads": []
     },
@@ -638,11 +630,15 @@
         {
           "funcao": "OGA430G1",
           "data": "05/06/2025"
+        },
+        {
+          "funcao": "PE_OGA290",
+          "data": "13/03/2026"
         }
       ],
       "totais": {
         "fontes": 12,
-        "pontos_entrada": 10
+        "pontos_entrada": 11
       },
       "downloads": []
     },
@@ -840,10 +836,6 @@
           "data": "18/02/2026"
         },
         {
-          "funcao": "OG250MNU",
-          "data": "31/03/2026"
-        },
-        {
           "funcao": "OG251MNU",
           "data": "18/02/2026"
         },
@@ -862,7 +854,7 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 7
+        "pontos_entrada": 6
       },
       "downloads": []
     },
@@ -877,10 +869,15 @@
           "data": "04/07/2025"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "OG250MNU",
+          "data": "31/03/2026"
+        }
+      ],
       "totais": {
         "fontes": 2,
-        "pontos_entrada": 0
+        "pontos_entrada": 1
       },
       "downloads": []
     },
@@ -7237,6 +7234,128 @@
           }
         ],
         "total": 1
+      }
+    },
+    "UPDLINEG": {
+      "fontes": [
+        {
+          "nome": "updlineg.prw",
+          "data": "18/05/2026"
+        }
+      ],
+      "SX2": {
+        "registros": [
+          {
+            "X2_CHAVE": "YAQ",
+            "X2_NOME": "Livre Negociação Compras"
+          }
+        ],
+        "total": 1
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_COD",
+            "X3_TITULO": "Código"
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_DATA",
+            "X3_TITULO": "Dt. Vencto."
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_FILIAL",
+            "X3_TITULO": "Filial"
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_ITEM",
+            "X3_TITULO": "Item"
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_NFISCA",
+            "X3_TITULO": "Nota Fiscal"
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_NUM",
+            "X3_TITULO": "Num P.C."
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_SERIE",
+            "X3_TITULO": "Série"
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_TEMP",
+            "X3_TITULO": "Reg. Temp."
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_TIPO",
+            "X3_TITULO": "Tipo Lancto."
+          },
+          {
+            "X3_ARQUIVO": "YAQ",
+            "X3_CAMPO": "YAQ_VALOR",
+            "X3_TITULO": "Vlr. Parcela"
+          }
+        ],
+        "total": 10
+      },
+      "SIX": {
+        "registros": [
+          {
+            "INDICE": "YAQ",
+            "CHAVE": "YAQ_FILIAL+YAQ_COD+YAQ_NUM",
+            "ORDEM": "1"
+          }
+        ],
+        "total": 1
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VRBCPGR",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Define o preço que sera utilizado no barter na",
+            "X6_CONTEUD": "2"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "TA_CCRDMBX",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Motivos de Baixa utilizado para Barter / Cessao de",
+            "X6_CONTEUD": "DAC"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "TA_NATPAG",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Informar natureza cessao de credito a pagar",
+            "X6_CONTEUD": "101002"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "TA_NATREC",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Informar natureza cessao de crdito a receber",
+            "X6_CONTEUD": "10010102"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "TA_TPCESSA",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Tipos de Cessao de Credito aceitos",
+            "X6_CONTEUD": "P=Pagar;R=Receber;C=Compensacao;B=Barter"
+          }
+        ],
+        "total": 5
       }
     },
     "UPDPIMSA": {
