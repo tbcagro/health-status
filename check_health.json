@@ -3714,7 +3714,7 @@
       "fontes": [
         {
           "nome": "updderiv.prw",
-          "data": "30/12/2025"
+          "data": "20/05/2026"
         }
       ],
       "SX2": {
@@ -3733,6 +3733,226 @@
           }
         ],
         "total": 3
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_ACAO",
+            "X3_TITULO": "Ação"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_AGENCI",
+            "X3_TITULO": "Nro Agencia"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_BANCO",
+            "X3_TITULO": "Banco"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_CORRET",
+            "X3_TITULO": "Cod Correto"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_DESPRO",
+            "X3_TITULO": "Des. Produto"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_DTCONT",
+            "X3_TITULO": "Dt Contrat."
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_FILIAL",
+            "X3_TITULO": "Filial"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_HEDGE",
+            "X3_TITULO": "Hedge"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_ID",
+            "X3_TITULO": "Id"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_LOJACO",
+            "X3_TITULO": "Loja Correto"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_MARERR",
+            "X3_TITULO": "Margem Erro"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_MOEDA",
+            "X3_TITULO": "Moeda"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_MSBLQL",
+            "X3_TITULO": "Bloqueado?"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_NCORRE",
+            "X3_TITULO": "Corretora"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_NUMCON",
+            "X3_TITULO": "Nro Conta"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_OBS",
+            "X3_TITULO": "Observação"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_PRODUT",
+            "X3_TITULO": "Cod. Produto"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_QTDCON",
+            "X3_TITULO": "Qtd Contrat"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_SITUAC",
+            "X3_TITULO": "Situação"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_TIPO",
+            "X3_TITULO": "Tipo NDF"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_TXMOED",
+            "X3_TITULO": "Taxa Termo"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_VENCIM",
+            "X3_TITULO": "Vencimento"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_VINC",
+            "X3_TITULO": "Viculado"
+          },
+          {
+            "X3_ARQUIVO": "YAM",
+            "X3_CAMPO": "YAM_VLNOCI",
+            "X3_TITULO": "Vl Nocional"
+          },
+          {
+            "X3_ARQUIVO": "YAN",
+            "X3_CAMPO": "YAN_CODENT",
+            "X3_TITULO": "Cod.Entidade"
+          },
+          {
+            "X3_ARQUIVO": "YAN",
+            "X3_CAMPO": "YAN_CONTRA",
+            "X3_TITULO": "Contrato"
+          },
+          {
+            "X3_ARQUIVO": "YAN",
+            "X3_CAMPO": "YAN_FILIAL",
+            "X3_TITULO": "Filial"
+          },
+          {
+            "X3_ARQUIVO": "YAN",
+            "X3_CAMPO": "YAN_ID",
+            "X3_TITULO": "Id"
+          },
+          {
+            "X3_ARQUIVO": "YAN",
+            "X3_CAMPO": "YAN_LOJENT",
+            "X3_TITULO": "Loj.Entidade"
+          },
+          {
+            "X3_ARQUIVO": "YAN",
+            "X3_CAMPO": "YAN_NOMENT",
+            "X3_TITULO": "Nom.Entidade"
+          },
+          {
+            "X3_ARQUIVO": "YAN",
+            "X3_CAMPO": "YAN_TABELA",
+            "X3_TITULO": "Tabela Contr"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_CHAVE",
+            "X3_TITULO": "Chave Titulo"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_DATA",
+            "X3_TITULO": "Data"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_FILIAL",
+            "X3_TITULO": "Filial"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_ID",
+            "X3_TITULO": "Id"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_LA",
+            "X3_TITULO": "Ident.L.A."
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_NDF",
+            "X3_TITULO": " NDF"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_OK",
+            "X3_TITULO": "Ok"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_PTAX",
+            "X3_TITULO": "PTAX"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_RECPAG",
+            "X3_TITULO": "Rec/Pag?"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_TXMOED",
+            "X3_TITULO": "Taxa Termo"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_VARIAC",
+            "X3_TITULO": "Variação Tx"
+          },
+          {
+            "X3_ARQUIVO": "YAP",
+            "X3_CAMPO": "YAP_VLVARI",
+            "X3_TITULO": "Vlr Variação"
+          }
+        ],
+        "total": 43
       },
       "SIX": {
         "registros": [
@@ -3770,7 +3990,7 @@
           },
           {
             "X7_CAMPO": "YAM_PRODUT",
-            "X7_SEQUENC": "001",
+            "X7_SEQUENC": "501",
             "X7_REGRA": "SB1->B1_DESC",
             "X7_CDOMIN": "YAM_DESPRO"
           }
@@ -3813,28 +4033,28 @@
             "X6_VAR": "IA_LCTVNDF",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Lote de contabilização da varaição",
-            "X6_CONTEUD": "999999"
+            "X6_CONTEUD": ""
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_LPCVNDF",
             "X6_TIPO": "C",
             "X6_DESCRIC": "LP usada na contabilização da variação",
-            "X6_CONTEUD": "001"
+            "X6_CONTEUD": ""
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_NTPRNDF",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Define a natureza do Titulo de Provisorio NDF",
-            "X6_CONTEUD": "101006"
+            "X6_CONTEUD": ""
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_NTVRNDF",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Define a natureza do Titulo de Variação NDF",
-            "X6_CONTEUD": "101006"
+            "X6_CONTEUD": ""
           },
           {
             "X6_FIL": "  ",
