@@ -7861,7 +7861,7 @@
       "fontes": [
         {
           "nome": "updtmp.prw",
-          "data": "12/05/2025"
+          "data": "25/05/2026"
         }
       ],
       "SX2": {
@@ -8313,6 +8313,21 @@
             "XB_DESCRI": ""
           },
           {
+            "XB_ALIAS": "NJRROM",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Contratos OG"
+          },
+          {
+            "XB_ALIAS": "NJRROM",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "NJRROM",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
             "XB_ALIAS": "NP4",
             "XB_SEQ": "01",
             "XB_DESCRI": "Cultivares"
@@ -8688,7 +8703,7 @@
             "XB_DESCRI": ""
           }
         ],
-        "total": 103
+        "total": 106
       },
       "SX9": {
         "registros": [
