@@ -469,7 +469,7 @@
         },
         {
           "funcao": "OGA250",
-          "data": "18/02/2026"
+          "data": "26/05/2026"
         },
         {
           "funcao": "OGA280",
@@ -526,7 +526,7 @@
       "ponto_de_entrada": [
         {
           "funcao": "OGA250",
-          "data": "18/02/2026"
+          "data": "26/05/2026"
         }
       ],
       "totais": {
@@ -685,6 +685,33 @@
       },
       "downloads": []
     },
+    "OG_FACILITADOR_ROMANEIO": {
+      "fontes": [
+        {
+          "nome": "tbcagro.agroindustria.facilitador_romaneio.consulta.contrato.tlpp",
+          "data": "26/05/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.facilitador_romaneio.consulta.notafiscal.tlpp",
+          "data": "26/05/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.facilitador_romaneio.pe.tlpp",
+          "data": "26/05/2026"
+        }
+      ],
+      "ponto_de_entrada": [
+        {
+          "funcao": "OGA250",
+          "data": "26/05/2026"
+        }
+      ],
+      "totais": {
+        "fontes": 3,
+        "pontos_entrada": 1
+      },
+      "downloads": []
+    },
     "OG_FECHAMENTO_FINANCEIRO": {
       "fontes": [
         {
@@ -840,10 +867,6 @@
           "data": "18/02/2026"
         },
         {
-          "funcao": "OGA250",
-          "data": "18/02/2026"
-        },
-        {
           "funcao": "OGX008PV",
           "data": "18/02/2026"
         },
@@ -854,7 +877,7 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 6
+        "pontos_entrada": 5
       },
       "downloads": []
     },
@@ -1782,7 +1805,7 @@
       "ponto_de_entrada": [
         {
           "funcao": "OGA250",
-          "data": "18/02/2026"
+          "data": "26/05/2026"
         }
       ],
       "totais": {
