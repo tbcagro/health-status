@@ -448,6 +448,10 @@
         {
           "nome": "IAG67B18.tlpp",
           "data": "18/06/2025"
+        },
+        {
+          "nome": "tbcagro.agroindustria.barter.pe.tlpp",
+          "data": "26/05/2026"
         }
       ],
       "ponto_de_entrada": [
@@ -477,7 +481,7 @@
         }
       ],
       "totais": {
-        "fontes": 16,
+        "fontes": 17,
         "pontos_entrada": 6
       },
       "downloads": []
