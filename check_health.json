@@ -456,10 +456,6 @@
           "data": "30/12/2025"
         },
         {
-          "funcao": "MA440VLD",
-          "data": "13/05/2025"
-        },
-        {
           "funcao": "MT410ACE",
           "data": "14/05/2025"
         },
@@ -482,7 +478,7 @@
       ],
       "totais": {
         "fontes": 16,
-        "pontos_entrada": 7
+        "pontos_entrada": 6
       },
       "downloads": []
     },
@@ -1052,10 +1048,15 @@
           "data": "25/08/2025"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "MA410MNU",
+          "data": "26/05/2026"
+        }
+      ],
       "totais": {
         "fontes": 41,
-        "pontos_entrada": 0
+        "pontos_entrada": 1
       },
       "downloads": []
     },
@@ -2074,50 +2075,46 @@
     "UBS_SELECAO_LOTES": {
       "fontes": [
         {
-          "nome": "IAG04A01.prw",
-          "data": "18/06/2025"
-        },
-        {
-          "nome": "IAG05A01.prw",
-          "data": "16/03/2026"
-        },
-        {
-          "nome": "IAG39A01.tlpp",
-          "data": "28/10/2025"
-        },
-        {
           "nome": "IAG67A29.TLPP",
-          "data": "16/03/2026"
-        },
-        {
-          "nome": "IAG67A30.TLPP",
-          "data": "30/01/2026"
+          "data": "26/05/2026"
         },
         {
           "nome": "IAG67A35.tlpp",
-          "data": "23/10/2025"
+          "data": "26/05/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.selecao_lotes.browse.tlpp",
+          "data": "26/05/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.selecao_lotes.mvc.tlpp",
+          "data": "26/05/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.selecao_lotes.pe.tlpp",
+          "data": "26/05/2026"
         }
       ],
       "ponto_de_entrada": [
         {
           "funcao": "M440SC9I",
-          "data": "12/06/2025"
+          "data": "26/05/2026"
         },
         {
-          "funcao": "MA410MNU",
-          "data": "16/03/2026"
+          "funcao": "MA440VLD",
+          "data": "26/05/2026"
         },
         {
           "funcao": "MTA440L",
-          "data": "13/05/2025"
+          "data": "26/05/2026"
         },
         {
           "funcao": "OMSNEDAK",
-          "data": "12/06/2025"
+          "data": "26/05/2026"
         }
       ],
       "totais": {
-        "fontes": 6,
+        "fontes": 5,
         "pontos_entrada": 4
       },
       "downloads": []
