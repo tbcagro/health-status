@@ -451,7 +451,7 @@
         },
         {
           "nome": "tbcagro.agroindustria.barter.pe.tlpp",
-          "data": "26/05/2026"
+          "data": "28/05/2026"
         }
       ],
       "ponto_de_entrada": [
@@ -1600,10 +1600,15 @@
           "data": "25/08/2025"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "MT410CPY",
+          "data": "28/05/2026"
+        }
+      ],
       "totais": {
         "fontes": 41,
-        "pontos_entrada": 0
+        "pontos_entrada": 1
       },
       "downloads": []
     },
@@ -2124,7 +2129,7 @@
         },
         {
           "funcao": "MA410MNU",
-          "data": "26/05/2026"
+          "data": "28/05/2026"
         },
         {
           "funcao": "MA440VLD",
