@@ -675,6 +675,10 @@
           "data": "18/02/2026"
         },
         {
+          "funcao": "OGX008PV",
+          "data": "26/05/2026"
+        },
+        {
           "funcao": "SF2460I",
           "data": "20/05/2026"
         },
@@ -685,7 +689,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 5
+        "pontos_entrada": 6
       },
       "downloads": []
     },
@@ -871,17 +875,13 @@
           "data": "18/02/2026"
         },
         {
-          "funcao": "OGX008PV",
-          "data": "26/05/2026"
-        },
-        {
           "funcao": "VLDLTNJM",
           "data": "18/02/2026"
         }
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 5
+        "pontos_entrada": 4
       },
       "downloads": []
     },
@@ -1075,15 +1075,10 @@
           "data": "25/08/2025"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "MA410MNU",
-          "data": "26/05/2026"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 41,
-        "pontos_entrada": 1
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -2128,6 +2123,10 @@
           "data": "26/05/2026"
         },
         {
+          "funcao": "MA410MNU",
+          "data": "26/05/2026"
+        },
+        {
           "funcao": "MA440VLD",
           "data": "26/05/2026"
         },
@@ -2142,7 +2141,7 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 4
+        "pontos_entrada": 5
       },
       "downloads": []
     }
