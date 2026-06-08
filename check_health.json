@@ -7653,7 +7653,7 @@
       "fontes": [
         {
           "nome": "updrepro.prw",
-          "data": "30/12/2025"
+          "data": "08/06/2026"
         }
       ],
       "SIX": {
@@ -7695,6 +7695,26 @@
           }
         ],
         "total": 4
+      },
+      "SXB": {
+        "registros": [
+          {
+            "XB_ALIAS": "NJRRPL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Replicador de Romane"
+          },
+          {
+            "XB_ALIAS": "NJRRPL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "NJRRPL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          }
+        ],
+        "total": 3
       }
     },
     "UPDSELRO": {
