@@ -6309,7 +6309,7 @@
       "fontes": [
         {
           "nome": "updiag.prw",
-          "data": "12/05/2026"
+          "data": "09/06/2026"
         }
       ],
       "SX2": {
@@ -6411,31 +6411,11 @@
             "X2_NOME": "Planejamento de TSI"
           },
           {
-            "X2_CHAVE": "YAO",
-            "X2_NOME": "Planejamento Cultivar"
+            "X2_CHAVE": "Y0O",
+            "X2_NOME": "Movimentação de Integração"
           }
         ],
         "total": 25
-      },
-      "SX3": {
-        "registros": [
-          {
-            "X3_ARQUIVO": "Y0F",
-            "X3_CAMPO": "Y0F_CONTRA",
-            "X3_TITULO": "Contrato"
-          },
-          {
-            "X3_ARQUIVO": "Y0F",
-            "X3_CAMPO": "Y0F_NOMENT",
-            "X3_TITULO": "Nome Entid."
-          },
-          {
-            "X3_ARQUIVO": "Y0F",
-            "X3_CAMPO": "Y0F_PRODUT",
-            "X3_TITULO": "Produto"
-          }
-        ],
-        "total": 3
       },
       "SIX": {
         "registros": [
@@ -6535,6 +6515,11 @@
             "ORDEM": "1"
           },
           {
+            "INDICE": "Y03",
+            "CHAVE": "Y03_FILIAL+Y03_LOTE",
+            "ORDEM": "2"
+          },
+          {
             "INDICE": "Y04",
             "CHAVE": "Y04_FILIAL+Y04_PLANEJ+Y04_PROD+Y04_SAFRA+Y04_LOTE+Y04_PRDINS+Y04_LOCINS+Y04_LOTINS+Y04_ENDINS+Y04_SUBINS+Y04_OPITSQ",
             "ORDEM": "1"
@@ -6611,7 +6596,7 @@
           },
           {
             "INDICE": "Y0D",
-            "CHAVE": "Y0D_FILIAL+Y0D_ROMANE+Y0D_IDREGR+Y0D_SEQBON",
+            "CHAVE": "Y0D_FILIAL+Y0D_ROMANE+Y0D_ITEROM+Y0D_IDREGR+Y0D_SEQBON",
             "ORDEM": "1"
           },
           {
@@ -6627,7 +6612,7 @@
           {
             "INDICE": "Y0F",
             "CHAVE": "Y0F_FILIAL+Y0F_NUMFEC+Y0F_SAFRA",
-            "ORDEM": "1"
+            "ORDEM": "2"
           },
           {
             "INDICE": "Y0G",
@@ -6685,12 +6670,17 @@
             "ORDEM": "2"
           },
           {
-            "INDICE": "YAO",
-            "CHAVE": "YAO_FILIAL+YAO_ID",
+            "INDICE": "Y0O",
+            "CHAVE": "Y0O_FILIAL+Y0O_IDMOV",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "Y0O",
+            "CHAVE": "Y0O_FILIAL+Y0O_OPERAC+Y0O_IDMOV+Y0O_SERIE+Y0O_NUMDOC",
+            "ORDEM": "2"
           }
         ],
-        "total": 50
+        "total": 52
       },
       "SX7": {
         "registros": [
@@ -6801,63 +6791,9 @@
             "X7_SEQUENC": "501",
             "X7_REGRA": "NJ0->NJ0_NOME",
             "X7_CDOMIN": "Y08_NOMENT"
-          },
-          {
-            "X7_CAMPO": "YAO_CTVAR",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "NP4->NP4_DESCRI",
-            "X7_CDOMIN": "YAO_CTVDES"
-          },
-          {
-            "X7_CAMPO": "YAO_CULTRA",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "NP3->NP3_DESCRI",
-            "X7_CDOMIN": "YAO_CTRDES"
-          },
-          {
-            "X7_CAMPO": "YAO_ENTCLI",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "NJ0->NJ0_NOME",
-            "X7_CDOMIN": "YAO_NOMCLI"
-          },
-          {
-            "X7_CAMPO": "YAO_ENTCOP",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "NJ0->NJ0_NOME",
-            "X7_CDOMIN": "YAO_NOMCOP"
-          },
-          {
-            "X7_CAMPO": "YAO_LOCAL",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "NNR->NNR_DESCRI",
-            "X7_CDOMIN": "YAO_ARMAZE"
-          },
-          {
-            "X7_CAMPO": "YAO_LOJCLI",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "NJ0->NJ0_NOME",
-            "X7_CDOMIN": "YAO_NOMCLI"
-          },
-          {
-            "X7_CAMPO": "YAO_LOJCOP",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "NJ0->NJ0_NOME",
-            "X7_CDOMIN": "YAO_NOMCOP"
-          },
-          {
-            "X7_CAMPO": "YAO_PRODUT",
-            "X7_SEQUENC": "501",
-            "X7_REGRA": "SB1->B1_DESC",
-            "X7_CDOMIN": "YAO_PRODES"
-          },
-          {
-            "X7_CAMPO": "YAO_PRODUT",
-            "X7_SEQUENC": "502",
-            "X7_REGRA": "SB1->B1_UM",
-            "X7_CDOMIN": "YAO_UM"
           }
         ],
-        "total": 27
+        "total": 18
       },
       "SXA": {
         "registros": [
@@ -6899,6 +6835,56 @@
           {
             "XB_ALIAS": "Y00",
             "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "CPO Agenda Veiculo"
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Nr. Seq+tipo Lanç."
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Sequencial"
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Tipo Lanç."
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Entidade"
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Lja Entidade"
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Safra"
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "02",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "Y00CLA",
+            "XB_SEQ": "03",
             "XB_DESCRI": ""
           },
           {
@@ -7177,7 +7163,7 @@
             "XB_DESCRI": ""
           }
         ],
-        "total": 58
+        "total": 68
       },
       "SX6": {
         "registros": [
@@ -7186,27 +7172,27 @@
             "X6_VAR": "IA_ADDEQPL",
             "X6_TIPO": "L",
             "X6_DESCRIC": "Define se pode adicionar etiquetas",
-            "X6_CONTEUD": ".T."
+            "X6_CONTEUD": ".F."
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_AZCSMLS",
             "X6_TIPO": "C",
-            "X6_DESCRIC": "Define o Armazem de consumo de insumos",
+            "X6_DESCRIC": "Define o Armazem de consumo de insumos no Processo",
             "X6_CONTEUD": ""
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_AZCSREM",
             "X6_TIPO": "C",
-            "X6_DESCRIC": "Define o Armazem de consumo de insumos",
+            "X6_DESCRIC": "Indica o Armazem de Consumo do Processo",
             "X6_CONTEUD": ""
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_AZCSTSI",
             "X6_TIPO": "C",
-            "X6_DESCRIC": "Define o Armazem de consumo de insumos",
+            "X6_DESCRIC": "Indica quais são os Armazens de consumo do",
             "X6_CONTEUD": ""
           },
           {
@@ -7220,14 +7206,7 @@
             "X6_FIL": "  ",
             "X6_VAR": "IA_AZPRTSI",
             "X6_TIPO": "C",
-            "X6_DESCRIC": "Armazem de produção do TSI",
-            "X6_CONTEUD": ""
-          },
-          {
-            "X6_FIL": "  ",
-            "X6_VAR": "IA_AZPRTSI",
-            "X6_TIPO": "C",
-            "X6_DESCRIC": "Armazem de produção da Reembalagem",
+            "X6_DESCRIC": "Armazem de Produção de TSI",
             "X6_CONTEUD": ""
           },
           {
@@ -7235,13 +7214,13 @@
             "X6_VAR": "IA_BLQENLS",
             "X6_TIPO": "L",
             "X6_DESCRIC": "Define se o endereço pode ser ajustado",
-            "X6_CONTEUD": ".T."
+            "X6_CONTEUD": ".F."
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_DLMETQ",
             "X6_TIPO": "C",
-            "X6_DESCRIC": "Delimitador de separação de etiqueta",
+            "X6_DESCRIC": "",
             "X6_CONTEUD": "|"
           },
           {
@@ -7249,24 +7228,24 @@
             "X6_VAR": "IA_DTHRPRD",
             "X6_TIPO": "L",
             "X6_DESCRIC": "Se .T. deve informar a data e hora da produção.",
-            "X6_CONTEUD": ".T."
+            "X6_CONTEUD": ".F."
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_QRCY02",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Campos para montagem de etiqueta na Y02",
-            "X6_CONTEUD": "Y02_COD|Y02_LOTE|Y02_SEQ"
+            "X6_CONTEUD": "Y02_COD|Y02_LOTE"
           },
           {
             "X6_FIL": "  ",
             "X6_VAR": "IA_URLQRC",
             "X6_TIPO": "C",
-            "X6_DESCRIC": "Url que está vinculada ao QRCode",
+            "X6_DESCRIC": "Url QrCode",
             "X6_CONTEUD": ""
           }
         ],
-        "total": 12
+        "total": 11
       }
     },
     "UPDIAG_CONFIG": {
@@ -7909,45 +7888,11 @@
       "fontes": [
         {
           "nome": "updtmp.prw",
-          "data": "25/05/2026"
+          "data": "09/06/2026"
         }
       ],
-      "SX2": {
-        "registros": [
-          {
-            "X2_CHAVE": "NJJ",
-            "X2_NOME": "Romaneios"
-          },
-          {
-            "X2_CHAVE": "NP4",
-            "X2_NOME": "Cultivares"
-          },
-          {
-            "X2_CHAVE": "NP8",
-            "X2_NOME": "Engenheiros"
-          },
-          {
-            "X2_CHAVE": "NP9",
-            "X2_NOME": "Lotes  de Sementes"
-          },
-          {
-            "X2_CHAVE": "SD4",
-            "X2_NOME": "Requisições Empenhadas"
-          },
-          {
-            "X2_CHAVE": "SG1",
-            "X2_NOME": "Estruturas dos Produtos"
-          }
-        ],
-        "total": 6
-      },
       "SX3": {
         "registros": [
-          {
-            "X3_ARQUIVO": "SA2",
-            "X3_CAMPO": "A2_XRENASE",
-            "X3_TITULO": "Renasem"
-          },
           {
             "X3_ARQUIVO": "SD4",
             "X3_CAMPO": "D4_XIDPLBS",
@@ -7960,8 +7905,18 @@
           },
           {
             "X3_ARQUIVO": "SG1",
+            "X3_CAMPO": "G1_XDESCRI",
+            "X3_TITULO": "Desc Prod"
+          },
+          {
+            "X3_ARQUIVO": "SG1",
             "X3_CAMPO": "G1_XKGS",
             "X3_TITULO": "Dosag.P/xKgs"
+          },
+          {
+            "X3_ARQUIVO": "SG1",
+            "X3_CAMPO": "G1_XPERRAT",
+            "X3_TITULO": "%Rateio"
           },
           {
             "X3_ARQUIVO": "SG1",
@@ -7975,8 +7930,48 @@
           },
           {
             "X3_ARQUIVO": "NJJ",
+            "X3_CAMPO": "NJJ_XCLAS",
+            "X3_TITULO": "Classificao"
+          },
+          {
+            "X3_ARQUIVO": "NJJ",
+            "X3_CAMPO": "NJJ_XCTVAR",
+            "X3_TITULO": "Cultivar"
+          },
+          {
+            "X3_ARQUIVO": "NJJ",
+            "X3_CAMPO": "NJJ_XFILAR",
+            "X3_TITULO": "Filial Armaz"
+          },
+          {
+            "X3_ARQUIVO": "NJJ",
             "X3_CAMPO": "NJJ_XIDCPS",
             "X3_TITULO": "CPO Semente"
+          },
+          {
+            "X3_ARQUIVO": "NJJ",
+            "X3_CAMPO": "NJJ_XINTEI",
+            "X3_TITULO": "% de Inteiro"
+          },
+          {
+            "X3_ARQUIVO": "NJJ",
+            "X3_CAMPO": "NJJ_XNUMCT",
+            "X3_TITULO": "Contr. Arm."
+          },
+          {
+            "X3_ARQUIVO": "NJJ",
+            "X3_CAMPO": "NJJ_XPRCOL",
+            "X3_TITULO": "Pre Colheita"
+          },
+          {
+            "X3_ARQUIVO": "NJJ",
+            "X3_CAMPO": "NJJ_XQUEBR",
+            "X3_TITULO": "% Quebrados"
+          },
+          {
+            "X3_ARQUIVO": "NJJ",
+            "X3_CAMPO": "NJJ_XREPLI",
+            "X3_TITULO": "Integrado"
           },
           {
             "X3_ARQUIVO": "NJJ",
@@ -7995,6 +7990,11 @@
           },
           {
             "X3_ARQUIVO": "NP3",
+            "X3_CAMPO": "NP3_XIDCUL",
+            "X3_TITULO": "ID. Cult. Wb"
+          },
+          {
+            "X3_ARQUIVO": "NP3",
             "X3_CAMPO": "NP3_XNMCIE",
             "X3_TITULO": "Nome Cientif"
           },
@@ -8004,9 +8004,29 @@
             "X3_TITULO": "Obtentor"
           },
           {
+            "X3_ARQUIVO": "NP4",
+            "X3_CAMPO": "NP4_XREDUZ",
+            "X3_TITULO": "Cod Reduzido"
+          },
+          {
+            "X3_ARQUIVO": "NP8",
+            "X3_CAMPO": "NP8_XASSIN",
+            "X3_TITULO": "Arquivo Ass."
+          },
+          {
+            "X3_ARQUIVO": "NP8",
+            "X3_CAMPO": "NP8_XCARGO",
+            "X3_TITULO": "Cargo"
+          },
+          {
             "X3_ARQUIVO": "NP8",
             "X3_CAMPO": "NP8_XCEP",
             "X3_TITULO": "CEP"
+          },
+          {
+            "X3_ARQUIVO": "NP8",
+            "X3_CAMPO": "NP8_XCODMU",
+            "X3_TITULO": "Cod. Municip"
           },
           {
             "X3_ARQUIVO": "NP8",
@@ -8025,156 +8045,16 @@
           },
           {
             "X3_ARQUIVO": "NP9",
+            "X3_CAMPO": "NP9_XLTSEQ",
+            "X3_TITULO": "Seq. Lote"
+          },
+          {
+            "X3_ARQUIVO": "NP9",
             "X3_CAMPO": "NP9_XTERMO",
             "X3_TITULO": "Nº Term Conf"
           }
         ],
-        "total": 17
-      },
-      "SIX": {
-        "registros": [
-          {
-            "INDICE": "NJJ",
-            "CHAVE": "NJJ_FILIAL+NJJ_CODROM",
-            "ORDEM": "1"
-          },
-          {
-            "INDICE": "NJJ",
-            "CHAVE": "NJJ_FILIAL+NJJ_PLACA+NJJ_CODMOT",
-            "ORDEM": "2"
-          },
-          {
-            "INDICE": "NJJ",
-            "CHAVE": "NJJ_FILIAL+NJJ_QPAREC",
-            "ORDEM": "3"
-          },
-          {
-            "INDICE": "NJJ",
-            "CHAVE": "NJJ_FILIAL+NJJ_NRAGEN",
-            "ORDEM": "6"
-          },
-          {
-            "INDICE": "NP4",
-            "CHAVE": "NP4_FILIAL+NP4_CODIGO",
-            "ORDEM": "1"
-          },
-          {
-            "INDICE": "NP8",
-            "CHAVE": "NP8_FILIAL+NP8_CODIGO",
-            "ORDEM": "1"
-          },
-          {
-            "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_CODSAF+NP9_PROD+NP9_LOTE",
-            "ORDEM": "1"
-          },
-          {
-            "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_PROD+NP9_LOCAL+NP9_CULTRA+NP9_CTVAR+NP9_CATEG+NP9_PENE",
-            "ORDEM": "2"
-          },
-          {
-            "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_CODSAF+NP9_LOTE",
-            "ORDEM": "3"
-          },
-          {
-            "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_LOTE+NP9_CODSAF+NP9_TRATO",
-            "ORDEM": "4"
-          },
-          {
-            "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_DOC+NP9_SERIE+NP9_FORNEC+NP9_LOJA+NP9_PROD",
-            "ORDEM": "5"
-          },
-          {
-            "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_TRATO+NP9_PROD",
-            "ORDEM": "6"
-          },
-          {
-            "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_LOTE+NP9_CODSAF+NP9_PROD+NP9_TRATO",
-            "ORDEM": "7"
-          },
-          {
-            "INDICE": "NP9",
-            "CHAVE": "NP9_FILIAL+NP9_PROD+NP9_LOCAL+NP9_LOTE",
-            "ORDEM": "8"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_COD+D4_OP+D4_TRT+D4_LOTECTL+D4_NUMLOTE",
-            "ORDEM": "1"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_OP+D4_COD+D4_LOCAL",
-            "ORDEM": "2"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_COD+D4_LOCAL+DTOS(D4_DATA)",
-            "ORDEM": "3"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_OPORIG+D4_LOTECTL+D4_NUMLOTE",
-            "ORDEM": "4"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_ORDEM+D4_COD",
-            "ORDEM": "5"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_NUMPVBN+D4_ITEPVBN",
-            "ORDEM": "6"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_PRODUTO+D4_ROTEIRO+D4_OPERAC+D4_COD+D4_TRT",
-            "ORDEM": "7"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_OP+D4_OPORIG",
-            "ORDEM": "8"
-          },
-          {
-            "INDICE": "SD4",
-            "CHAVE": "D4_FILIAL+D4_PRDORG",
-            "ORDEM": "9"
-          },
-          {
-            "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_COD+G1_COMP+G1_TRT",
-            "ORDEM": "1"
-          },
-          {
-            "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_COMP+G1_COD",
-            "ORDEM": "2"
-          },
-          {
-            "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_COD+G1_GROPC+G1_OPC",
-            "ORDEM": "3"
-          },
-          {
-            "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_TIPVEC+G1_VECTOR",
-            "ORDEM": "4"
-          },
-          {
-            "INDICE": "SG1",
-            "CHAVE": "G1_FILIAL+G1_COD+DTOS(G1_FIM)+G1_TRT",
-            "ORDEM": "5"
-          }
-        ],
-        "total": 28
+        "total": 32
       },
       "SX7": {
         "registros": [
@@ -8189,34 +8069,25 @@
             "X7_SEQUENC": "502",
             "X7_REGRA": "Y00->Y00_CTVAR",
             "X7_CDOMIN": "NJJ_CULTIV"
+          },
+          {
+            "X7_CAMPO": "NP8_XCODMU",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "CC2->CC2_MUN",
+            "X7_CDOMIN": "NP8_XMUNIC"
           }
         ],
-        "total": 2
+        "total": 3
       },
       "SXA": {
         "registros": [
           {
-            "XA_ALIAS": "NJJ",
-            "XA_ORDEM": "1",
-            "XA_DESCRIC": "Principal"
-          },
-          {
-            "XA_ALIAS": "NJJ",
-            "XA_ORDEM": "2",
-            "XA_DESCRIC": "Analise"
-          },
-          {
-            "XA_ALIAS": "NJJ",
-            "XA_ORDEM": "3",
-            "XA_DESCRIC": "Pesagem"
-          },
-          {
-            "XA_ALIAS": "NJJ",
-            "XA_ORDEM": "4",
-            "XA_DESCRIC": "Controle"
+            "XA_ALIAS": "SA2",
+            "XA_ORDEM": "9",
+            "XA_DESCRIC": "Gestão de Cereais"
           }
         ],
-        "total": 4
+        "total": 1
       },
       "SXB": {
         "registros": [
@@ -8251,116 +8122,6 @@
             "XB_DESCRI": ""
           },
           {
-            "XB_ALIAS": "NJJ",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Romaneio"
-          },
-          {
-            "XB_ALIAS": "NJJ",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Codigo"
-          },
-          {
-            "XB_ALIAS": "NJJ",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Codigo"
-          },
-          {
-            "XB_ALIAS": "NJJ",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Placa"
-          },
-          {
-            "XB_ALIAS": "NJJ",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Data"
-          },
-          {
-            "XB_ALIAS": "NJJ",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJ001",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Contratos"
-          },
-          {
-            "XB_ALIAS": "NJJ001",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJ001",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJ002",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Autorizacao de Embar"
-          },
-          {
-            "XB_ALIAS": "NJJ002",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJ002",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJES1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Ordens de Colheita"
-          },
-          {
-            "XB_ALIAS": "NJJES1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJES1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJN95",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Campos do Romaneio"
-          },
-          {
-            "XB_ALIAS": "NJJN95",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJN95",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJN95",
-            "XB_SEQ": "02",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJSTS",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Cons. Status de Roma"
-          },
-          {
-            "XB_ALIAS": "NJJSTS",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NJJSTS",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
             "XB_ALIAS": "NJRROM",
             "XB_SEQ": "01",
             "XB_DESCRI": "Contratos OG"
@@ -8372,36 +8133,6 @@
           },
           {
             "XB_ALIAS": "NJRROM",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NP4",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Cultivares"
-          },
-          {
-            "XB_ALIAS": "NP4",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Código"
-          },
-          {
-            "XB_ALIAS": "NP4",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Cadastra Novo"
-          },
-          {
-            "XB_ALIAS": "NP4",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Código"
-          },
-          {
-            "XB_ALIAS": "NP4",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Descrição"
-          },
-          {
-            "XB_ALIAS": "NP4",
             "XB_SEQ": "01",
             "XB_DESCRI": ""
           },
@@ -8437,81 +8168,6 @@
           },
           {
             "XB_ALIAS": "NP4DL",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NP8",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Responsavel Tecnico"
-          },
-          {
-            "XB_ALIAS": "NP8",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Código"
-          },
-          {
-            "XB_ALIAS": "NP8",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Código"
-          },
-          {
-            "XB_ALIAS": "NP8",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Nome"
-          },
-          {
-            "XB_ALIAS": "NP8",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Lote de sementes"
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Filial+Lote"
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Safra"
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Lote"
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Cultura"
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Cultivar"
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Categoria"
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Peneira"
-          },
-          {
-            "XB_ALIAS": "NP9",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "NP9",
             "XB_SEQ": "01",
             "XB_DESCRI": ""
           },
@@ -8576,151 +8232,6 @@
             "XB_DESCRI": ""
           },
           {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Estrutura de Produto"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Código"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "02",
-            "XB_DESCRI": "Componente"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Código"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Componente"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Quantidade"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "02",
-            "XB_DESCRI": "Código"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "02",
-            "XB_DESCRI": "Componente"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "02",
-            "XB_DESCRI": "Quantidade"
-          },
-          {
-            "XB_ALIAS": "SG1",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "SG1GF2",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Estrutura"
-          },
-          {
-            "XB_ALIAS": "SG1GF2",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "SG1GF2",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "SG1GF2",
-            "XB_SEQ": "02",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "SG1SBP",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Estrutura Origem"
-          },
-          {
-            "XB_ALIAS": "SG1SBP",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Codigo + Componente"
-          },
-          {
-            "XB_ALIAS": "SG1SBP",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Codigo"
-          },
-          {
-            "XB_ALIAS": "SG1SBP",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Componente"
-          },
-          {
-            "XB_ALIAS": "SG1SBP",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Quantidade"
-          },
-          {
-            "XB_ALIAS": "SG1SBP",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "SG1SBP",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "SG1SGF",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Estrutura"
-          },
-          {
-            "XB_ALIAS": "SG1SGF",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Código + Componente"
-          },
-          {
-            "XB_ALIAS": "SG1SGF",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Sequencia"
-          },
-          {
-            "XB_ALIAS": "SG1SGF",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Componente"
-          },
-          {
-            "XB_ALIAS": "SG1SGF",
-            "XB_SEQ": "01",
-            "XB_DESCRI": "Quantidade"
-          },
-          {
-            "XB_ALIAS": "SG1SGF",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "SG1SGF",
-            "XB_SEQ": "02",
-            "XB_DESCRI": ""
-          },
-          {
-            "XB_ALIAS": "SG1SGF",
-            "XB_SEQ": "01",
-            "XB_DESCRI": ""
-          },
-          {
             "XB_ALIAS": "Y00",
             "XB_SEQ": "01",
             "XB_DESCRI": "Campos Produção"
@@ -8751,411 +8262,7 @@
             "XB_DESCRI": ""
           }
         ],
-        "total": 106
-      },
-      "SX9": {
-        "registros": [
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "026",
-            "X9_CDOM": "NJK",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NJK_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "003",
-            "X9_CDOM": "NK4",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NK4_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "002",
-            "X9_CDOM": "NKS",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NKS_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "032",
-            "X9_CDOM": "NKG",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NKG_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "031",
-            "X9_CDOM": "N9K",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9K_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "022",
-            "X9_CDOM": "N9M",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9M_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "001",
-            "X9_CDOM": "DX0",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "DX0_NRROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "025",
-            "X9_CDOM": "N7S",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N7S_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "033",
-            "X9_CDOM": "N89",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N89_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "014",
-            "X9_CDOM": "N8H",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N8H_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "015",
-            "X9_CDOM": "N8I",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N8I_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "006",
-            "X9_CDOM": "N8J",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N8J_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "019",
-            "X9_CDOM": "N8K",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N8K_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "035",
-            "X9_CDOM": "N8L",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N8L_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "007",
-            "X9_CDOM": "N8M",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N8M_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "020",
-            "X9_CDOM": "N8Q",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N8Q_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "008",
-            "X9_CDOM": "N8T",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N8T_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "004",
-            "X9_CDOM": "N9A",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9A_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "016",
-            "X9_CDOM": "N9C",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9C_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "023",
-            "X9_CDOM": "N9D",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9D_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "034",
-            "X9_CDOM": "N9E",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9E_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "024",
-            "X9_CDOM": "N9G",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9G_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "017",
-            "X9_CDOM": "N9I",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9I_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "009",
-            "X9_CDOM": "N9R",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "N9R_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "010",
-            "X9_CDOM": "NC8",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NC8_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "005",
-            "X9_CDOM": "ND4",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "ND4_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "011",
-            "X9_CDOM": "NJB",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NJB_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "012",
-            "X9_CDOM": "NJM",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NJM_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "013",
-            "X9_CDOM": "NKC",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NKC_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "021",
-            "X9_CDOM": "NKK",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NKK_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "036",
-            "X9_CDOM": "NNC",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NNC_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "018",
-            "X9_CDOM": "NNW",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NNW_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "030",
-            "X9_CDOM": "NK2",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "NK2_ROMANE"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "029",
-            "X9_CDOM": "SC6",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "C6_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "027",
-            "X9_CDOM": "SD2",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "D2_CODROM"
-          },
-          {
-            "X9_DOM": "NJJ",
-            "X9_IDENT": "028",
-            "X9_CDOM": "SD1",
-            "X9_EXPDOM": "NJJ_CODROM",
-            "X9_EXPCDOM": "D1_CODROM"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "001",
-            "X9_CDOM": "SB5",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "B5_CTVAR"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "001",
-            "X9_CDOM": "SC6",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "C6_CTVAR"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "006",
-            "X9_CDOM": "NKO",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "NKO_CTVAR"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "007",
-            "X9_CDOM": "NP0",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "NP0_CTVAR"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "008",
-            "X9_CDOM": "ADB",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "ADB_CTVAR"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "006",
-            "X9_CDOM": "NP9",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "NP9_CTVAR"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "003",
-            "X9_CDOM": "ND5",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "ND5_CTVAR"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "002",
-            "X9_CDOM": "NJJ",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "NJJ_CULTIV"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "004",
-            "X9_CDOM": "NL6",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "NL6_CULTIV"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "005",
-            "X9_CDOM": "NPH",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "NPH_CTVAR"
-          },
-          {
-            "X9_DOM": "NP4",
-            "X9_IDENT": "009",
-            "X9_CDOM": "NNM",
-            "X9_EXPDOM": "NP4_CODIGO",
-            "X9_EXPCDOM": "NNM_CTVAR"
-          },
-          {
-            "X9_DOM": "NP9",
-            "X9_IDENT": "001",
-            "X9_CDOM": "NPE",
-            "X9_EXPDOM": "NP9_LOTE",
-            "X9_EXPCDOM": "NPE_LOTE"
-          },
-          {
-            "X9_DOM": "NP9",
-            "X9_IDENT": "002",
-            "X9_CDOM": "NPC",
-            "X9_EXPDOM": "NP9_LOTE",
-            "X9_EXPCDOM": "NPC_LOTE"
-          },
-          {
-            "X9_DOM": "NP9",
-            "X9_IDENT": "003",
-            "X9_CDOM": "NPF",
-            "X9_EXPDOM": "NP9_LOTE",
-            "X9_EXPCDOM": "NPF_LOTE"
-          },
-          {
-            "X9_DOM": "NP9",
-            "X9_IDENT": "002",
-            "X9_CDOM": "NLP",
-            "X9_EXPDOM": "NP9_LOTE",
-            "X9_EXPCDOM": "NLP_LOTE"
-          },
-          {
-            "X9_DOM": "NP9",
-            "X9_IDENT": "003",
-            "X9_CDOM": "NPE",
-            "X9_EXPDOM": "NP9_CODSAF+NP9_PROD+NP9_LOTE",
-            "X9_EXPCDOM": "NPE_CODSAF+NPE_CODPRO+NPE_LOTE"
-          },
-          {
-            "X9_DOM": "NP9",
-            "X9_IDENT": "001",
-            "X9_CDOM": "NPN",
-            "X9_EXPDOM": "NP9_LOTE",
-            "X9_EXPCDOM": "NPN_LOTE"
-          },
-          {
-            "X9_DOM": "SG1",
-            "X9_IDENT": "001",
-            "X9_CDOM": "SS4",
-            "X9_EXPDOM": "G1_COD",
-            "X9_EXPCDOM": "S4_ESTRORI"
-          },
-          {
-            "X9_DOM": "SG1",
-            "X9_IDENT": "002",
-            "X9_CDOM": "SGA",
-            "X9_EXPDOM": "G1_GROPC+G1_OPC",
-            "X9_EXPCDOM": "GA_GROPC+GA_OPC"
-          },
-          {
-            "X9_DOM": "SG1",
-            "X9_IDENT": "003",
-            "X9_CDOM": "SGF",
-            "X9_EXPDOM": "G1_COD+G1_COMP+G1_TRT",
-            "X9_EXPCDOM": "GF_PRODUTO+GF_COMP+GF_TRT"
-          },
-          {
-            "X9_DOM": "SG1",
-            "X9_IDENT": "001",
-            "X9_CDOM": "SB1",
-            "X9_EXPDOM": "G1_COD",
-            "X9_EXPCDOM": "B1_ESTRORI"
-          }
-        ],
-        "total": 57
+        "total": 34
       }
     }
   }
