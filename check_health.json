@@ -6312,7 +6312,7 @@
       "fontes": [
         {
           "nome": "updiag.prw",
-          "data": "19/06/2026"
+          "data": "25/06/2026"
         }
       ],
       "SX2": {
@@ -6414,8 +6414,8 @@
             "X2_NOME": "Planejamento de TSI"
           },
           {
-            "X2_CHAVE": "Y0O",
-            "X2_NOME": "Movimentação de Integração"
+            "X2_CHAVE": "YAO",
+            "X2_NOME": "Planejamento Cultivar"
           }
         ],
         "total": 25
@@ -6673,17 +6673,12 @@
             "ORDEM": "2"
           },
           {
-            "INDICE": "Y0O",
-            "CHAVE": "Y0O_FILIAL+Y0O_IDMOV",
+            "INDICE": "YAO",
+            "CHAVE": "YAO_FILIAL+YAO_ID",
             "ORDEM": "1"
-          },
-          {
-            "INDICE": "Y0O",
-            "CHAVE": "Y0O_FILIAL+Y0O_OPERAC+Y0O_IDMOV+Y0O_SERIE+Y0O_NUMDOC",
-            "ORDEM": "2"
           }
         ],
-        "total": 52
+        "total": 51
       },
       "SX7": {
         "registros": [
@@ -6794,9 +6789,63 @@
             "X7_SEQUENC": "501",
             "X7_REGRA": "NJ0->NJ0_NOME",
             "X7_CDOMIN": "Y08_NOMENT"
+          },
+          {
+            "X7_CAMPO": "YAO_CTVAR",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "NP4->NP4_DESCRI",
+            "X7_CDOMIN": "YAO_CTVDES"
+          },
+          {
+            "X7_CAMPO": "YAO_CULTRA",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "NP3->NP3_DESCRI",
+            "X7_CDOMIN": "YAO_CTRDES"
+          },
+          {
+            "X7_CAMPO": "YAO_ENTCLI",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "NJ0->NJ0_NOME",
+            "X7_CDOMIN": "YAO_NOMCLI"
+          },
+          {
+            "X7_CAMPO": "YAO_ENTCOP",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "NJ0->NJ0_NOME",
+            "X7_CDOMIN": "YAO_NOMCOP"
+          },
+          {
+            "X7_CAMPO": "YAO_LOCAL",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "NNR->NNR_DESCRI",
+            "X7_CDOMIN": "YAO_ARMAZE"
+          },
+          {
+            "X7_CAMPO": "YAO_LOJCLI",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "NJ0->NJ0_NOME",
+            "X7_CDOMIN": "YAO_NOMCLI"
+          },
+          {
+            "X7_CAMPO": "YAO_LOJCOP",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "NJ0->NJ0_NOME",
+            "X7_CDOMIN": "YAO_NOMCOP"
+          },
+          {
+            "X7_CAMPO": "YAO_PRODUT",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "SB1->B1_DESC",
+            "X7_CDOMIN": "YAO_PRODES"
+          },
+          {
+            "X7_CAMPO": "YAO_PRODUT",
+            "X7_SEQUENC": "502",
+            "X7_REGRA": "SB1->B1_UM",
+            "X7_CDOMIN": "YAO_UM"
           }
         ],
-        "total": 18
+        "total": 27
       },
       "SXA": {
         "registros": [
