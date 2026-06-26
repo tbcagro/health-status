@@ -157,11 +157,11 @@
         },
         {
           "nome": "TAG06A01.prw",
-          "data": "23/02/2026"
+          "data": "26/06/2026"
         },
         {
           "nome": "TAG06A02.prw",
-          "data": "06/03/2026"
+          "data": "26/06/2026"
         },
         {
           "nome": "TAG06A03.tlpp",
@@ -177,7 +177,7 @@
         },
         {
           "nome": "TAG06A06.tlpp",
-          "data": "16/01/2026"
+          "data": "26/06/2026"
         },
         {
           "nome": "TAG06A07.tlpp",
@@ -185,7 +185,7 @@
         },
         {
           "nome": "TAG06A08.tlpp",
-          "data": "25/09/2025"
+          "data": "26/06/2026"
         },
         {
           "nome": "TAG06A09.tlpp",
@@ -233,7 +233,7 @@
         },
         {
           "nome": "TAG06E04.tlpp",
-          "data": "25/09/2025"
+          "data": "26/06/2026"
         },
         {
           "nome": "TAG06R01.tlpp",
@@ -2191,7 +2191,7 @@
       "fontes": [
         {
           "nome": "Dic_cessao.prw",
-          "data": "27/02/2026"
+          "data": "26/06/2026"
         }
       ],
       "SX2": {
@@ -2235,8 +2235,18 @@
           },
           {
             "X3_ARQUIVO": "YA8",
+            "X3_CAMPO": "YA8_ACRESC",
+            "X3_TITULO": "Acrescimo"
+          },
+          {
+            "X3_ARQUIVO": "YA8",
             "X3_CAMPO": "YA8_CODIGO",
             "X3_TITULO": "Codigo"
+          },
+          {
+            "X3_ARQUIVO": "YA8",
+            "X3_CAMPO": "YA8_DECREC",
+            "X3_TITULO": "Decrescimo"
           },
           {
             "X3_ARQUIVO": "YA8",
@@ -2297,6 +2307,11 @@
             "X3_ARQUIVO": "YA8",
             "X3_CAMPO": "YA8_VENCTO",
             "X3_TITULO": "Vencimento"
+          },
+          {
+            "X3_ARQUIVO": "YA8",
+            "X3_CAMPO": "YA8_VLRIMP",
+            "X3_TITULO": "Impostos"
           },
           {
             "X3_ARQUIVO": "YA9",
@@ -2449,7 +2464,7 @@
             "X3_TITULO": "Impostos"
           }
         ],
-        "total": 47
+        "total": 50
       },
       "SIX": {
         "registros": [
