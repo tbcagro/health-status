@@ -391,6 +391,89 @@
       },
       "downloads": []
     },
+    "FIS_CONFIGURADOR_TRIBUTOS": {
+      "fontes": [
+        {
+          "nome": "tbcagro.fiscal.configurador_tributo.empresas.consulta.tlpp",
+          "data": "14/07/2026"
+        },
+        {
+          "nome": "tbcagro.fiscal.configurador_tributo.ncm_aliquota.tlpp",
+          "data": "14/07/2026"
+        },
+        {
+          "nome": "tbcagro.fiscal.configurador_tributo.pe.tlpp",
+          "data": "14/07/2026"
+        },
+        {
+          "nome": "tbcagro.fiscal.configurador_tributo.perfis.mvc.tlpp",
+          "data": "14/07/2026"
+        },
+        {
+          "nome": "tbcagro.fiscal.configurador_tributo.replicador.tlpp",
+          "data": "14/07/2026"
+        },
+        {
+          "nome": "tbcagro.fiscal.configurador_tributo.util.tlpp",
+          "data": "14/07/2026"
+        }
+      ],
+      "ponto_de_entrada": [
+        {
+          "funcao": "CRMA980",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA160",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA160B",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA160J",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA161",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA162",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA163",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA164",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA165",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "FISA166",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "ITEM",
+          "data": "14/07/2026"
+        },
+        {
+          "funcao": "MATA020M",
+          "data": "14/07/2026"
+        }
+      ],
+      "totais": {
+        "fontes": 6,
+        "pontos_entrada": 12
+      },
+      "downloads": []
+    },
     "OG_BARTER": {
       "fontes": [
         {
