@@ -375,19 +375,11 @@
         {
           "funcao": "M410ALOK",
           "data": "30/12/2025"
-        },
-        {
-          "funcao": "OGA280",
-          "data": "04/07/2026"
-        },
-        {
-          "funcao": "PE_OGA290",
-          "data": "04/07/2026"
         }
       ],
       "totais": {
         "fontes": 11,
-        "pontos_entrada": 6
+        "pontos_entrada": 4
       },
       "downloads": []
     },
@@ -551,8 +543,16 @@
           "data": "30/12/2025"
         },
         {
+          "funcao": "MA410MNU",
+          "data": "28/05/2026"
+        },
+        {
           "funcao": "MT410ACE",
           "data": "14/05/2025"
+        },
+        {
+          "funcao": "MT410CPY",
+          "data": "28/05/2026"
         },
         {
           "funcao": "MTA500FIL",
@@ -573,7 +573,7 @@
       ],
       "totais": {
         "fontes": 17,
-        "pontos_entrada": 6
+        "pontos_entrada": 8
       },
       "downloads": []
     },
@@ -721,11 +721,15 @@
         {
           "funcao": "OGA430G1",
           "data": "05/06/2025"
+        },
+        {
+          "funcao": "PE_OGA290",
+          "data": "04/07/2026"
         }
       ],
       "totais": {
         "fontes": 12,
-        "pontos_entrada": 10
+        "pontos_entrada": 11
       },
       "downloads": []
     },
@@ -749,6 +753,10 @@
         }
       ],
       "ponto_de_entrada": [
+        {
+          "funcao": "M460FIM",
+          "data": "21/01/2026"
+        },
         {
           "funcao": "MTXMOEDA",
           "data": "25/03/2026"
@@ -780,7 +788,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 7
+        "pontos_entrada": 8
       },
       "downloads": []
     },
@@ -799,10 +807,15 @@
           "data": "26/06/2026"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "OG250ATUC",
+          "data": "19/06/2026"
+        }
+      ],
       "totais": {
         "fontes": 3,
-        "pontos_entrada": 0
+        "pontos_entrada": 1
       },
       "downloads": []
     },
@@ -973,10 +986,6 @@
           "data": "18/02/2026"
         },
         {
-          "funcao": "OG250ATUC",
-          "data": "19/06/2026"
-        },
-        {
           "funcao": "OG251MNU",
           "data": "18/02/2026"
         },
@@ -987,7 +996,7 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 4
+        "pontos_entrada": 3
       },
       "downloads": []
     },
@@ -1425,15 +1434,10 @@
           "data": "05/03/2026"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "M460FIM",
-          "data": "21/01/2026"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 32,
-        "pontos_entrada": 1
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -1706,19 +1710,10 @@
           "data": "25/08/2025"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "MA410MNU",
-          "data": "28/05/2026"
-        },
-        {
-          "funcao": "MT410CPY",
-          "data": "28/05/2026"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 41,
-        "pontos_entrada": 2
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -2225,7 +2220,7 @@
         },
         {
           "nome": "tbcagro.faturamento.selecao_lotes.mvc.tlpp",
-          "data": "26/05/2026"
+          "data": "16/07/2026"
         },
         {
           "nome": "tbcagro.faturamento.selecao_lotes.pe.tlpp",
