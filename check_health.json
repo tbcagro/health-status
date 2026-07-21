@@ -395,11 +395,11 @@
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.pe.tlpp",
-          "data": "14/07/2026"
+          "data": "21/07/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.perfis.mvc.tlpp",
-          "data": "14/07/2026"
+          "data": "21/07/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.replicador.tlpp",
@@ -414,6 +414,10 @@
         {
           "funcao": "CRMA980",
           "data": "14/07/2026"
+        },
+        {
+          "funcao": "CUSTOMERVENDOR",
+          "data": "21/07/2026"
         },
         {
           "funcao": "FISA160",
@@ -453,10 +457,6 @@
         },
         {
           "funcao": "ITEM",
-          "data": "14/07/2026"
-        },
-        {
-          "funcao": "MATA020M",
           "data": "14/07/2026"
         }
       ],
@@ -2657,6 +2657,38 @@
           }
         ],
         "total": 2
+      }
+    },
+    "FIS_CONFIGURADOR_TRIBUTOS": {
+      "origem": "gestao_projetos",
+      "projeto": "000013",
+      "descricao": "CONFIGURADOR DE TRIBUTOS",
+      "release_referencia": "12.1.2510",
+      "SX2": {
+        "registros": [
+          {
+            "tabela": "F20",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 1
+      },
+      "SX3": {
+        "registros": [
+          {
+            "campo": "F20_XFCLI",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "campo": "F20_XFFOR",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "campo": "F20_XFPRO",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 3
       }
     },
     "PROTHEUS": {
