@@ -2667,7 +2667,8 @@
       "SX2": {
         "registros": [
           {
-            "tabela": "F20",
+            "X2_CHAVE": "F20",
+            "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
           }
         ],
@@ -2676,15 +2677,21 @@
       "SX3": {
         "registros": [
           {
-            "campo": "F20_XFCLI",
+            "X3_ARQUIVO": "F20",
+            "X3_CAMPO": "F20_XFCLI",
+            "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
           },
           {
-            "campo": "F20_XFFOR",
+            "X3_ARQUIVO": "F20",
+            "X3_CAMPO": "F20_XFFOR",
+            "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
           },
           {
-            "campo": "F20_XFPRO",
+            "X3_ARQUIVO": "F20",
+            "X3_CAMPO": "F20_XFPRO",
+            "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
           }
         ],
