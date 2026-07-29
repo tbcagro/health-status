@@ -823,7 +823,7 @@
         },
         {
           "nome": "IAG67M12.prw",
-          "data": "14/07/2026"
+          "data": "29/07/2026"
         },
         {
           "nome": "IAG67R09.TLPP",
@@ -5532,7 +5532,7 @@
       "fontes": [
         {
           "nome": "updfecha.prw",
-          "data": "30/12/2025"
+          "data": "29/07/2026"
         }
       ],
       "SX2": {
@@ -5598,6 +5598,14 @@
             "X2_NOME": "Fechamento Nota Credito Titulo"
           },
           {
+            "X2_CHAVE": "Y19",
+            "X2_NOME": "Ordem Pagto Fechto Financeiro"
+          },
+          {
+            "X2_CHAVE": "Y20",
+            "X2_NOME": "Tit.Ord.Pgto Fechto Financeiro"
+          },
+          {
             "X2_CHAVE": "YAB",
             "X2_NOME": "Fechamento Nota Propria"
           },
@@ -5606,7 +5614,7 @@
             "X2_NOME": "Fechamento Nota Terceiro"
           }
         ],
-        "total": 17
+        "total": 19
       },
       "SIX": {
         "registros": [
@@ -5711,6 +5719,21 @@
             "ORDEM": "2"
           },
           {
+            "INDICE": "Y19",
+            "CHAVE": "Y19_FILIAL+Y19_IDFECH+Y19_IDOPGT",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "Y19",
+            "CHAVE": "Y19_FILIAL+Y19_IDOPGT",
+            "ORDEM": "2"
+          },
+          {
+            "INDICE": "Y20",
+            "CHAVE": "Y20_FILIAL+Y20_IDFECH+Y20_OPOR+Y20_ITEM",
+            "ORDEM": "1"
+          },
+          {
             "INDICE": "YAB",
             "CHAVE": "YAB_FILIAL+YAB_FECHAM+YAB_NUMFEC+YAB_FILCTR+YAB_CODCTR+YAB_ITEM+YAB_DOC+YAB_SERIE+YAB_CLIFOR+YAB_LOJA+YAB_ENTSAI",
             "ORDEM": "1"
@@ -5726,7 +5749,7 @@
             "ORDEM": "1"
           }
         ],
-        "total": 23
+        "total": 26
       },
       "SX7": {
         "registros": [
@@ -5738,6 +5761,21 @@
           }
         ],
         "total": 1
+      },
+      "SXA": {
+        "registros": [
+          {
+            "XA_ALIAS": "Y19",
+            "XA_ORDEM": "1",
+            "XA_DESCRIC": "Principal"
+          },
+          {
+            "XA_ALIAS": "Y19",
+            "XA_ORDEM": "2",
+            "XA_DESCRIC": "Parcelas"
+          }
+        ],
+        "total": 2
       },
       "SXB": {
         "registros": [
