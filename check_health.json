@@ -2703,6 +2703,14 @@
         "total": 3
       }
     },
+    "OG_DICIONARIO_INVENTARIO": {
+      "fontes": [
+        {
+          "nome": "OG_DICIONARIO_INVENTARIO.md",
+          "data": "03/08/2026"
+        }
+      ]
+    },
     "PROTHEUS": {
       "fontes": [
         {
