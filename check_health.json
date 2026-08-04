@@ -575,18 +575,7 @@
         "fontes": 17,
         "pontos_entrada": 6
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_BONUS_AGIOS_DESAGIOS": {
       "fontes": [
@@ -608,18 +597,7 @@
         "fontes": 3,
         "pontos_entrada": 0
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_CLASSIFICACAO_DE_CARGA": {
       "fontes": [
@@ -650,18 +628,7 @@
         "fontes": 4,
         "pontos_entrada": 1
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_COMPRA_VENDA_ENTIDADES": {
       "fontes": [
@@ -760,18 +727,7 @@
         "fontes": 12,
         "pontos_entrada": 10
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_EXPORTACAO_DIRETA": {
       "fontes": [
@@ -822,18 +778,7 @@
         "fontes": 4,
         "pontos_entrada": 6
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_FACILITADOR_ROMANEIO": {
       "fontes": [
@@ -864,18 +809,7 @@
         "fontes": 3,
         "pontos_entrada": 2
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_FECHAMENTO_FINANCEIRO": {
       "fontes": [
@@ -966,18 +900,7 @@
         "fontes": 10,
         "pontos_entrada": 10
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_REPLICADOR_ROMANEIO": {
       "fontes": [
@@ -1024,18 +947,7 @@
         "fontes": 7,
         "pontos_entrada": 2
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_SELECAO_LOTES_ROMANEIO": {
       "fontes": [
@@ -1078,18 +990,7 @@
         "fontes": 5,
         "pontos_entrada": 3
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "OG_TELA_REDUZIDA_DE_CLASSIFICACAO": {
       "fontes": [
@@ -1112,18 +1013,7 @@
         "fontes": 2,
         "pontos_entrada": 1
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-og-v1_30_0_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-og-v1_30_0_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-OG-v1.30.0/templates-og-v1_30_0_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "RECEITUARIO_BASE": {
       "fontes": [
@@ -1297,18 +1187,7 @@
         "fontes": 41,
         "pontos_entrada": 0
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-receituario-v1_7_4_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-receituario-v1_7_4_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "RECEITUARIO_CANASSA": {
       "fontes": [
@@ -1414,18 +1293,7 @@
         "fontes": 24,
         "pontos_entrada": 0
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-receituario-v1_7_4_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-receituario-v1_7_4_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "RECEITUARIO_COACRIS_BASE": {
       "fontes": [
@@ -1563,18 +1431,7 @@
         "fontes": 32,
         "pontos_entrada": 0
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-receituario-v1_7_4_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-receituario-v1_7_4_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "RECEITUARIO_CONCEITO": {
       "fontes": [
@@ -1676,18 +1533,7 @@
         "fontes": 23,
         "pontos_entrada": 0
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-receituario-v1_7_4_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-receituario-v1_7_4_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "RECEITUARIO_COTRIEL": {
       "fontes": [
@@ -1870,18 +1716,7 @@
         "fontes": 41,
         "pontos_entrada": 2
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-receituario-v1_7_4_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-receituario-v1_7_4_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.7.4/templates-receituario-v1_7_4_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "UBA_CLASSIFICACAO": {
       "fontes": [
@@ -2087,18 +1922,7 @@
         "fontes": 8,
         "pontos_entrada": 1
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-ubs-v1_20_3_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-ubs-v1_20_3_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "UBS_DIRECIONAMENTO": {
       "fontes": [
@@ -2116,18 +1940,7 @@
         "fontes": 2,
         "pontos_entrada": 0
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-ubs-v1_20_3_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-ubs-v1_20_3_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "UBS_PRODUCAO_TSI_TROCA_EMBALAGEM": {
       "fontes": [
@@ -2330,18 +2143,7 @@
         "fontes": 40,
         "pontos_entrada": 8
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-ubs-v1_20_3_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-ubs-v1_20_3_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "UBS_QUALIDADE_SEMENTES": {
       "fontes": [
@@ -2375,18 +2177,7 @@
         "fontes": 6,
         "pontos_entrada": 0
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-ubs-v1_20_3_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-ubs-v1_20_3_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "UBS_RELATORIOS_COMERCIALIZACAO": {
       "fontes": [
@@ -2412,18 +2203,7 @@
         "fontes": 4,
         "pontos_entrada": 0
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-ubs-v1_20_3_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-ubs-v1_20_3_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2510.ptm"
-        }
-      ]
+      "downloads": []
     },
     "UBS_SELECAO_LOTES": {
       "fontes": [
@@ -2474,18 +2254,7 @@
         "fontes": 5,
         "pontos_entrada": 5
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-ubs-v1_20_3_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-ubs-v1_20_3_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.20.3/templates-ubs-v1_20_3_2510.ptm"
-        }
-      ]
+      "downloads": []
     }
   },
   "dicionario": {
