@@ -269,6 +269,15 @@
       },
       "downloads": []
     },
+    "DOCS_LEGADO": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
     "DOCS_PLANS": {
       "fontes": [],
       "ponto_de_entrada": [],
@@ -536,7 +545,7 @@
         },
         {
           "nome": "updemb.prw",
-          "data": "30/12/2025"
+          "data": "10/08/2026"
         },
         {
           "nome": "updexpdi.prw",
@@ -3151,7 +3160,7 @@
         },
         {
           "nome": "IAG67A26.PRW",
-          "data": "30/01/2026"
+          "data": "10/08/2026"
         },
         {
           "nome": "IAG67A36.PRW",
