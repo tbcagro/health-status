@@ -62,7 +62,7 @@
         },
         {
           "nome": "IAG00G13.prw",
-          "data": "07/02/2025"
+          "data": "12/08/2026"
         },
         {
           "nome": "IAGPARAM.prw",
@@ -557,7 +557,7 @@
         },
         {
           "nome": "updiag.prw",
-          "data": "25/06/2026"
+          "data": "12/08/2026"
         },
         {
           "nome": "updlaudo.prw",
@@ -1576,7 +1576,7 @@
         },
         {
           "nome": "IAG67M12.prw",
-          "data": "29/07/2026"
+          "data": "14/08/2026"
         },
         {
           "nome": "IAG67M17.PRW",
@@ -3343,11 +3343,11 @@
         },
         {
           "nome": "IAG67A04.PRW",
-          "data": "20/06/2025"
+          "data": "27/08/2026"
         },
         {
           "nome": "IAG67A05.PRW",
-          "data": "21/10/2025"
+          "data": "27/08/2026"
         },
         {
           "nome": "IAG67A06.PRW",
@@ -3519,19 +3519,19 @@
         },
         {
           "nome": "IAG67R02.PRW",
-          "data": "14/07/2026"
+          "data": "27/08/2026"
         },
         {
           "nome": "IAG67R03.PRW",
-          "data": "09/07/2026"
+          "data": "12/08/2026"
         },
         {
           "nome": "IAG67R04.PRW",
-          "data": "21/10/2025"
+          "data": "25/08/2026"
         },
         {
           "nome": "IAG67R05.PRW",
-          "data": "21/10/2025"
+          "data": "25/08/2026"
         },
         {
           "nome": "IAG67R06.prw",
@@ -3556,6 +3556,14 @@
         {
           "nome": "IAG67R14.prw",
           "data": "30/01/2026"
+        },
+        {
+          "nome": "IAG67R16.tlpp",
+          "data": "25/08/2026"
+        },
+        {
+          "nome": "IAG67R17.tlpp",
+          "data": "27/08/2026"
         },
         {
           "nome": "IAG67V01.tlpp",
@@ -3661,7 +3669,7 @@
         }
       ],
       "totais": {
-        "fontes": 65,
+        "fontes": 67,
         "pontos_entrada": 9
       },
       "downloads": []
