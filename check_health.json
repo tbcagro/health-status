@@ -84,11 +84,11 @@
         },
         {
           "nome": "tbcagro.agroindustria.importador_cadastro.controller.tlpp",
-          "data": "24/08/2026"
+          "data": "17/09/2026"
         },
         {
           "nome": "tbcagro.agroindustria.importador_cadastro.mapping.tlpp",
-          "data": "24/08/2026"
+          "data": "17/09/2026"
         },
         {
           "nome": "tbcagro.agroindustria.importador_cadastro.persist.ativo_fixo.tlpp",
@@ -104,7 +104,11 @@
         },
         {
           "nome": "tbcagro.agroindustria.importador_cadastro.persist.tlpp",
-          "data": "24/08/2026"
+          "data": "17/09/2026"
+        },
+        {
+          "nome": "tbcagro.agroindustria.importador_cadastro.persist.tributos.tlpp",
+          "data": "18/09/2026"
         },
         {
           "nome": "tbcagro.agroindustria.importador_cadastro.reporter.tlpp",
@@ -112,12 +116,12 @@
         },
         {
           "nome": "tbcagro.agroindustria.importador_cadastro.utils.tlpp",
-          "data": "24/08/2026"
+          "data": "17/09/2026"
         }
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 9,
+        "fontes": 10,
         "pontos_entrada": 0
       },
       "downloads": []
