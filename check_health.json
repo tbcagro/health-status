@@ -176,7 +176,11 @@
         },
         {
           "nome": "tbcagro.genericos.filtro_expressao.component.tlpp",
-          "data": "14/07/2026"
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "tbcagro.genericos.filtro_expressao.util.tlpp",
+          "data": "12/08/2026"
         },
         {
           "nome": "tbcagro.template.historico.TLPP",
@@ -185,7 +189,7 @@
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 7,
+        "fontes": 8,
         "pontos_entrada": 0
       },
       "downloads": []
@@ -299,6 +303,15 @@
       "downloads": []
     },
     "DOCS_PLANS": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
+    "EVIDENCIAS_2026-08-04-FIS-NCM-ALIQUOTA": {
       "fontes": [],
       "ponto_de_entrada": [],
       "totais": {
@@ -878,27 +891,27 @@
       "fontes": [
         {
           "nome": "tbcagro.fiscal.configurador_tributo.empresas.consulta.tlpp",
-          "data": "14/07/2026"
+          "data": "12/08/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.ncm_aliquota.tlpp",
-          "data": "14/07/2026"
+          "data": "12/08/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.pe.tlpp",
-          "data": "21/07/2026"
+          "data": "31/08/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.perfis.mvc.tlpp",
-          "data": "21/07/2026"
+          "data": "31/08/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.replicador.tlpp",
-          "data": "14/07/2026"
+          "data": "18/09/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.util.tlpp",
-          "data": "14/07/2026"
+          "data": "19/09/2026"
         }
       ],
       "ponto_de_entrada": [
@@ -919,6 +932,78 @@
           "tipo": "padrao"
         },
         {
+          "funcao": "FINA024CAL",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024CAL.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FINA024CUM",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024CUM.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FINA024DED",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024DED.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FINA024RET",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024RET.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FINA024RFI",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024RFI.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FINA024TIT",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024TIT.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FINA024TPR",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024TPR.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FINA024VA",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024VA.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FINA024VCT",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/PE_FINA024VCT.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
           "funcao": "FISA160",
           "data": "14/07/2026",
           "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA160.prw",
@@ -935,10 +1020,34 @@
           "tipo": "padrao"
         },
         {
+          "funcao": "FISA160D",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA160D.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
           "funcao": "FISA160J",
           "data": "14/07/2026",
           "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA160J.prw",
           "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FISA160L",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA160L.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FISA160M",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA160M.tlpp",
+          "linha": 11,
           "licenca": null,
           "tipo": "padrao"
         },
@@ -991,6 +1100,46 @@
           "tipo": "padrao"
         },
         {
+          "funcao": "FISA169",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA169.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FISA173",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA173.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FISA176",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA176.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FISA178",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA178.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FISA181",
+          "data": "12/08/2026",
+          "arquivo": "templates/Pontos de Entrada/09 - Fiscal/PE_FISA181.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
           "funcao": "ITEM",
           "data": "14/07/2026",
           "arquivo": "templates/Pontos de Entrada/02 - Compras/PE_MATA010.prw",
@@ -1001,7 +1150,7 @@
       ],
       "totais": {
         "fontes": 6,
-        "pontos_entrada": 12
+        "pontos_entrada": 29
       },
       "downloads": []
     },
@@ -2209,6 +2358,42 @@
           "data": "05/06/2025"
         },
         {
+          "nome": "PE_FINA024CAL.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FINA024CUM.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FINA024DED.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FINA024RET.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FINA024RFI.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FINA024TIT.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FINA024TPR.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FINA024VA.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FINA024VCT.tlpp",
+          "data": "12/08/2026"
+        },
+        {
           "nome": "PE_FINA460A.tlpp",
           "data": "05/06/2025"
         },
@@ -2229,8 +2414,20 @@
           "data": "14/07/2026"
         },
         {
+          "nome": "PE_FISA160D.tlpp",
+          "data": "12/08/2026"
+        },
+        {
           "nome": "PE_FISA160J.prw",
           "data": "14/07/2026"
+        },
+        {
+          "nome": "PE_FISA160L.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FISA160M.tlpp",
+          "data": "12/08/2026"
         },
         {
           "nome": "PE_FISA161.prw",
@@ -2255,6 +2452,26 @@
         {
           "nome": "PE_FISA166.prw",
           "data": "14/07/2026"
+        },
+        {
+          "nome": "PE_FISA169.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FISA173.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FISA176.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FISA178.tlpp",
+          "data": "12/08/2026"
+        },
+        {
+          "nome": "PE_FISA181.tlpp",
+          "data": "12/08/2026"
         },
         {
           "nome": "PE_MATA010.prw",
@@ -2476,7 +2693,7 @@
         }
       ],
       "totais": {
-        "fontes": 101,
+        "fontes": 118,
         "pontos_entrada": 19
       },
       "downloads": []
