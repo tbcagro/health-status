@@ -769,14 +769,6 @@
       ],
       "ponto_de_entrada": [
         {
-          "funcao": "ANCTB102GR",
-          "data": "30/12/2025",
-          "arquivo": "templates/Pontos de Entrada/34 - Contabilidade/ANCTB102GR.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "F070BTOK",
           "data": "13/05/2025",
           "arquivo": "templates/Pontos de Entrada/06 - Financeiro/F070BTOK.tlpp",
@@ -805,22 +797,6 @@
           "data": "13/05/2025",
           "arquivo": "templates/Pontos de Entrada/06 - Financeiro/F340ValOk.tlpp",
           "linha": 11,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "FA040B01",
-          "data": "30/12/2025",
-          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/FA040B01.prw",
-          "linha": 13,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "FA050DEL",
-          "data": "30/12/2025",
-          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/FA050DEL.prw",
-          "linha": 13,
           "licenca": null,
           "tipo": "padrao"
         },
@@ -889,34 +865,10 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "M410ALOK",
-          "data": "30/12/2025",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/M410ALOK.PRW",
-          "linha": 23,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "MT100GE2",
           "data": "13/05/2025",
           "arquivo": "templates/Pontos de Entrada/06 - Financeiro/MT100GE2.tlpp",
           "linha": 12,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "OGA280",
-          "data": "04/07/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA280.PRW",
-          "linha": 20,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "PE_OGA290",
-          "data": "04/07/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA290.prw",
-          "linha": 10,
           "licenca": null,
           "tipo": "padrao"
         },
@@ -931,7 +883,7 @@
       ],
       "totais": {
         "fontes": 35,
-        "pontos_entrada": 20
+        "pontos_entrada": 14
       },
       "downloads": []
     },
@@ -1491,27 +1443,10 @@
           "data": "31/03/2026"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "OG250CFRM",
-          "data": "31/03/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG250CFRM.tlpp",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "OG250MNU",
-          "data": "31/03/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG250MNU.PRW",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 6,
-        "pontos_entrada": 2
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -1930,14 +1865,6 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "F565TOK",
-          "data": "14/07/2026",
-          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/F565TOK.PRW",
-          "linha": 11,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "FA040B01",
           "data": "30/12/2025",
           "arquivo": "templates/Pontos de Entrada/06 - Financeiro/FA040B01.prw",
@@ -1978,14 +1905,6 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "M460FIM",
-          "data": "21/01/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/M460FIM.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "MS520VLD",
           "data": "20/05/2025",
           "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MS520VLD.prw",
@@ -2002,14 +1921,6 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "MT410CPY",
-          "data": "28/05/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MT410CPY.prw",
-          "linha": 11,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "MTA500FIL",
           "data": "14/05/2025",
           "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MTA500FIL.prw",
@@ -2018,26 +1929,10 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "MTXMOEDA",
-          "data": "25/03/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MTXMOEDA.prw",
-          "linha": 21,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "OG008SLNF",
           "data": "05/06/2025",
           "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG008SLNF.PRW",
           "linha": 21,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "OG009PTL",
-          "data": "18/02/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG009PTL.prw",
-          "linha": 10,
           "licenca": null,
           "tipo": "padrao"
         },
@@ -2061,14 +1956,6 @@
           "funcao": "OG250NFVD",
           "data": "05/06/2025",
           "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG250NFVD.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "OG250RDEL",
-          "data": "18/02/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG250RDEL.prw",
           "linha": 10,
           "licenca": null,
           "tipo": "padrao"
@@ -2162,41 +2049,9 @@
           "tipo": "proprio"
         },
         {
-          "funcao": "OGX008PG",
-          "data": "18/02/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PG.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "OGX008PV",
-          "data": "26/05/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PV.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "SF2460I",
-          "data": "20/05/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/SF2460I.tlpp",
-          "linha": 11,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "SF2520E",
-          "data": "21/01/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/SF2520E.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "proprio"
-        },
-        {
-          "funcao": "VLDLTNJM",
-          "data": "18/02/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/VLDLTNJM.prw",
+          "funcao": "PE_OGA290",
+          "data": "04/07/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA290.prw",
           "linha": 10,
           "licenca": null,
           "tipo": "padrao"
@@ -2204,7 +2059,7 @@
       ],
       "totais": {
         "fontes": 67,
-        "pontos_entrada": 36
+        "pontos_entrada": 26
       },
       "downloads": []
     },
@@ -2683,10 +2538,163 @@
           "data": "18/02/2026"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "ANCTB102GR",
+          "data": "30/12/2025",
+          "arquivo": "templates/Pontos de Entrada/34 - Contabilidade/ANCTB102GR.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "F565TOK",
+          "data": "14/07/2026",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/F565TOK.PRW",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FA040B01",
+          "data": "30/12/2025",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/FA040B01.prw",
+          "linha": 13,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "FA050DEL",
+          "data": "30/12/2025",
+          "arquivo": "templates/Pontos de Entrada/06 - Financeiro/FA050DEL.prw",
+          "linha": 13,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "M410ALOK",
+          "data": "30/12/2025",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/M410ALOK.PRW",
+          "linha": 23,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "MTXMOEDA",
+          "data": "25/03/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MTXMOEDA.prw",
+          "linha": 21,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OG009PTL",
+          "data": "18/02/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG009PTL.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OG250ATUC",
+          "data": "19/06/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OG250ATUC.PRW",
+          "linha": 21,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OG250CFRM",
+          "data": "31/03/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG250CFRM.tlpp",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OG250MNU",
+          "data": "31/03/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG250MNU.PRW",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OG250RDEL",
+          "data": "18/02/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG250RDEL.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OG251MNU",
+          "data": "18/02/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG251MNU.PRW",
+          "linha": 15,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OGA250",
+          "data": "26/05/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA250.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OGA280",
+          "data": "04/07/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA280.PRW",
+          "linha": 20,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OGX008PG",
+          "data": "18/02/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PG.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OGX008PV",
+          "data": "26/05/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PV.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "SF2460I",
+          "data": "20/05/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/SF2460I.tlpp",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "SF2520E",
+          "data": "21/01/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/SF2520E.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "proprio"
+        },
+        {
+          "funcao": "VLDLTNJM",
+          "data": "18/02/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/VLDLTNJM.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        }
+      ],
       "totais": {
         "fontes": 118,
-        "pontos_entrada": 0
+        "pontos_entrada": 19
       },
       "downloads": []
     },
@@ -2742,7 +2750,7 @@
         },
         {
           "nome": "M410LIOK.prw",
-          "data": "25/08/2025"
+          "data": "12/12/2024"
         },
         {
           "nome": "M410LIOK.prw",
@@ -2750,6 +2758,10 @@
         },
         {
           "nome": "M410LIOK.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "M410PVNF.prw",
           "data": "12/12/2024"
         },
         {
@@ -2758,18 +2770,6 @@
         },
         {
           "nome": "M410PVNF.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "M410PVNF.prw",
-          "data": "12/12/2024"
-        },
-        {
-          "nome": "M460FIM.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "M460FIM.prw",
           "data": "25/08/2025"
         },
         {
@@ -2777,6 +2777,14 @@
           "data": "03/10/2025"
         },
         {
+          "nome": "M460FIM.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "M460FIM.prw",
+          "data": "25/08/2025"
+        },
+        {
           "nome": "MA410MNU.prw",
           "data": "25/08/2025"
         },
@@ -2822,19 +2830,23 @@
         },
         {
           "nome": "MT410TOK.PRW",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "MTA410.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "MTA410.prw",
           "data": "25/08/2025"
         },
         {
           "nome": "MTA410.prw",
           "data": "12/12/2024"
+        },
+        {
+          "nome": "MTA410.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "MTA410.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECADAUX.prw",
+          "data": "20/11/2025"
         },
         {
           "nome": "RECADAUX.prw",
@@ -2843,10 +2855,6 @@
         {
           "nome": "RECADAUX.prw",
           "data": "25/08/2025"
-        },
-        {
-          "nome": "RECADAUX.prw",
-          "data": "20/11/2025"
         },
         {
           "nome": "RECADZ0.prw",
@@ -2882,11 +2890,11 @@
         },
         {
           "nome": "RECADZ1.prw",
-          "data": "06/11/2024"
+          "data": "12/12/2024"
         },
         {
           "nome": "RECADZ1.prw",
-          "data": "12/12/2024"
+          "data": "06/11/2024"
         },
         {
           "nome": "RECADZ2.prw",
@@ -2902,14 +2910,6 @@
         },
         {
           "nome": "RECADZB0.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "RECADZB0.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "RECADZB0.prw",
           "data": "29/07/2026"
         },
         {
@@ -2917,11 +2917,11 @@
           "data": "12/12/2024"
         },
         {
-          "nome": "RECADZB1.prw",
+          "nome": "RECADZB0.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECADZB1.prw",
+          "nome": "RECADZB0.prw",
           "data": "25/08/2025"
         },
         {
@@ -2933,11 +2933,11 @@
           "data": "12/12/2024"
         },
         {
-          "nome": "RECADZB2.prw",
+          "nome": "RECADZB1.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECADZB2.prw",
+          "nome": "RECADZB1.prw",
           "data": "25/08/2025"
         },
         {
@@ -2949,11 +2949,11 @@
           "data": "12/12/2024"
         },
         {
-          "nome": "RECADZB4.prw",
+          "nome": "RECADZB2.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECADZB4.prw",
+          "nome": "RECADZB2.prw",
           "data": "25/08/2025"
         },
         {
@@ -2965,11 +2965,11 @@
           "data": "12/12/2024"
         },
         {
-          "nome": "RECADZB5.prw",
+          "nome": "RECADZB4.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECADZB5.prw",
+          "nome": "RECADZB4.prw",
           "data": "25/08/2025"
         },
         {
@@ -2981,11 +2981,11 @@
           "data": "12/12/2024"
         },
         {
-          "nome": "RECADZB6.prw",
+          "nome": "RECADZB5.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECADZB6.prw",
+          "nome": "RECADZB5.prw",
           "data": "25/08/2025"
         },
         {
@@ -2997,11 +2997,11 @@
           "data": "09/03/2026"
         },
         {
-          "nome": "RECADZB7.prw",
+          "nome": "RECADZB6.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECADZB7.prw",
+          "nome": "RECADZB6.prw",
           "data": "25/08/2025"
         },
         {
@@ -3013,8 +3013,16 @@
           "data": "08/01/2025"
         },
         {
-          "nome": "RECADZB8.prw",
+          "nome": "RECADZB7.prw",
           "data": "25/08/2025"
+        },
+        {
+          "nome": "RECADZB7.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECADZB8.prw",
+          "data": "20/11/2025"
         },
         {
           "nome": "RECADZB8.prw",
@@ -3022,6 +3030,10 @@
         },
         {
           "nome": "RECADZB8.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECADZB9.prw",
           "data": "20/11/2025"
         },
         {
@@ -3031,10 +3043,6 @@
         {
           "nome": "RECADZB9.prw",
           "data": "25/08/2025"
-        },
-        {
-          "nome": "RECADZB9.prw",
-          "data": "20/11/2025"
         },
         {
           "nome": "RECAGRIQ.prw",
@@ -3042,7 +3050,7 @@
         },
         {
           "nome": "RECAPOIO1.prw",
-          "data": "25/08/2025"
+          "data": "20/11/2025"
         },
         {
           "nome": "RECAPOIO1.prw",
@@ -3050,6 +3058,10 @@
         },
         {
           "nome": "RECAPOIO1.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECAPOIO2.prw",
           "data": "20/11/2025"
         },
         {
@@ -3061,7 +3073,7 @@
           "data": "25/08/2025"
         },
         {
-          "nome": "RECAPOIO2.prw",
+          "nome": "RECAPOIO3.prw",
           "data": "20/11/2025"
         },
         {
@@ -3071,10 +3083,6 @@
         {
           "nome": "RECAPOIO3.prw",
           "data": "25/08/2025"
-        },
-        {
-          "nome": "RECAPOIO3.prw",
-          "data": "20/11/2025"
         },
         {
           "nome": "RECATCAD.prw",
@@ -3082,35 +3090,23 @@
         },
         {
           "nome": "RECCONSU.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "RECCONSU.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "RECCONSU.prw",
           "data": "20/11/2025"
         },
         {
-          "nome": "RECDADOS.prw",
-          "data": "06/11/2024"
+          "nome": "RECCONSU.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECCONSU.prw",
+          "data": "25/08/2025"
         },
         {
           "nome": "RECDADOS.prw",
           "data": "12/12/2024"
         },
         {
-          "nome": "RECEIWEB.prw",
-          "data": "02/03/2026"
-        },
-        {
-          "nome": "RECEIWEB.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "RECEIWEB.prw",
-          "data": "25/08/2025"
+          "nome": "RECDADOS.prw",
+          "data": "06/11/2024"
         },
         {
           "nome": "RECEIWEB.prw",
@@ -3121,6 +3117,22 @@
           "data": "09/03/2026"
         },
         {
+          "nome": "RECEIWEB.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECEIWEB.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECEIWEB.prw",
+          "data": "02/03/2026"
+        },
+        {
+          "nome": "RECFATUR.prw",
+          "data": "20/11/2025"
+        },
+        {
           "nome": "RECFATUR.prw",
           "data": "25/08/2025"
         },
@@ -3129,24 +3141,8 @@
           "data": "04/09/2025"
         },
         {
-          "nome": "RECFATUR.prw",
-          "data": "20/11/2025"
-        },
-        {
           "nome": "RECFCHEM.prw",
           "data": "05/03/2026"
-        },
-        {
-          "nome": "RECFICHA.prw",
-          "data": "06/11/2024"
-        },
-        {
-          "nome": "RECFICHA.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "RECFICHA.prw",
-          "data": "25/08/2025"
         },
         {
           "nome": "RECFICHA.prw",
@@ -3157,16 +3153,16 @@
           "data": "12/12/2024"
         },
         {
-          "nome": "RECFUNCA.prw",
-          "data": "22/06/2026"
+          "nome": "RECFICHA.prw",
+          "data": "25/08/2025"
         },
         {
-          "nome": "RECFUNCA.prw",
-          "data": "30/01/2026"
+          "nome": "RECFICHA.prw",
+          "data": "25/08/2025"
         },
         {
-          "nome": "RECFUNCA.prw",
-          "data": "30/01/2026"
+          "nome": "RECFICHA.prw",
+          "data": "06/11/2024"
         },
         {
           "nome": "RECFUNCA.prw",
@@ -3177,27 +3173,27 @@
           "data": "19/06/2026"
         },
         {
-          "nome": "RECGRAVA.prw",
-          "data": "25/08/2025"
+          "nome": "RECFUNCA.prw",
+          "data": "30/01/2026"
         },
         {
-          "nome": "RECGRAVA.prw",
-          "data": "25/08/2025"
+          "nome": "RECFUNCA.prw",
+          "data": "30/01/2026"
+        },
+        {
+          "nome": "RECFUNCA.prw",
+          "data": "22/06/2026"
         },
         {
           "nome": "RECGRAVA.prw",
           "data": "20/11/2025"
         },
         {
-          "nome": "RECIMPRIM.prw",
-          "data": "06/11/2024"
-        },
-        {
-          "nome": "RECIMPRIM.prw",
+          "nome": "RECGRAVA.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECIMPRIM.prw",
+          "nome": "RECGRAVA.prw",
           "data": "25/08/2025"
         },
         {
@@ -3209,16 +3205,16 @@
           "data": "12/12/2024"
         },
         {
-          "nome": "RECMANUN.prw",
-          "data": "21/10/2025"
-        },
-        {
-          "nome": "RECMANUN.prw",
+          "nome": "RECIMPRIM.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECMANUN.prw",
+          "nome": "RECIMPRIM.prw",
           "data": "25/08/2025"
+        },
+        {
+          "nome": "RECIMPRIM.prw",
+          "data": "06/11/2024"
         },
         {
           "nome": "RECMANUN.prw",
@@ -3229,16 +3225,16 @@
           "data": "21/10/2025"
         },
         {
-          "nome": "RECPAINE.prw",
+          "nome": "RECMANUN.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECMANUN.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECMANUN.prw",
           "data": "21/10/2025"
-        },
-        {
-          "nome": "RECPAINE.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "RECPAINE.prw",
-          "data": "25/08/2025"
         },
         {
           "nome": "RECPAINE.prw",
@@ -3249,16 +3245,16 @@
           "data": "09/03/2026"
         },
         {
-          "nome": "RECPNL01.prw",
-          "data": "06/11/2024"
-        },
-        {
-          "nome": "RECPNL01.prw",
+          "nome": "RECPAINE.prw",
           "data": "25/08/2025"
         },
         {
-          "nome": "RECPNL01.prw",
+          "nome": "RECPAINE.prw",
           "data": "25/08/2025"
+        },
+        {
+          "nome": "RECPAINE.prw",
+          "data": "21/10/2025"
         },
         {
           "nome": "RECPNL01.prw",
@@ -3269,16 +3265,16 @@
           "data": "12/12/2024"
         },
         {
-          "nome": "RECPNL02.prw",
+          "nome": "RECPNL01.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECPNL01.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECPNL01.prw",
           "data": "06/11/2024"
-        },
-        {
-          "nome": "RECPNL02.prw",
-          "data": "25/08/2025"
-        },
-        {
-          "nome": "RECPNL02.prw",
-          "data": "25/08/2025"
         },
         {
           "nome": "RECPNL02.prw",
@@ -3287,6 +3283,18 @@
         {
           "nome": "RECPNL02.prw",
           "data": "12/12/2024"
+        },
+        {
+          "nome": "RECPNL02.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECPNL02.prw",
+          "data": "25/08/2025"
+        },
+        {
+          "nome": "RECPNL02.prw",
+          "data": "06/11/2024"
         },
         {
           "nome": "REPRODUT.prw",
@@ -3337,10 +3345,35 @@
           "data": "05/03/2026"
         }
       ],
-      "ponto_de_entrada": [],
+      "ponto_de_entrada": [
+        {
+          "funcao": "M460FIM",
+          "data": "21/01/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/M460FIM.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "MA410MNU",
+          "data": "28/05/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA410MNU.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "MT410CPY",
+          "data": "28/05/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MT410CPY.prw",
+          "linha": 11,
+          "licenca": null,
+          "tipo": "padrao"
+        }
+      ],
       "totais": {
         "fontes": 161,
-        "pontos_entrada": 0
+        "pontos_entrada": 3
       },
       "downloads": []
     },
@@ -3651,11 +3684,11 @@
         },
         {
           "nome": "IAG67M10.PRW",
-          "data": "19/02/2026"
+          "data": "21/09/2026"
         },
         {
           "nome": "IAG67M13.PRW",
-          "data": "29/09/2025"
+          "data": "23/09/2026"
         },
         {
           "nome": "IAG67M14.TLPP",
@@ -3820,14 +3853,6 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "MA410MNU",
-          "data": "28/05/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA410MNU.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "MA440VLD",
           "data": "26/05/2026",
           "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA440VLD.prw",
@@ -3878,7 +3903,7 @@
       ],
       "totais": {
         "fontes": 66,
-        "pontos_entrada": 14
+        "pontos_entrada": 13
       },
       "downloads": []
     },
