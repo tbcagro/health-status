@@ -24,7 +24,7 @@
 		{
 			"nome":"OG_FECHAMENTO_FINANCEIRO",
 			"diretorio":"OG_FECHAMENTO_FINANCEIRO",
-			"dicionario":""
+			"dicionario":"UPDFECHA"
 		},
 		{
 			"nome":"OG_REPLICADOR_ROMANEIO",
@@ -95,6 +95,41 @@
 			"nome":"UBS_SELECAO_LOTES",
 			"diretorio":"UBS_SELECAO_LOTES",
 			"dicionario":"UPDLAUDO"
+		},
+		{
+			"nome":"COM_LIVRE_NEGOCIACAO",
+			"diretorio":"COM_CONDICAO_PAGAMENTO_TIPO_9",
+			"dicionario":"UPDLINEG"
+		},
+		{
+			"nome":"FIN_DERIVATIVOS",
+			"diretorio":"FIN_DERIVATIVOS",
+			"dicionario":"UPDDERIV"
+		},
+		{
+			"nome":"FIS_CONFIGURADOR_TRIBUTOS",
+			"diretorio":"FIS_CONFIGURADOR_TRIBUTOS",
+			"dicionario":"FIS_CONFIGURADOR_TRIBUTOS"
+		},
+		{
+			"nome":"OG_EXPORTACAO_DIRETA",
+			"diretorio":"OG_EXPORTACAO_DIRETA",
+			"dicionario":"UPDEXPDI"
+		},
+		{
+			"nome":"OG_FACILITADOR_ROMANEIO",
+			"diretorio":"OG_FACILITADOR_ROMANEIO",
+			"dicionario":""
+		},
+		{
+			"nome":"OG_SELECAO_LOTES_ROMANEIO",
+			"diretorio":"OG_SELECAO_LOTES_ROMANEIO",
+			"dicionario":"UPDSELRO"
+		},
+		{
+			"nome":"FIN_GESTAO_PROJETOS",
+			"diretorio":"FIN_GESTAO_PROJETOS",
+			"dicionario":""
 		}
 		
 	]
