@@ -62,7 +62,7 @@
         },
         {
           "nome": "IAG00G13.prw",
-          "data": "12/08/2026"
+          "data": "24/09/2026"
         },
         {
           "nome": "IAGPARAM.prw",
@@ -1611,7 +1611,23 @@
         "fontes": 6,
         "pontos_entrada": 29
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-fiscal-v1_4_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.4.1/templates-fiscal-v1_4_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-fiscal-v1_4_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.4.1/templates-fiscal-v1_4_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-fiscal-v1_4_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.4.1/templates-fiscal-v1_4_1_dicionario.zip",
+        "pasta": "Configurador_Tributos"
+      }
     },
     "GESTAO_DE_LICENÇAS_JSON": {
       "fontes": [],
@@ -3723,7 +3739,7 @@
         },
         {
           "nome": "IAG67R02.PRW",
-          "data": "27/08/2026"
+          "data": "24/09/2026"
         },
         {
           "nome": "IAG67R03.PRW",
