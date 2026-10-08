@@ -3443,7 +3443,7 @@
         },
         {
           "nome": "simpleAgro.tlpp",
-          "data": "18/06/2025"
+          "data": "07/10/2026"
         }
       ],
       "ponto_de_entrada": [
@@ -3488,7 +3488,7 @@
         },
         {
           "nome": "IAG67A02.PRW",
-          "data": "14/09/2026"
+          "data": "05/10/2026"
         },
         {
           "nome": "IAG67A03.PRW",
@@ -3496,7 +3496,7 @@
         },
         {
           "nome": "IAG67A06.PRW",
-          "data": "28/11/2024"
+          "data": "05/10/2026"
         },
         {
           "nome": "IAG67A08.PRW",
@@ -3528,7 +3528,7 @@
         },
         {
           "nome": "IAG67A32.prw",
-          "data": "13/04/2026"
+          "data": "05/10/2026"
         },
         {
           "nome": "IAG67A33.tlpp",
@@ -3548,7 +3548,7 @@
         },
         {
           "nome": "IAG67C04.tlpp",
-          "data": "30/03/2026"
+          "data": "21/09/2026"
         },
         {
           "nome": "IAG67I03.TLPP",
@@ -3580,7 +3580,7 @@
         },
         {
           "nome": "IAG67M06.prw",
-          "data": "03/09/2026"
+          "data": "21/09/2026"
         },
         {
           "nome": "IAG67M07.PRW",
@@ -3600,7 +3600,7 @@
         },
         {
           "nome": "IAG67M14.TLPP",
-          "data": "04/08/2026"
+          "data": "08/10/2026"
         },
         {
           "nome": "IAG67M15.TLPP",
@@ -3612,7 +3612,7 @@
         },
         {
           "nome": "IAG67M18.TLPP",
-          "data": "16/09/2026"
+          "data": "08/10/2026"
         },
         {
           "nome": "IAG67M24.prw",
@@ -3620,7 +3620,7 @@
         },
         {
           "nome": "IAG67R06.prw",
-          "data": "30/01/2026"
+          "data": "07/10/2026"
         },
         {
           "nome": "IAG67R07.PRW",
@@ -3727,7 +3727,7 @@
         },
         {
           "nome": "IAG67R03.PRW",
-          "data": "12/08/2026"
+          "data": "07/10/2026"
         },
         {
           "nome": "IAG67R04.PRW",
@@ -3735,15 +3735,15 @@
         },
         {
           "nome": "IAG67R05.PRW",
-          "data": "25/08/2026"
+          "data": "07/10/2026"
         },
         {
           "nome": "IAG67R16.tlpp",
-          "data": "25/08/2026"
+          "data": "07/10/2026"
         },
         {
           "nome": "IAG67R17.tlpp",
-          "data": "27/08/2026"
+          "data": "07/10/2026"
         }
       ],
       "ponto_de_entrada": [],
@@ -8127,7 +8127,7 @@
       "fontes": [
         {
           "nome": "updiag.prw",
-          "data": "12/08/2026"
+          "data": "08/10/2026"
         }
       ],
       "SX2": {
@@ -8229,11 +8229,23 @@
             "X2_NOME": "Planejamento de TSI"
           },
           {
+            "X2_CHAVE": "YA0",
+            "X2_NOME": "Direcionamento de Lotes"
+          },
+          {
+            "X2_CHAVE": "YA1",
+            "X2_NOME": "Itens Direcionamento de Lotes"
+          },
+          {
+            "X2_CHAVE": "YA2",
+            "X2_NOME": "Motivo Direcionamento"
+          },
+          {
             "X2_CHAVE": "YAO",
             "X2_NOME": "Planejamento Cultivar"
           }
         ],
-        "total": 25
+        "total": 28
       },
       "SIX": {
         "registros": [
@@ -8488,12 +8500,52 @@
             "ORDEM": "2"
           },
           {
+            "INDICE": "YA0",
+            "CHAVE": "YA0_FILIAL+YA0_CODIGO+YA0_TPDIRE+YA0_PEDIDO+YA0_ITEM+YA0_PRODUT+YA0_CODSAF",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA0",
+            "CHAVE": "YA0_FILIAL+YA0_CODIGO+YA0_TPDIRE+YA0_CLI+YA0_LOJA+YA0_PRODUT+YA0_CODSAF",
+            "ORDEM": "2"
+          },
+          {
+            "INDICE": "YA0",
+            "CHAVE": "YA0_FILIAL+YA0_CODIGO+YA0_PRODUT+YA0_CODSAF",
+            "ORDEM": "3"
+          },
+          {
+            "INDICE": "YA1",
+            "CHAVE": "YA1_FILIAL+YA1_CODIGO+YA1_TPDIRE+YA1_SEQUEN+YA1_CODSAF+YA1_LOTINS+YA1_SUBINS+YA1_ENDINS",
+            "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA1",
+            "CHAVE": "YA1_FILIAL+YA1_CODIGO+YA1_TPDIRE+YA1_PEDIDO+YA1_ITEMPV+YA1_PRODUT+YA1_CODSAF",
+            "ORDEM": "2"
+          },
+          {
+            "INDICE": "YA1",
+            "CHAVE": "YA1_FILIAL+YA1_CODIGO+YA1_TPDIRE+YA1_CLI+YA1_LOJA+YA1_PRODUT+YA1_CODSAF",
+            "ORDEM": "3"
+          },
+          {
+            "INDICE": "YA1",
+            "CHAVE": "YA1_FILIAL+YA1_CODIGO+YA1_PRODUT+YA1_CODSAF",
+            "ORDEM": "4"
+          },
+          {
+            "INDICE": "YA2",
+            "CHAVE": "YA2_FILIAL+YA2_CODIGO+YA2_STATUS",
+            "ORDEM": "1"
+          },
+          {
             "INDICE": "YAO",
             "CHAVE": "YAO_FILIAL+YAO_ID",
             "ORDEM": "1"
           }
         ],
-        "total": 51
+        "total": 59
       },
       "SX7": {
         "registros": [
@@ -8582,6 +8634,18 @@
             "X7_CDOMIN": "Y01_PENE"
           },
           {
+            "X7_CAMPO": "Y01_UBS",
+            "X7_SEQUENC": "001",
+            "X7_REGRA": "U_fArmUBS(M->Y01_UBS)",
+            "X7_CDOMIN": "Y01_LOCAL"
+          },
+          {
+            "X7_CAMPO": "Y01_UBS",
+            "X7_SEQUENC": "002",
+            "X7_REGRA": "Y05->Y05_NOME",
+            "X7_CDOMIN": "Y01_DESCUB"
+          },
+          {
             "X7_CAMPO": "Y05_MOEGA",
             "X7_SEQUENC": "501",
             "X7_REGRA": "NL5->NL5_DESCRI",
@@ -8604,6 +8668,72 @@
             "X7_SEQUENC": "501",
             "X7_REGRA": "NJ0->NJ0_NOME",
             "X7_CDOMIN": "Y08_NOMENT"
+          },
+          {
+            "X7_CAMPO": "YA0_CLI",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": "SA1->A1_NOME",
+            "X7_CDOMIN": "YA0_CLINOM"
+          },
+          {
+            "X7_CAMPO": "YA0_CODDIR",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": ")",
+            "X7_CDOMIN": "YA0_MTVDIR"
+          },
+          {
+            "X7_CAMPO": "YA0_CTVAR",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": ")",
+            "X7_CDOMIN": "YA0_CTVDES"
+          },
+          {
+            "X7_CAMPO": "YA0_CULTRA",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": ")",
+            "X7_CDOMIN": "YA0_CTRDES"
+          },
+          {
+            "X7_CAMPO": "YA0_LOJA",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": ")",
+            "X7_CDOMIN": "YA0_CLINOM"
+          },
+          {
+            "X7_CAMPO": "YA0_PRODUT",
+            "X7_SEQUENC": "501",
+            "X7_REGRA": ")",
+            "X7_CDOMIN": "YA0_DESPRO"
+          },
+          {
+            "X7_CAMPO": "YA0_PRODUT",
+            "X7_SEQUENC": "502",
+            "X7_REGRA": ")",
+            "X7_CDOMIN": "YA0_UM"
+          },
+          {
+            "X7_CAMPO": "YA0_PRODUT",
+            "X7_SEQUENC": "503",
+            "X7_REGRA": "SB5->B5_CULTRA",
+            "X7_CDOMIN": "YA0_CULTRA"
+          },
+          {
+            "X7_CAMPO": "YA0_PRODUT",
+            "X7_SEQUENC": "504",
+            "X7_REGRA": "SB5->B5_PENE",
+            "X7_CDOMIN": "YA0_PENE"
+          },
+          {
+            "X7_CAMPO": "YA0_PRODUT",
+            "X7_SEQUENC": "505",
+            "X7_REGRA": "SB5->B5_CTVAR",
+            "X7_CDOMIN": "YA0_CTVAR"
+          },
+          {
+            "X7_CAMPO": "YA0_PRODUT",
+            "X7_SEQUENC": "506",
+            "X7_REGRA": "SB5->B5_CATEG",
+            "X7_CDOMIN": "YA0_CATEG"
           },
           {
             "X7_CAMPO": "YAO_CTVAR",
@@ -8658,9 +8788,15 @@
             "X7_SEQUENC": "502",
             "X7_REGRA": "SB1->B1_UM",
             "X7_CDOMIN": "YAO_UM"
+          },
+          {
+            "X7_CAMPO": "YAO_UBS",
+            "X7_SEQUENC": "001",
+            "X7_REGRA": "U_fArmUBS(M->YAO_UBS)",
+            "X7_CDOMIN": "YAO_LOCAL"
           }
         ],
-        "total": 27
+        "total": 41
       },
       "SXA": {
         "registros": [
@@ -8689,6 +8825,56 @@
       },
       "SXB": {
         "registros": [
+          {
+            "XB_ALIAS": "NP7DL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Peneira Direcionam."
+          },
+          {
+            "XB_ALIAS": "NP7DL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Código"
+          },
+          {
+            "XB_ALIAS": "NP7DL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Filial"
+          },
+          {
+            "XB_ALIAS": "NP7DL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Código"
+          },
+          {
+            "XB_ALIAS": "NP7DL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Descrição"
+          },
+          {
+            "XB_ALIAS": "NP7DL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "NP7DL",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "SC6PI",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Pedido Direcionament"
+          },
+          {
+            "XB_ALIAS": "SC6PI",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "SC6PI",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
           {
             "XB_ALIAS": "Y00",
             "XB_SEQ": "01",
@@ -9028,9 +9214,49 @@
             "XB_ALIAS": "Y0F",
             "XB_SEQ": "01",
             "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "YA2M",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Mot. Direcionamento"
+          },
+          {
+            "XB_ALIAS": "YA2M",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Cod.mot.dir.+status"
+          },
+          {
+            "XB_ALIAS": "YA2M",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Filial"
+          },
+          {
+            "XB_ALIAS": "YA2M",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Cod.Mot.Dir."
+          },
+          {
+            "XB_ALIAS": "YA2M",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Desc. Motivo"
+          },
+          {
+            "XB_ALIAS": "YA2M",
+            "XB_SEQ": "01",
+            "XB_DESCRI": "Status Motiv"
+          },
+          {
+            "XB_ALIAS": "YA2M",
+            "XB_SEQ": "01",
+            "XB_DESCRI": ""
+          },
+          {
+            "XB_ALIAS": "YA2M",
+            "XB_SEQ": "02",
+            "XB_DESCRI": ""
           }
         ],
-        "total": 68
+        "total": 86
       },
       "SX6": {
         "registros": [
@@ -9043,10 +9269,38 @@
           },
           {
             "X6_FIL": "  ",
+            "X6_VAR": "IA_ALPSTSE",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Define se pode alterar PMS do TSI e ou Troca Embal",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_ASSCERT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Este parâmetro é utilizado para indicar a pasta",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_ASSTEC",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Este parâmetro é utilizado para indicar a pasta",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
             "X6_VAR": "IA_AZCSMLS",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Define o Armazem de consumo de insumos no Processo",
             "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_AZCSPLN",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Informa se deve consumir do Armazen do",
+            "X6_CONTEUD": ".F."
           },
           {
             "X6_FIL": "  ",
@@ -9071,6 +9325,13 @@
           },
           {
             "X6_FIL": "  ",
+            "X6_VAR": "IA_AZPRREM",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Armazem de producao da Reembalagem",
+            "X6_CONTEUD": "01"
+          },
+          {
+            "X6_FIL": "  ",
             "X6_VAR": "IA_AZPRTSI",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Armazem de Produção de TSI",
@@ -9078,10 +9339,66 @@
           },
           {
             "X6_FIL": "  ",
+            "X6_VAR": "IA_BLOTPDF",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Selecao de lotes: .T. usa a consulta padrao de",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_BLQCPCS",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Bloqueia a edicao dos campos do planejamento",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
             "X6_VAR": "IA_BLQENLS",
             "X6_TIPO": "L",
             "X6_DESCRIC": "Define se o endereço pode ser ajustado",
             "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_BLQPLN",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Producao de lote: .T. impede produzir quando um",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_CAMPCAT",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "TSI: permite editar o campo Categoria na tela",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_CAMPSAF",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "TSI: permite editar o campo Safra na tela de",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_CANTOT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Cancelamento de etiquetas: S = se alguma nao",
+            "X6_CONTEUD": "N"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_DIALTE",
+            "X6_TIPO": "N",
+            "X6_DESCRIC": "Dias para aumentar a validade do lote",
+            "X6_CONTEUD": "1"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_DIATSI",
+            "X6_TIPO": "N",
+            "X6_DESCRIC": "TSI: quantidade de dias de emissao do pedido de",
+            "X6_CONTEUD": "90"
           },
           {
             "X6_FIL": "  ",
@@ -9099,6 +9416,209 @@
           },
           {
             "X6_FIL": "  ",
+            "X6_VAR": "IA_EDTTPOP",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Indica se o campo Op. Terceiro pode ser editado",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_ENDPRD",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Habilita o enderecamento automatico do lote",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_ENDTOT",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Habilita o enderecamento total pela tela de",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_ENDY01",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Atualiza o endereco do planejamento (Y01) no",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_ETQAMOS",
+            "X6_TIPO": "N",
+            "X6_DESCRIC": "Quantidade padrao de etiquetas de amostra na",
+            "X6_CONTEUD": "2"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_ETQDSP",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Producao de lote: mostra so as etiquetas",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_EXQTMT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Msg Obrig. Canc. Etq.",
+            "X6_CONTEUD": "S"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_EXQTPL",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Excluir Qtde Planej.",
+            "X6_CONTEUD": "S"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_FEXTEMP",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Extrato de Empenho (IAG67M06): se .T.,",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_FLCTGPL",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Producao de lote: filtra a categoria do produto",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_GRUPOMP",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Informa os grupos do produto materia prima",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_GRUPOPL",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Grupos de produto do produto limpo (PL),",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_GRVEMP",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Gravar Empenho",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_IGNSELT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Selecao de lotes: rotinas (separadas por |) em",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_IGNTRE",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Numeracao do planejamento: nao considera os",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_IGNTSI",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Numeracao do planejamento: nao considera os",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_IMGORC",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Caminho do logo da impressao do planejamento.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_IMPQRC",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Imprime o QR Code na impressao do planejamento",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_IMPTRAT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Termo, receita de tratamento: 1=dosagem por kg;",
+            "X6_CONTEUD": "1"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_INTPRC",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Integracao SimpleAgro: prefixo do cabecalho do",
+            "X6_CONTEUD": "sync-token: "
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_LABPADR",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Indica um Laboratório padrão que efetuou os testes",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_LIBEMP",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "TSI: permite ao usuario fazer empenho parcial.",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_LOJPADR",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Indica a Lja do Lab. padrão que efetuou os testes",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_NOMECLI",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "TSI: campo da SA1 usado como nome do cliente",
+            "X6_CONTEUD": "A1_NOME"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_PDBLTSI",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "TSI: filtro de bloqueio dos pedidos: 1=Todos;",
+            "X6_CONTEUD": "1"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_PLOBEN",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Endereço Obrigatório",
+            "X6_CONTEUD": "N"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_PLTMRS",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Apenas estrutura com Rastro",
+            "X6_CONTEUD": "N"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_PSWTOK",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Integracao SimpleAgro: senha.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_QRCDPER",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Usa QR Code personalizado (ponto de entrada",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
             "X6_VAR": "IA_QRCY02",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Campos para montagem de etiqueta na Y02",
@@ -9106,9 +9626,205 @@
           },
           {
             "X6_FIL": "  ",
+            "X6_VAR": "IA_QTDIMPE",
+            "X6_TIPO": "N",
+            "X6_DESCRIC": "Quantidade padrao de impressao da etiqueta.",
+            "X6_CONTEUD": "1"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_RELCFNF",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Relatorio de comercializacao: CFOPs que filtram",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_REMLTAP",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Troca de embalagem: permite selecionar somente",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_SALTOK",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Integracao SimpleAgro: token fixo.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_SALURL",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Integracao SimpleAgro: URL da API.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_SLGPROD",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Selecao de lotes: grupos de produto com bloqueio",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_SLTSAFT",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Selecao de lotes: considera todas as safras.",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TCLOGO",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Caminho do logo dos termos e certificados.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TCSEQUE",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Verdadeiro indica que na impressão o nr. do termo",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TIPOROM",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Tipos de romaneio (separados por |) que exigem o",
+            "X6_CONTEUD": "1|3|5"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TPBLQLT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Tipo de Bloqueio de lote 1 Sementes 2 Todos produt",
+            "X6_CONTEUD": "1"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TPLBM22",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Direcionamento de lotes: tipo de lote (NP9)",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TPSLDMV",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Com MV_TPSALDO = C, calcula o saldo do insumo",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TRVCNM",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Travar Qtd. a Consumir",
+            "X6_CONTEUD": "0"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TRVEMP",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Travar empenho de produtos com rastreabilidade",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TRZGER",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "TSI: germinacao do lote .F. = igual; .T. =",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_TSILTAP",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "TSI: permite selecionar somente lotes",
+            "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_UMSEMET",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Unidades de medida (separadas por ;) que",
+            "X6_CONTEUD": "KG"
+          },
+          {
+            "X6_FIL": "  ",
             "X6_VAR": "IA_URLQRC",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Url QrCode",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_USESETQ",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Codigos de usuario (separados por |) que podem",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_USRTOK",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Integracao SimpleAgro: usuario.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARBOLT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variável de tipo de análise que contém o dado ref.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARBOOR",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variavel de tipo de analise que contem o numero",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARCERT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variavel de tipo de analise que contem o numero",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARDTBL",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variavel de tipo de analise que contem a data do",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARDTCT",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variavel de tipo de analise que contem a data do",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARDURA",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variável de tipo de análise que contém o dado ref.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARGERM",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variável de tipo de análise que contém o dado ref.",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARINFE",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Váriavel de tipo de análise que contem o dado ref.",
             "X6_CONTEUD": ""
           },
           {
@@ -9127,9 +9843,23 @@
           },
           {
             "X6_FIL": "  ",
+            "X6_VAR": "IA_VARPMS",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variavel de tipo de analise que contem o PMS do",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
             "X6_VAR": "IA_VARPRBI",
             "X6_TIPO": "C",
             "X6_DESCRIC": "Variavel de analise com as sementes",
+            "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VARPURE",
+            "X6_TIPO": "C",
+            "X6_DESCRIC": "Variável de tipo de análise que contém o dado ref.",
             "X6_CONTEUD": ""
           },
           {
@@ -9145,9 +9875,30 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "Variavel de analise com a Vigna",
             "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VLDSLD",
+            "X6_TIPO": "N",
+            "X6_DESCRIC": "1 ou 2=Perm.emp.dif.do vol.a consumir calc.(2 aler",
+            "X6_CONTEUD": "3"
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VLDTAL",
+            "X6_TIPO": "L",
+            "X6_DESCRIC": "Romaneio de MP semente: valida o talhao.",
+            "X6_CONTEUD": ".T."
+          },
+          {
+            "X6_FIL": "  ",
+            "X6_VAR": "IA_VLDTERM",
+            "X6_TIPO": "N",
+            "X6_DESCRIC": "Informe o nr. de meses que o Boletim para calculo",
+            "X6_CONTEUD": "6"
           }
         ],
-        "total": 16
+        "total": 91
       }
     },
     "UPDIAG_CONFIG": {
@@ -9790,11 +10541,16 @@
       "fontes": [
         {
           "nome": "updtmp.prw",
-          "data": "09/06/2026"
+          "data": "07/10/2026"
         }
       ],
       "SX3": {
         "registros": [
+          {
+            "X3_ARQUIVO": "SA2",
+            "X3_CAMPO": "A2_XRENASE",
+            "X3_TITULO": "Renasem"
+          },
           {
             "X3_ARQUIVO": "SD4",
             "X3_CAMPO": "D4_XIDPLBS",
@@ -9956,7 +10712,7 @@
             "X3_TITULO": "Nº Term Conf"
           }
         ],
-        "total": 32
+        "total": 33
       },
       "SX7": {
         "registros": [
