@@ -978,6 +978,15 @@
       },
       "downloads": []
     },
+    "DICIONARIOS_BASE": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
     "DOCS_DICIONARIO-OG": {
       "fontes": [],
       "ponto_de_entrada": [],
@@ -3618,7 +3627,7 @@
         },
         {
           "nome": "IAG67M06.prw",
-          "data": "21/09/2026"
+          "data": "13/10/2026"
         },
         {
           "nome": "IAG67M07.PRW",
