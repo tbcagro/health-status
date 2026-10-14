@@ -1658,23 +1658,7 @@
         "fontes": 6,
         "pontos_entrada": 29
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-fiscal-v1_5_1_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.5.1/templates-fiscal-v1_5_1_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-fiscal-v1_5_1_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.5.1/templates-fiscal-v1_5_1_2510.ptm"
-        }
-      ],
-      "dicionario_zip": {
-        "arquivo": "templates-fiscal-v1_5_1_dicionario.zip",
-        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.5.1/templates-fiscal-v1_5_1_dicionario.zip",
-        "pasta": "Configurador_Tributos"
-      }
+      "downloads": []
     },
     "GESTAO_DE_LICENÇAS_JSON": {
       "fontes": [],
@@ -3915,6 +3899,118 @@
     }
   },
   "dicionario": {
+    "00_GENERICOS_PACOTE": {
+      "origem": "gestao_projetos",
+      "projeto": "000018",
+      "descricao": "TEMPLATE GENERICOS",
+      "release_referencia": "12.1.2510",
+      "SIX": {
+        "registros": [
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 1
+      },
+      "SX2": {
+        "registros": [
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 1
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 9
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 3
+      }
+    },
     "ADVPL_CONTEXT_REFERENCE": {
       "fontes": [
         {
@@ -3967,9 +4063,14 @@
           {
             "X2_CHAVE": "YAA",
             "X2_NOME": "Liquidação Cessao / Barter"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 3
+        "total": 4
       },
       "SX3": {
         "registros": [
@@ -4222,9 +4323,63 @@
             "X3_ARQUIVO": "YAA",
             "X3_CAMPO": "YAA_VLRIMP",
             "X3_TITULO": "Impostos"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 50
+        "total": 59
       },
       "SIX": {
         "registros": [
@@ -4257,9 +4412,15 @@
             "INDICE": "YAA",
             "CHAVE": "YAA_PAGREC+STR(YAA_RECFIN)",
             "ORDEM": "2"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 6
+        "total": 7
       },
       "SXA": {
         "registros": [
@@ -4316,9 +4477,30 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "Tipos de Cessao de Credito aceitos",
             "X6_CONTEUD": "P=Pagar;R=Receber;C=Compensacao;B=Barter"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 5
       }
     },
     "FIS_CONFIGURADOR_TRIBUTOS": {
@@ -4332,9 +4514,14 @@
             "X2_CHAVE": "F20",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 2
       },
       "SX3": {
         "registros": [
@@ -4354,6 +4541,97 @@
             "X3_ARQUIVO": "F20",
             "X3_CAMPO": "F20_XFPRO",
             "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 12
+      },
+      "SIX": {
+        "registros": [
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 1
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
             "operacao": "Inclusão ou Alteração"
           }
         ],
@@ -4388,9 +4666,14 @@
           {
             "X2_CHAVE": "YAL",
             "X2_NOME": "Fixacao UBA"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 3
+        "total": 4
       },
       "SX3": {
         "registros": [
@@ -4653,9 +4936,63 @@
             "X3_ARQUIVO": "YAL",
             "X3_CAMPO": "YAL_VLRTOT",
             "X3_TITULO": "Valor Total"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 52
+        "total": 61
       },
       "SIX": {
         "registros": [
@@ -4678,9 +5015,15 @@
             "INDICE": "YAL",
             "CHAVE": "YAL_FILIAL+YAL_CODIGO",
             "ORDEM": "2"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 4
+        "total": 5
       },
       "SX7": {
         "registros": [
@@ -4962,6 +5305,32 @@
           }
         ],
         "total": 53
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 3
       }
     },
     "UPDBARTE": {
@@ -5554,9 +5923,89 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "Define o preço que sera utilizado no barter na",
             "X6_CONTEUD": "2"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 11
+        "total": 14
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 9
       }
     },
     "UPDDERIV": {
@@ -5579,9 +6028,14 @@
           {
             "X2_CHAVE": "YAP",
             "X2_NOME": "Variação da taxa NDF"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 3
+        "total": 4
       },
       "SX3": {
         "registros": [
@@ -5799,9 +6253,63 @@
             "X3_ARQUIVO": "YAP",
             "X3_CAMPO": "YAP_VLVARI",
             "X3_TITULO": "Vlr Variação"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 43
+        "total": 52
       },
       "SIX": {
         "registros": [
@@ -5819,9 +6327,15 @@
             "INDICE": "YAP",
             "CHAVE": "YAP_FILIAL+YAP_ID+YAP_DATA",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 3
+        "total": 4
       },
       "SX7": {
         "registros": [
@@ -5911,9 +6425,30 @@
             "X6_TIPO": "L",
             "X6_DESCRIC": "Verifica se usa corretora",
             "X6_CONTEUD": ".F."
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 7
+        "total": 10
       }
     },
     "UPDEMB": {
@@ -5956,9 +6491,14 @@
           {
             "X2_CHAVE": "Y0X",
             "X2_NOME": "Histórico Transferência UBA"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 8
+        "total": 9
       },
       "SX3": {
         "registros": [
@@ -6156,9 +6696,63 @@
             "X3_ARQUIVO": "Y0X",
             "X3_CAMPO": "Y0X_USR",
             "X3_TITULO": "Usuário"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 39
+        "total": 48
       },
       "SIX": {
         "registros": [
@@ -6261,9 +6855,15 @@
             "INDICE": "Y0X",
             "CHAVE": "Y0X_FILIAL+Y0X_COD",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 20
+        "total": 21
       },
       "SX7": {
         "registros": [
@@ -6913,9 +7513,30 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "Usuários autorizados a alterar fardos por bloco",
             "X6_CONTEUD": "000000"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 3
+        "total": 6
       }
     },
     "UPDEXPDI": {
@@ -6934,9 +7555,14 @@
           {
             "X2_CHAVE": "Y18",
             "X2_NOME": "ITENS ORD.EXPORTACAO"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 3
       },
       "SX3": {
         "registros": [
@@ -7164,9 +7790,63 @@
             "X3_ARQUIVO": "Y18",
             "X3_CAMPO": "Y18_UM1PRO",
             "X3_TITULO": "Unid. Medida"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 45
+        "total": 54
       },
       "SIX": {
         "registros": [
@@ -7194,9 +7874,15 @@
             "INDICE": "Y18",
             "CHAVE": "Y18_FILIAL+Y18_SERREM+Y18_NFREM+Y18_ITEREM",
             "ORDEM": "2"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 5
+        "total": 6
       },
       "SX6": {
         "registros": [
@@ -7206,9 +7892,30 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "Exportação Direta Info. Comple.",
             "X6_CONTEUD": ""
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 4
       }
     },
     "UPDFECHA": {
@@ -7295,9 +8002,14 @@
           {
             "X2_CHAVE": "YAC",
             "X2_NOME": "Fechamento Nota Terceiro"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 19
+        "total": 20
       },
       "SIX": {
         "registros": [
@@ -7430,9 +8142,15 @@
             "INDICE": "YAC",
             "CHAVE": "YAC_FILIAL+YAC_FECHAM+YAC_NUMFEC+YAC_FILCTR+YAC_CODCTR+YAC_ITEM+YAC_DOC+YAC_SERIE+YAC_CLIFOR+YAC_LOJA",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 26
+        "total": 27
       },
       "SX7": {
         "registros": [
@@ -8184,6 +8902,91 @@
           }
         ],
         "total": 144
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 9
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 3
       }
     },
     "UPDIAG": {
@@ -8306,9 +9109,14 @@
           {
             "X2_CHAVE": "YAO",
             "X2_NOME": "Planejamento Cultivar"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 28
+        "total": 29
       },
       "SIX": {
         "registros": [
@@ -8606,9 +9414,15 @@
             "INDICE": "YAO",
             "CHAVE": "YAO_FILIAL+YAO_ID",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 59
+        "total": 60
       },
       "SX7": {
         "registros": [
@@ -9959,9 +10773,89 @@
             "X6_TIPO": "N",
             "X6_DESCRIC": "Informe o nr. de meses que o Boletim para calculo",
             "X6_CONTEUD": "6"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 91
+        "total": 94
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 9
       }
     },
     "UPDIAG_CONFIG": {
@@ -9996,9 +10890,14 @@
           {
             "X2_CHAVE": "YAG",
             "X2_NOME": "Resultado Laudo"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 4
+        "total": 5
       },
       "SIX": {
         "registros": [
@@ -10021,9 +10920,15 @@
             "INDICE": "YAG",
             "CHAVE": "YAG_FILIAL+YAG_CODRES+YAG_LAYOUT+YAG_LOTE+YAG_PRODUT+YAG_ENSAIO",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 4
+        "total": 5
       },
       "SX7": {
         "registros": [
@@ -10178,9 +11083,89 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "Pasta onde estão as assinaturas do cadastro de",
             "X6_CONTEUD": "\\assinatura\\"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 4
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 9
       }
     },
     "UPDLINEG": {
@@ -10195,9 +11180,14 @@
           {
             "X2_CHAVE": "YAQ",
             "X2_NOME": "Livre Negociação Compras"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 2
       },
       "SX3": {
         "registros": [
@@ -10250,9 +11240,63 @@
             "X3_ARQUIVO": "YAQ",
             "X3_CAMPO": "YAQ_VALOR",
             "X3_TITULO": "Vlr. Parcela"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 10
+        "total": 19
       },
       "SIX": {
         "registros": [
@@ -10260,9 +11304,15 @@
             "INDICE": "YAQ",
             "CHAVE": "YAQ_FILIAL+YAQ_COD+YAQ_NUM",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 2
       },
       "SX6": {
         "registros": [
@@ -10300,9 +11350,30 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "Tipos de Cessao de Credito aceitos",
             "X6_CONTEUD": "P=Pagar;R=Receber;C=Compensacao;B=Barter"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 5
+        "total": 8
       }
     },
     "UPDPIMSA": {
@@ -10317,9 +11388,14 @@
           {
             "X2_CHAVE": "Y10",
             "X2_NOME": "Logs Integracao UBA/PIMS"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 2
       },
       "SIX": {
         "registros": [
@@ -10327,9 +11403,15 @@
             "INDICE": "Y10",
             "CHAVE": "Y10_FILIAL+Y10_ID",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 2
       },
       "SX6": {
         "registros": [
@@ -10339,9 +11421,89 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "Definição de campos para a chave de integração",
             "X6_CONTEUD": "DX0_FARDAO|DX0_SAFRA"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 4
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 9
       }
     },
     "UPDREPRO": {
@@ -10362,9 +11524,15 @@
             "INDICE": "Y0C",
             "CHAVE": "Y0C_FILIAL+Y0C_FILDES+Y0C_ROMDES",
             "ORDEM": "2"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 3
       },
       "SXA": {
         "registros": [
@@ -10410,6 +11578,101 @@
           }
         ],
         "total": 3
+      },
+      "SX2": {
+        "registros": [
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 1
+      },
+      "SX3": {
+        "registros": [
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 9
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 3
       }
     },
     "UPDSELRO": {
@@ -10428,9 +11691,14 @@
           {
             "X2_CHAVE": "Y16",
             "X2_NOME": "Itens Direcionados Romaneio"
+          },
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 3
       },
       "SX3": {
         "registros": [
@@ -10558,9 +11826,63 @@
             "X3_ARQUIVO": "Y16",
             "X3_CAMPO": "Y16_SEQ",
             "X3_TITULO": "Sequencial"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 25
+        "total": 34
       },
       "SIX": {
         "registros": [
@@ -10583,9 +11905,15 @@
             "INDICE": "Y16",
             "CHAVE": "Y16_FILIAL+Y16_CODROM+Y16_CODPRO+Y16_SEQ",
             "ORDEM": "2"
+          },
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 4
+        "total": 5
       },
       "SX6": {
         "registros": [
@@ -10595,9 +11923,30 @@
             "X6_TIPO": "C",
             "X6_DESCRIC": "1=Informa o qt na 1a um 2=Informa a qt na 2aum",
             "X6_CONTEUD": "1"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 4
       }
     },
     "UPDTMP": {
@@ -10773,9 +12122,63 @@
             "X3_ARQUIVO": "NP9",
             "X3_CAMPO": "NP9_XTERMO",
             "X3_TITULO": "Nº Term Conf"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TABLE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_NOMUSU",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_TPMOV",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_DSTPMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YA7",
+            "X3_CAMPO": "YA7_MSGMEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 33
+        "total": 42
       },
       "SX7": {
         "registros": [
@@ -10984,6 +12387,53 @@
           }
         ],
         "total": 34
+      },
+      "SX2": {
+        "registros": [
+          {
+            "X2_CHAVE": "YA7",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 1
+      },
+      "SIX": {
+        "registros": [
+          {
+            "INDICE": "YA7",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 1
+      },
+      "SX6": {
+        "registros": [
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_APIKEY",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_DIASVLI",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X6_FIL": "",
+            "X6_VAR": "IA_URLLIC",
+            "X6_DESCRIC": "",
+            "X6_CONTEUD": "",
+            "operacao": "Inclusão ou Alteração"
+          }
+        ],
+        "total": 3
       }
     }
   }
