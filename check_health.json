@@ -254,20 +254,6 @@
       },
       "downloads": []
     },
-    "67_AGROINDUSTRIA_C_CONSULTA": {
-      "fontes": [
-        {
-          "nome": "IAG67C02.PRW",
-          "data": "08/01/2025"
-        }
-      ],
-      "ponto_de_entrada": [],
-      "totais": {
-        "fontes": 1,
-        "pontos_entrada": 0
-      },
-      "downloads": []
-    },
     "API_CLIENTES": {
       "fontes": [
         {
@@ -1044,15 +1030,6 @@
       "ponto_de_entrada": [],
       "totais": {
         "fontes": 6,
-        "pontos_entrada": 0
-      },
-      "downloads": []
-    },
-    "EVIDENCIAS_2026-08-04-FIS-NCM-ALIQUOTA": {
-      "fontes": [],
-      "ponto_de_entrada": [],
-      "totais": {
-        "fontes": 0,
         "pontos_entrada": 0
       },
       "downloads": []
@@ -3193,24 +3170,6 @@
       "ponto_de_entrada": [],
       "totais": {
         "fontes": 1,
-        "pontos_entrada": 0
-      },
-      "downloads": []
-    },
-    "TIR_FUNCOES_GERAIS": {
-      "fontes": [],
-      "ponto_de_entrada": [],
-      "totais": {
-        "fontes": 0,
-        "pontos_entrada": 0
-      },
-      "downloads": []
-    },
-    "TIR_TEST_IAG67A46": {
-      "fontes": [],
-      "ponto_de_entrada": [],
-      "totais": {
-        "fontes": 0,
         "pontos_entrada": 0
       },
       "downloads": []
