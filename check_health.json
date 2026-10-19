@@ -1635,7 +1635,23 @@
         "fontes": 6,
         "pontos_entrada": 29
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-fiscal-v1_5_2_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.5.2/templates-fiscal-v1_5_2_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-fiscal-v1_5_2_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.5.2/templates-fiscal-v1_5_2_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-fiscal-v1_5_2_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.5.2/templates-fiscal-v1_5_2_dicionario.zip",
+        "pasta": "Configurador_Tributos"
+      }
     },
     "GESTAO_DE_LICENÇAS_JSON": {
       "fontes": [],
@@ -2538,7 +2554,23 @@
         "fontes": 41,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "RECEITUARIO_CANASSA": {
       "fontes": [
@@ -2644,7 +2676,23 @@
         "fontes": 24,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "RECEITUARIO_COACRIS_BASE": {
       "fontes": [
@@ -2782,7 +2830,23 @@
         "fontes": 32,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "RECEITUARIO_CONCEITO": {
       "fontes": [
@@ -2884,7 +2948,23 @@
         "fontes": 23,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "RECEITUARIO_COTRIEL": {
       "fontes": [
@@ -3058,7 +3138,23 @@
         "fontes": 41,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.1/templates-receituario-v1_8_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "SAMPLES-SMARTX_ADVPLCALL": {
       "fontes": [
