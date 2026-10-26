@@ -116,7 +116,7 @@
         },
         {
           "nome": "tbcagro.agroindustria.importador_cadastro.reporter.tlpp",
-          "data": "24/09/2026"
+          "data": "26/10/2026"
         },
         {
           "nome": "tbcagro.agroindustria.importador_cadastro.utils.tlpp",
@@ -1373,8 +1373,20 @@
     "FIS_CONFIGURADOR_TRIBUTOS": {
       "fontes": [
         {
+          "nome": "tbcagro.fiscal.configurador_tributo.distribuicao.mapa.tlpp",
+          "data": "26/10/2026"
+        },
+        {
+          "nome": "tbcagro.fiscal.configurador_tributo.distribuicao.motor.tlpp",
+          "data": "26/10/2026"
+        },
+        {
+          "nome": "tbcagro.fiscal.configurador_tributo.distribuicao.tlpp",
+          "data": "26/10/2026"
+        },
+        {
           "nome": "tbcagro.fiscal.configurador_tributo.empresas.consulta.tlpp",
-          "data": "12/08/2026"
+          "data": "26/10/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.ncm_aliquota.tlpp",
@@ -1390,11 +1402,11 @@
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.replicador.tlpp",
-          "data": "18/09/2026"
+          "data": "26/10/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.util.tlpp",
-          "data": "29/09/2026"
+          "data": "26/10/2026"
         }
       ],
       "ponto_de_entrada": [
@@ -1632,7 +1644,7 @@
         }
       ],
       "totais": {
-        "fontes": 6,
+        "fontes": 9,
         "pontos_entrada": 29
       },
       "downloads": []
