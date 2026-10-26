@@ -184,7 +184,7 @@
         },
         {
           "nome": "tbcagro.genericos.filtro_expressao.util.tlpp",
-          "data": "12/08/2026"
+          "data": "26/10/2026"
         },
         {
           "nome": "tbcagro.template.historico.TLPP",
@@ -1398,7 +1398,7 @@
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.perfis.mvc.tlpp",
-          "data": "16/10/2026"
+          "data": "26/10/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.replicador.tlpp",
