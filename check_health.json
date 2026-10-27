@@ -1647,23 +1647,7 @@
         "fontes": 9,
         "pontos_entrada": 29
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-fiscal-v1_6_1_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.6.1/templates-fiscal-v1_6_1_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-fiscal-v1_6_1_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.6.1/templates-fiscal-v1_6_1_2510.ptm"
-        }
-      ],
-      "dicionario_zip": {
-        "arquivo": "templates-fiscal-v1_6_1_dicionario.zip",
-        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.6.1/templates-fiscal-v1_6_1_dicionario.zip",
-        "pasta": "Configurador_Tributos"
-      }
+      "downloads": []
     },
     "GESTAO_DE_LICENÇAS_JSON": {
       "fontes": [],
