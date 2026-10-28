@@ -940,7 +940,23 @@
         "fontes": 12,
         "pontos_entrada": 13
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-compras-v1_4_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Compras-v1.4.1/templates-compras-v1_4_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-compras-v1_4_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Compras-v1.4.1/templates-compras-v1_4_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-compras-v1_4_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Compras-v1.4.1/templates-compras-v1_4_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "DESCONTINUADO_LICENCAS": {
       "fontes": [
