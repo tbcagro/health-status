@@ -1350,11 +1350,27 @@
           "linha": 23,
           "licenca": null,
           "tipo": "padrao"
+        },
+        {
+          "funcao": "OGA280",
+          "data": "04/07/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA280.PRW",
+          "linha": 20,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "PE_OGA290",
+          "data": "04/07/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA290.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
         }
       ],
       "totais": {
         "fontes": 11,
-        "pontos_entrada": 4
+        "pontos_entrada": 6
       },
       "downloads": []
     },
@@ -1736,14 +1752,6 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "MA410MNU",
-          "data": "28/05/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA410MNU.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "MT410ACE",
           "data": "14/05/2025",
           "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MT410ACE.prw",
@@ -1794,7 +1802,7 @@
       ],
       "totais": {
         "fontes": 17,
-        "pontos_entrada": 8
+        "pontos_entrada": 7
       },
       "downloads": []
     },
@@ -1986,19 +1994,11 @@
           "linha": 20,
           "licenca": null,
           "tipo": "proprio"
-        },
-        {
-          "funcao": "PE_OGA290",
-          "data": "04/07/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA290.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
         }
       ],
       "totais": {
         "fontes": 12,
-        "pontos_entrada": 11
+        "pontos_entrada": 10
       },
       "downloads": []
     },
@@ -2047,25 +2047,9 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "OGA250",
-          "data": "26/05/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA250.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "OGX008PG",
           "data": "18/02/2026",
           "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PG.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "OGX008PV",
-          "data": "26/05/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PV.prw",
           "linha": 10,
           "licenca": null,
           "tipo": "padrao"
@@ -2089,7 +2073,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 8
+        "pontos_entrada": 6
       },
       "downloads": []
     },
@@ -2108,19 +2092,10 @@
           "data": "26/06/2026"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "OG250ATUC",
-          "data": "19/06/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OG250ATUC.PRW",
-          "linha": 21,
-          "licenca": null,
-          "tipo": "padrao"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 3,
-        "pontos_entrada": 1
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -2343,10 +2318,34 @@
           "tipo": "padrao"
         },
         {
+          "funcao": "OG250ATUC",
+          "data": "19/06/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OG250ATUC.PRW",
+          "linha": 21,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
           "funcao": "OG251MNU",
           "data": "18/02/2026",
           "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OG251MNU.PRW",
           "linha": 15,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OGA250",
+          "data": "26/05/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA250.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "OGX008PV",
+          "data": "26/05/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PV.prw",
+          "linha": 10,
           "licenca": null,
           "tipo": "padrao"
         },
@@ -2361,7 +2360,7 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 3
+        "pontos_entrada": 6
       },
       "downloads": []
     },
@@ -3483,7 +3482,23 @@
         "fontes": 8,
         "pontos_entrada": 1
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_26_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_26_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_26_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_DIRECIONAMENTO": {
       "fontes": [
@@ -3501,7 +3516,23 @@
         "fontes": 2,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_26_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_26_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_26_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_PRODUCAO_TSI_TROCA_EMBALAGEM": {
       "fontes": [
@@ -3732,7 +3763,23 @@
         "fontes": 39,
         "pontos_entrada": 8
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_26_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_26_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_26_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_QUALIDADE_SEMENTES": {
       "fontes": [
@@ -3774,7 +3821,23 @@
         "fontes": 8,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_26_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_26_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_26_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_RELATORIOS_COMERCIALIZACAO": {
       "fontes": [
@@ -3800,7 +3863,23 @@
         "fontes": 4,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_26_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_26_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_26_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_SELECAO_LOTES": {
       "fontes": [
@@ -3835,6 +3914,14 @@
           "tipo": "padrao"
         },
         {
+          "funcao": "MA410MNU",
+          "data": "28/05/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA410MNU.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
           "funcao": "MA440VLD",
           "data": "26/05/2026",
           "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA440VLD.prw",
@@ -3861,9 +3948,25 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 4
+        "pontos_entrada": 5
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_26_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_26_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_26_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.26.1/templates-ubs-v1_26_1_dicionario.zip",
+        "pasta": "Genericos"
+      }
     }
   },
   "dicionario": {
