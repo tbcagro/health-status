@@ -940,23 +940,7 @@
         "fontes": 12,
         "pontos_entrada": 13
       },
-      "downloads": [
-        {
-          "versao_protheus": "P2410",
-          "arquivo": "templates-compras-v1_4_1_2410.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Compras-v1.4.1/templates-compras-v1_4_1_2410.ptm"
-        },
-        {
-          "versao_protheus": "P2510",
-          "arquivo": "templates-compras-v1_4_1_2510.ptm",
-          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Compras-v1.4.1/templates-compras-v1_4_1_2510.ptm"
-        }
-      ],
-      "dicionario_zip": {
-        "arquivo": "templates-compras-v1_4_1_dicionario.zip",
-        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Compras-v1.4.1/templates-compras-v1_4_1_dicionario.zip",
-        "pasta": "Genericos"
-      }
+      "downloads": []
     },
     "DESCONTINUADO_LICENCAS": {
       "fontes": [
@@ -3895,9 +3879,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 5
       },
       "SX2": {
         "registros": [
@@ -3905,9 +3913,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 2
       },
       "SX3": {
         "registros": [
@@ -3964,9 +3977,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 26
       },
       "SX6": {
         "registros": [
@@ -4052,9 +4167,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 4
+        "total": 5
       },
       "SX3": {
         "registros": [
@@ -4361,9 +4481,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 59
+        "total": 76
       },
       "SIX": {
         "registros": [
@@ -4402,9 +4624,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 7
+        "total": 11
       },
       "SXA": {
         "registros": [
@@ -4503,9 +4749,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 3
       },
       "SX3": {
         "registros": [
@@ -4580,9 +4831,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 12
+        "total": 29
       },
       "SIX": {
         "registros": [
@@ -4591,9 +4944,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 5
       },
       "SX6": {
         "registros": [
@@ -4655,9 +5032,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 4
+        "total": 5
       },
       "SX3": {
         "registros": [
@@ -4974,9 +5356,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 61
+        "total": 78
       },
       "SIX": {
         "registros": [
@@ -5005,9 +5489,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 5
+        "total": 9
       },
       "SX7": {
         "registros": [
@@ -5345,9 +5853,14 @@
           {
             "X2_CHAVE": "YA7",
             "X2_NOME": "Historico Acordo de Trocas"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 5
+        "total": 6
       },
       "SIX": {
         "registros": [
@@ -5395,9 +5908,33 @@
             "INDICE": "YA7",
             "CHAVE": "YA7_FILIAL+YA7_CHAVE+DTOS(YA7_DATA)+YA7_HORA",
             "ORDEM": "1"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 13
       },
       "SX7": {
         "registros": [
@@ -5987,9 +6524,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 26
       }
     },
     "UPDDERIV": {
@@ -6017,9 +6656,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 4
+        "total": 5
       },
       "SX3": {
         "registros": [
@@ -6291,9 +6935,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 52
+        "total": 69
       },
       "SIX": {
         "registros": [
@@ -6317,9 +7063,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 4
+        "total": 8
       },
       "SX7": {
         "registros": [
@@ -6480,9 +7250,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 10
       },
       "SX3": {
         "registros": [
@@ -6734,9 +7509,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 48
+        "total": 65
       },
       "SIX": {
         "registros": [
@@ -6845,9 +7722,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 21
+        "total": 25
       },
       "SX7": {
         "registros": [
@@ -7544,9 +8445,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 3
+        "total": 4
       },
       "SX3": {
         "registros": [
@@ -7828,9 +8734,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 54
+        "total": 71
       },
       "SIX": {
         "registros": [
@@ -7864,9 +8872,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 6
+        "total": 10
       },
       "SX6": {
         "registros": [
@@ -7991,9 +9023,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 20
+        "total": 21
       },
       "SIX": {
         "registros": [
@@ -8132,9 +9169,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 27
+        "total": 31
       },
       "SX7": {
         "registros": [
@@ -8942,9 +10003,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 26
       },
       "SX6": {
         "registros": [
@@ -9098,9 +10261,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 29
+        "total": 30
       },
       "SIX": {
         "registros": [
@@ -9404,9 +10572,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 60
+        "total": 64
       },
       "SX7": {
         "registros": [
@@ -10837,9 +12029,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 26
       }
     },
     "UPDIAG_CONFIG": {
@@ -10879,9 +12173,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 5
+        "total": 6
       },
       "SIX": {
         "registros": [
@@ -10910,9 +12209,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 5
+        "total": 9
       },
       "SX7": {
         "registros": [
@@ -11147,9 +12470,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 26
       }
     },
     "UPDLINEG": {
@@ -11169,9 +12594,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 3
       },
       "SX3": {
         "registros": [
@@ -11278,9 +12708,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 19
+        "total": 36
       },
       "SIX": {
         "registros": [
@@ -11294,9 +12826,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 6
       },
       "SX6": {
         "registros": [
@@ -11377,9 +12933,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 3
       },
       "SIX": {
         "registros": [
@@ -11393,9 +12954,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 2
+        "total": 6
       },
       "SX6": {
         "registros": [
@@ -11485,9 +13070,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 26
       }
     },
     "UPDREPRO": {
@@ -11514,9 +13201,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 3
+        "total": 7
       },
       "SXA": {
         "registros": [
@@ -11569,9 +13280,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 2
       },
       "SX3": {
         "registros": [
@@ -11628,9 +13344,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 9
+        "total": 26
       },
       "SX6": {
         "registros": [
@@ -11680,9 +13498,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 3
+        "total": 4
       },
       "SX3": {
         "registros": [
@@ -11864,9 +13687,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 34
+        "total": 51
       },
       "SIX": {
         "registros": [
@@ -11895,9 +13820,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 5
+        "total": 9
       },
       "SX6": {
         "registros": [
@@ -12160,9 +14109,111 @@
             "X3_CAMPO": "YA7_MSGMEM",
             "X3_TITULO": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_FILIAL",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ID",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DATA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HORA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_SISTEM",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DIRECA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_METODO",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_ENDPOI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_IDEXT",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_TABELA",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_CHAVE",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_HTTP",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_DURMS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_STATUS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_USUARI",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_REQUIS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X3_ARQUIVO": "YAW",
+            "X3_CAMPO": "YAW_RESPOS",
+            "X3_TITULO": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 42
+        "total": 59
       },
       "SX7": {
         "registros": [
@@ -12378,9 +14429,14 @@
             "X2_CHAVE": "YA7",
             "X2_NOME": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "X2_CHAVE": "YAW",
+            "X2_NOME": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 2
       },
       "SIX": {
         "registros": [
@@ -12389,9 +14445,33 @@
             "ORDEM": "1",
             "CHAVE": "",
             "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "1",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "2",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "3",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
+          },
+          {
+            "INDICE": "YAW",
+            "ORDEM": "4",
+            "CHAVE": "",
+            "operacao": "Inclusão ou Alteração"
           }
         ],
-        "total": 1
+        "total": 5
       },
       "SX6": {
         "registros": [
