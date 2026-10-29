@@ -175,6 +175,14 @@
           "data": "27/02/2026"
         },
         {
+          "nome": "tbcagro.app.v1.core.contexto.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.core.log_operacao.tlpp",
+          "data": "28/10/2026"
+        },
+        {
           "nome": "tbcagro.fiscal.impostos.simulacao.tlpp",
           "data": "15/04/2026"
         },
@@ -197,7 +205,7 @@
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 9,
+        "fontes": 11,
         "pontos_entrada": 0
       },
       "downloads": []
@@ -969,6 +977,15 @@
       "downloads": []
     },
     "DICIONARIOS_BASE": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
+    "DICIONARIOS_UBS": {
       "fontes": [],
       "ponto_de_entrada": [],
       "totais": {
@@ -3434,6 +3451,56 @@
       },
       "downloads": []
     },
+    "UBS_APP": {
+      "fontes": [
+        {
+          "nome": "tbcagro.app.v1.ubs.estoque.controller.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.estoque.service.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.etiquetas.controller.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.etiquetas.service.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.moega.controller.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.moega.service.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.planejamentos.controller.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.planejamentos.service.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.separacao.controller.tlpp",
+          "data": "28/10/2026"
+        },
+        {
+          "nome": "tbcagro.app.v1.ubs.separacao.service.tlpp",
+          "data": "28/10/2026"
+        }
+      ],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 10,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
     "UBS_CONTROLE_CAMPO_SEMENTES": {
       "fontes": [
         {
@@ -3595,11 +3662,11 @@
         },
         {
           "nome": "IAG67M01.prw",
-          "data": "23/06/2025"
+          "data": "28/10/2026"
         },
         {
           "nome": "IAG67M02.prw",
-          "data": "31/08/2026"
+          "data": "28/10/2026"
         },
         {
           "nome": "IAG67M06.prw",
@@ -3607,7 +3674,7 @@
         },
         {
           "nome": "IAG67M07.PRW",
-          "data": "01/09/2026"
+          "data": "28/10/2026"
         },
         {
           "nome": "IAG67M09.prw",
@@ -3631,7 +3698,7 @@
         },
         {
           "nome": "IAG67M16.TLPP",
-          "data": "27/10/2026"
+          "data": "28/10/2026"
         },
         {
           "nome": "IAG67M18.TLPP",
