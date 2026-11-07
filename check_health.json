@@ -484,7 +484,7 @@
         },
         {
           "nome": "products.data.tlpp",
-          "data": "12/03/2025"
+          "data": "07/11/2026"
         },
         {
           "nome": "products.service.tlpp",
@@ -1089,7 +1089,7 @@
         },
         {
           "nome": "TAG06A03.tlpp",
-          "data": "22/02/2026"
+          "data": "07/11/2026"
         },
         {
           "nome": "TAG06A04.tlpp",
@@ -2041,7 +2041,7 @@
       "fontes": [
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.consulta.remessas.tlpp",
-          "data": "25/03/2026"
+          "data": "07/11/2026"
         },
         {
           "nome": "tbcagro.agroindustria.exportacao_direta.ordem.mvc.tlpp",
@@ -2191,7 +2191,7 @@
         },
         {
           "nome": "tbcagro.agroindustria.fechamento_financeiro.liquidacao_receber.tlpp",
-          "data": "14/07/2026"
+          "data": "07/11/2026"
         },
         {
           "nome": "tbcagro.agroindustria.fechamento_financeiro.ordem.mvc.tlpp",
