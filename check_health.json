@@ -58,7 +58,7 @@
         },
         {
           "nome": "IAG00G12.PRW",
-          "data": "07/02/2025"
+          "data": "07/11/2026"
         },
         {
           "nome": "IAG00G13.prw",
@@ -768,21 +768,17 @@
           "data": "31/03/2026"
         },
         {
-          "nome": "tbcagro.tech.webhook.oga250 copy.tlpp",
-          "data": "31/03/2026"
-        },
-        {
           "nome": "tbcagro.tech.webhook.oga250.tlpp",
-          "data": "31/03/2026"
+          "data": "07/11/2026"
         },
         {
           "nome": "tbcagro.tech.webhook.try.tlpp",
-          "data": "31/03/2026"
+          "data": "07/11/2026"
         }
       ],
       "ponto_de_entrada": [],
       "totais": {
-        "fontes": 4,
+        "fontes": 3,
         "pontos_entrada": 0
       },
       "downloads": []
@@ -1367,27 +1363,11 @@
           "linha": 23,
           "licenca": null,
           "tipo": "padrao"
-        },
-        {
-          "funcao": "OGA280",
-          "data": "04/07/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA280.PRW",
-          "linha": 20,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "PE_OGA290",
-          "data": "04/07/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA290.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
         }
       ],
       "totais": {
         "fontes": 11,
-        "pontos_entrada": 6
+        "pontos_entrada": 4
       },
       "downloads": []
     },
@@ -1787,10 +1767,26 @@
           "tipo": "padrao"
         },
         {
+          "funcao": "MA410MNU",
+          "data": "28/05/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA410MNU.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
           "funcao": "MT410ACE",
           "data": "14/05/2025",
           "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MT410ACE.prw",
           "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "MT410CPY",
+          "data": "28/05/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MT410CPY.prw",
+          "linha": 11,
           "licenca": null,
           "tipo": "padrao"
         },
@@ -1829,7 +1825,7 @@
       ],
       "totais": {
         "fontes": 17,
-        "pontos_entrada": 6
+        "pontos_entrada": 8
       },
       "downloads": []
     },
@@ -2021,11 +2017,19 @@
           "linha": 20,
           "licenca": null,
           "tipo": "proprio"
+        },
+        {
+          "funcao": "PE_OGA290",
+          "data": "04/07/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/PE_OGA290.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
         }
       ],
       "totais": {
         "fontes": 12,
-        "pontos_entrada": 10
+        "pontos_entrada": 11
       },
       "downloads": []
     },
@@ -2049,6 +2053,14 @@
         }
       ],
       "ponto_de_entrada": [
+        {
+          "funcao": "M460FIM",
+          "data": "21/01/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/M460FIM.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
         {
           "funcao": "MTXMOEDA",
           "data": "25/03/2026",
@@ -2108,7 +2120,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 7
+        "pontos_entrada": 8
       },
       "downloads": []
     },
@@ -2569,27 +2581,10 @@
           "data": "25/08/2025"
         }
       ],
-      "ponto_de_entrada": [
-        {
-          "funcao": "M460FIM",
-          "data": "21/01/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/M460FIM.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
-          "funcao": "MT410CPY",
-          "data": "28/05/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MT410CPY.prw",
-          "linha": 11,
-          "licenca": null,
-          "tipo": "padrao"
-        }
-      ],
+      "ponto_de_entrada": [],
       "totais": {
         "fontes": 41,
-        "pontos_entrada": 2
+        "pontos_entrada": 0
       },
       "downloads": []
     },
@@ -3921,14 +3916,6 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "MA410MNU",
-          "data": "28/05/2026",
-          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA410MNU.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "MA440VLD",
           "data": "26/05/2026",
           "arquivo": "templates/Pontos de Entrada/05 - Faturamento/MA440VLD.prw",
@@ -3955,7 +3942,7 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 5
+        "pontos_entrada": 4
       },
       "downloads": []
     }
