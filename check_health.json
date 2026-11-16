@@ -1003,6 +1003,15 @@
       },
       "downloads": []
     },
+    "DOCS_DICIONARIO-RDV": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
     "DOCS_LEGADO": {
       "fontes": [],
       "ponto_de_entrada": [],
@@ -1381,6 +1390,74 @@
       "totais": {
         "fontes": 11,
         "pontos_entrada": 4
+      },
+      "downloads": []
+    },
+    "FIN_DICIONARIO": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
+    "FIN_RDV": {
+      "fontes": [
+        {
+          "nome": "tbcagro.financeiro.rdv.api.controller.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.api.data.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.api.service.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.cartao.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.confirmacao.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.depara.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.model.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.tipo_despesa.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.financeiro.rdv.validacao.tlpp",
+          "data": "16/11/2026"
+        }
+      ],
+      "ponto_de_entrada": [
+        {
+          "funcao": "MT140PC",
+          "data": "16/11/2026",
+          "arquivo": "templates/Pontos de Entrada/02 - Compras/MT140PC.tlpp",
+          "linha": 21,
+          "licenca": null,
+          "tipo": "padrao"
+        }
+      ],
+      "totais": {
+        "fontes": 10,
+        "pontos_entrada": 1
       },
       "downloads": []
     },
