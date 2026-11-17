@@ -985,6 +985,15 @@
       },
       "downloads": []
     },
+    "DICIONARIOS_FAT": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
     "DICIONARIOS_UBS": {
       "fontes": [],
       "ponto_de_entrada": [],
@@ -1083,6 +1092,82 @@
       "ponto_de_entrada": [],
       "totais": {
         "fontes": 1,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
+    "FAT_ANUIDADE": {
+      "fontes": [
+        {
+          "nome": "tbcagro.faturamento.anuidade.associado.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.geracao.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.grupo.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.modalidade.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.motor.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.notadebito.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.regra.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.relatorio.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.repositorio.tlpp",
+          "data": "16/11/2026"
+        },
+        {
+          "nome": "tbcagro.faturamento.anuidade.titulo.tlpp",
+          "data": "16/11/2026"
+        }
+      ],
+      "ponto_de_entrada": [
+        {
+          "funcao": "CRM980MDEF",
+          "data": "16/11/2026",
+          "arquivo": "templates/Pontos de Entrada/02 - Compras/CRM980MDEF.prw",
+          "linha": 14,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
+          "funcao": "M040SE1",
+          "data": "16/11/2026",
+          "arquivo": "templates/Pontos de Entrada/05 - Faturamento/M040SE1.tlpp",
+          "linha": 9,
+          "licenca": null,
+          "tipo": "padrao"
+        }
+      ],
+      "totais": {
+        "fontes": 10,
+        "pontos_entrada": 2
+      },
+      "downloads": []
+    },
+    "FAT_DICIONARIO": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
         "pontos_entrada": 0
       },
       "downloads": []
