@@ -2273,11 +2273,11 @@
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.distribuicao.motor.tlpp",
-          "data": "12/11/2026"
+          "data": "17/11/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.distribuicao.tlpp",
-          "data": "12/11/2026"
+          "data": "17/11/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.empresas.consulta.tlpp",
@@ -2297,11 +2297,11 @@
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.replicador.tlpp",
-          "data": "12/11/2026"
+          "data": "17/11/2026"
         },
         {
           "nome": "tbcagro.fiscal.configurador_tributo.util.tlpp",
-          "data": "12/11/2026"
+          "data": "17/11/2026"
         }
       ],
       "ponto_de_entrada": [
