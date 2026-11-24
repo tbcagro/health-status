@@ -4460,6 +4460,15 @@
       },
       "downloads": []
     },
+    "UBS_DICIONARIO": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
     "UBS_DIRECIONAMENTO": {
       "fontes": [
         {
