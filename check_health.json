@@ -2980,14 +2980,6 @@
           "tipo": "padrao"
         },
         {
-          "funcao": "OGX008PV",
-          "data": "26/05/2026",
-          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PV.prw",
-          "linha": 10,
-          "licenca": null,
-          "tipo": "padrao"
-        },
-        {
           "funcao": "SF2460I",
           "data": "20/05/2026",
           "arquivo": "templates/Pontos de Entrada/05 - Faturamento/SF2460I.tlpp",
@@ -3006,7 +2998,7 @@
       ],
       "totais": {
         "fontes": 4,
-        "pontos_entrada": 7
+        "pontos_entrada": 6
       },
       "downloads": []
     },
@@ -3276,6 +3268,14 @@
           "tipo": "padrao"
         },
         {
+          "funcao": "OGX008PV",
+          "data": "26/05/2026",
+          "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/OGX008PV.prw",
+          "linha": 10,
+          "licenca": null,
+          "tipo": "padrao"
+        },
+        {
           "funcao": "VLDLTNJM",
           "data": "18/02/2026",
           "arquivo": "templates/Pontos de Entrada/67 - Agroindustria/VLDLTNJM.prw",
@@ -3286,7 +3286,7 @@
       ],
       "totais": {
         "fontes": 5,
-        "pontos_entrada": 3
+        "pontos_entrada": 4
       },
       "downloads": []
     },
