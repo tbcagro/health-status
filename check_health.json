@@ -1161,7 +1161,23 @@
         "fontes": 10,
         "pontos_entrada": 2
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-faturamento-v1_1_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Faturamento-v1.1.0/templates-faturamento-v1_1_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-faturamento-v1_1_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Faturamento-v1.1.0/templates-faturamento-v1_1_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-faturamento-v1_1_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Faturamento-v1.1.0/templates-faturamento-v1_1_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "FAT_DICIONARIO": {
       "fontes": [],
@@ -1170,7 +1186,23 @@
         "fontes": 0,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-faturamento-v1_1_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Faturamento-v1.1.0/templates-faturamento-v1_1_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-faturamento-v1_1_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Faturamento-v1.1.0/templates-faturamento-v1_1_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-faturamento-v1_1_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Faturamento-v1.1.0/templates-faturamento-v1_1_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "FIN_CESSAO_DE_CREDITO": {
       "fontes": [
@@ -1389,7 +1421,23 @@
         "fontes": 24,
         "pontos_entrada": 14
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-financeiro-v1_8_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-financeiro-v1_8_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-financeiro-v1_8_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "FIN_DERIVATIVOS": {
       "fontes": [
@@ -1476,7 +1524,23 @@
         "fontes": 11,
         "pontos_entrada": 4
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-financeiro-v1_8_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-financeiro-v1_8_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-financeiro-v1_8_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "FIN_DICIONARIO": {
       "fontes": [],
@@ -1485,7 +1549,23 @@
         "fontes": 0,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-financeiro-v1_8_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-financeiro-v1_8_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-financeiro-v1_8_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "FIN_GESTAO_PROJETOS": {
       "fontes": [
@@ -2188,7 +2268,23 @@
         "fontes": 71,
         "pontos_entrada": 51
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-financeiro-v1_8_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-financeiro-v1_8_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-financeiro-v1_8_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "FIN_RDV": {
       "fontes": [
@@ -2263,7 +2359,23 @@
         "fontes": 10,
         "pontos_entrada": 3
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-financeiro-v1_8_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-financeiro-v1_8_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-financeiro-v1_8_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Financeiro-v1.8.0/templates-financeiro-v1_8_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "FIS_CONFIGURADOR_TRIBUTOS": {
       "fontes": [
@@ -2542,7 +2654,23 @@
         "fontes": 9,
         "pontos_entrada": 29
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-fiscal-v1_8_1_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.8.1/templates-fiscal-v1_8_1_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-fiscal-v1_8_1_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.8.1/templates-fiscal-v1_8_1_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-fiscal-v1_8_1_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Fiscal-v1.8.1/templates-fiscal-v1_8_1_dicionario.zip",
+        "pasta": "Configurador_Tributos"
+      }
     },
     "GESTAO_DE_LICENÇAS_JSON": {
       "fontes": [],
@@ -3480,7 +3608,23 @@
         "fontes": 41,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_4_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_4_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_4_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "RECEITUARIO_CANASSA": {
       "fontes": [
@@ -3586,7 +3730,23 @@
         "fontes": 24,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_4_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_4_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_4_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "RECEITUARIO_COACRIS_BASE": {
       "fontes": [
@@ -3724,7 +3884,23 @@
         "fontes": 32,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_4_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_4_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_4_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "RECEITUARIO_CONCEITO": {
       "fontes": [
@@ -3826,7 +4002,23 @@
         "fontes": 23,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_4_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_4_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_4_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "RECEITUARIO_COTRIEL": {
       "fontes": [
@@ -4000,7 +4192,23 @@
         "fontes": 41,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-receituario-v1_8_4_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-receituario-v1_8_4_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-receituario-v1_8_4_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-Receituario-v1.8.4/templates-receituario-v1_8_4_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "SAMPLES-SMARTX_ADVPLCALL": {
       "fontes": [
@@ -4407,7 +4615,23 @@
         "fontes": 10,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_30_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_30_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_30_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_CONTROLE_CAMPO_SEMENTES": {
       "fontes": [
@@ -4458,7 +4682,23 @@
         "fontes": 8,
         "pontos_entrada": 1
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_30_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_30_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_30_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_DICIONARIO": {
       "fontes": [],
@@ -4467,7 +4707,23 @@
         "fontes": 0,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_30_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_30_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_30_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_DIRECIONAMENTO": {
       "fontes": [
@@ -4485,7 +4741,23 @@
         "fontes": 2,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_30_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_30_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_30_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_PRODUCAO_TSI_TROCA_EMBALAGEM": {
       "fontes": [
@@ -4716,7 +4988,23 @@
         "fontes": 39,
         "pontos_entrada": 8
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_30_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_30_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_30_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_QUALIDADE_SEMENTES": {
       "fontes": [
@@ -4758,7 +5046,23 @@
         "fontes": 8,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_30_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_30_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_30_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_RELATORIOS_COMERCIALIZACAO": {
       "fontes": [
@@ -4784,7 +5088,23 @@
         "fontes": 4,
         "pontos_entrada": 0
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_30_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_30_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_30_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     },
     "UBS_SELECAO_LOTES": {
       "fontes": [
@@ -4847,7 +5167,23 @@
         "fontes": 5,
         "pontos_entrada": 4
       },
-      "downloads": []
+      "downloads": [
+        {
+          "versao_protheus": "P2410",
+          "arquivo": "templates-ubs-v1_30_0_2410.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2410.ptm"
+        },
+        {
+          "versao_protheus": "P2510",
+          "arquivo": "templates-ubs-v1_30_0_2510.ptm",
+          "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_2510.ptm"
+        }
+      ],
+      "dicionario_zip": {
+        "arquivo": "templates-ubs-v1_30_0_dicionario.zip",
+        "url": "https://github.com/tbcagro/inovacao/releases/download/Templates-UBS-v1.30.0/templates-ubs-v1_30_0_dicionario.zip",
+        "pasta": "Genericos"
+      }
     }
   },
   "dicionario": {
