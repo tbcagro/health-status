@@ -994,6 +994,15 @@
       },
       "downloads": []
     },
+    "DICIONARIOS_OG": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
+      },
+      "downloads": []
+    },
     "DICIONARIOS_UBS": {
       "fontes": [],
       "ponto_de_entrada": [],
@@ -2924,6 +2933,15 @@
       "totais": {
         "fontes": 12,
         "pontos_entrada": 11
+      },
+      "downloads": []
+    },
+    "OG_DICIONARIO": {
+      "fontes": [],
+      "ponto_de_entrada": [],
+      "totais": {
+        "fontes": 0,
+        "pontos_entrada": 0
       },
       "downloads": []
     },
